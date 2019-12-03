@@ -1,0 +1,14 @@
+.typeTable{
+	background: #efefef;
+  width: 100%;
+  border:1px solid rgba(255,255,255,0.4);
+    th{
+      background:#dfdfdf;
+    }
+    td{
+    	border:.5px solid rgba(255,255,255,0.4);
+      border-collapse: collapse;
+    	padding:1rem;
+    	flex-grow:0;
+    }
+}  

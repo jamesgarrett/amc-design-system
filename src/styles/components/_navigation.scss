@@ -1,0 +1,30 @@
+.header{
+	.lockup{
+		display: flex;
+		align-items: center;
+		h5{
+			margin-left:1rem;
+		}
+	}	
+}
+
+.top-nav{
+	display: flex;
+	li {
+		a{
+		    padding: .5rem 1rem; 
+		    border:1px solid transparent;
+		    color:#222222;
+		    transition:.5s ease-in-out;
+			&.active {
+				color:#222222;
+				border-bottom:1px solid rgba(255,255,255,1);
+				background:rgba(255,255,255,.8);
+			}
+			&:hover{
+			    border-bottom:1px solid white;
+				background:rgba(255,255,255,0.4);
+			}
+		}
+	}
+}

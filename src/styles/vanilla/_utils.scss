@@ -1,0 +1,15 @@
+.text-left{
+  text-align: left;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+@function get-line-height($font-size, $line-height) {
+   @return $line-height / $font-size;
+}  

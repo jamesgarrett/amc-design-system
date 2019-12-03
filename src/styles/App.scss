@@ -1,0 +1,133 @@
+.app{
+  &.dark *{
+    background:black;
+    color:white;
+  }
+  &.light *{
+    color:black;
+    background:white;
+  }
+}
+
+/* fonts */
+
+$font-primary: 'Unitext', Helvetica Neue, Helvetica, Sans-serif;
+/* $font-secondary: ; */
+
+/* branding */
+
+$brand-primary: #ffffff;
+$brand-secondary: #ffc600;
+
+/* normalize */
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a{
+  color:unset;
+  text-decoration: none;
+  &:hover{
+    /*opacity:0.6;*/
+  }
+}
+
+/* normalize.scss */
+
+@import 'vanilla/normalize';
+
+/* utils */
+
+@import 'vanilla/utils';
+
+/* typography.scss */
+
+@import 'vanilla/typography';
+
+/* components */
+
+@import 'components/navigation';
+@import 'components/type';
+
+/* containers */
+
+.container-fixed{
+  max-width:96vw;
+  margin:2vw auto;
+}
+
+.container-fluid{
+  width:100%;
+  margin:2vw auto;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:2vw;
+}
+
+body header{
+  padding:2vw;
+}
+
+footer{
+  padding:2vw;
+}
+
+/* rows */
+
+.row{
+  width:100%;
+  display:flex;
+  margin-left:0;
+  margin-right:0;
+  td{
+    flex-grow:1;
+    align-items: center;
+    display: flex;
+  }
+}
+
+/* content */
+
+.logo{
+  width: 4rem;
+  height: 4rem;
+}
+
+.Loader{
+  display:flex;
+  align-items:center;
+  height:100vh;
+  img{
+    margin:0 auto;
+  }
+}
+
+.Shows{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+.Show{
+  flex:1 0 200px;
+  margin-bottom: 2vh;
+  padding:.5%;
+  transition:.25s ease-in-out;
+  img{
+    width:100%;
+  }
+  &:hover{
+    transform:scale(1.125);
+    transition:.25s ease-in-out;
+  }
+}
