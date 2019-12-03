@@ -1,10 +1,10 @@
   import React from 'react';
-  import About from './components/about';
-  import Home from './components/home';
+  import About from './pages/about';
+  import Home from './pages/home';
+  import Typography from './pages/typography';
+  import Contact from './pages/contact';
   import Logo from './img/logo512-dark.png';
-  import Typography from './components/typography';
   import Navigation from './components/navigation';
-  import Contact from './components/contact';
   import Footer from './components/footer';
   import { NavLink, Switch, Route } from 'react-router-dom';
 
@@ -22,7 +22,7 @@
       <div className='header'>
         <div className='lockup'>
           <img src={Logo} className='logo' alt='website logo' />
-          <h5 className='headline-5--strong'>Gold Standard</h5>
+          <h5 className='headline-5--strong'>Design System</h5>
         </div>
         <Navigation />
       </div>

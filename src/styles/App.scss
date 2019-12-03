@@ -76,7 +76,20 @@ body header{
 }
 
 footer{
+  background:#222222;
+  color:white;
   padding:2vw;
+  flex-shrink: 0;
+}
+
+div#app-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.body{
+  flex: 1 0 auto;
 }
 
 /* rows */
