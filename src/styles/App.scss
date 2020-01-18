@@ -1,3 +1,21 @@
+/* tenants.scss */
+
+@import 'tenant/variables';
+
+/* vanilla.scss */
+
+@import 'vanilla/normalize';
+@import 'vanilla/utils';
+@import 'vanilla/typography';
+@import 'vanilla/grids';
+
+/* components */
+
+@import 'components/navigation';
+@import 'components/tables';
+@import 'components/cards';
+
+
 .app{
   &.dark *{
     background:black;
@@ -8,16 +26,6 @@
     background:white;
   }
 }
-
-/* fonts */
-
-$font-primary: 'Unitext', Helvetica Neue, Helvetica, Sans-serif;
-/* $font-secondary: ; */
-
-/* branding */
-
-$brand-primary: #ffffff;
-$brand-secondary: #ffc600;
 
 /* normalize */
 
@@ -35,44 +43,13 @@ a{
   }
 }
 
-/* normalize.scss */
-
-@import 'vanilla/normalize';
-
-/* utils */
-
-@import 'vanilla/utils';
-
-/* typography.scss */
-
-@import 'vanilla/typography';
-
-/* components */
-
-@import 'components/navigation';
-@import 'components/type';
-
 /* containers */
-
-.container-fixed{
-  max-width:96vw;
-  margin:2vw auto;
-}
-
-.container-fluid{
-  width:100%;
-  margin:2vw auto;
-}
 
 .header{
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
-  padding:2vw;
-}
-
-body header{
-  padding:2vw;
 }
 
 footer{

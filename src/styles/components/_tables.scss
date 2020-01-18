@@ -1,7 +1,14 @@
+.intro{
+  display:grid;
+}
+
 .typeTable{
 	background: #efefef;
   width: 100%;
   border:1px solid rgba(255,255,255,0.4);
+  .row{
+    flex-direction:row;
+  }
     th{
       background:#dfdfdf;
     }
@@ -12,3 +19,11 @@
     	flex-grow:0;
     }
 }  
+
+@media screen and (max-width:1024px){
+  .typeTable {
+    td.typeName{
+      flex-basis:100%;
+    }
+  } 
+}

@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
 		        <li><NavLink to='/home'>Home</NavLink></li>
 		        <li><NavLink to='/about'>Guidelines</NavLink></li>
 		        <li><NavLink to='/typography'>Typography</NavLink></li>
-		        <li><NavLink to='/contact'>Resources</NavLink></li>
+		        <li><NavLink to='/resources'>Resources</NavLink></li>
 		      </ul>
 		    </nav>
 		)

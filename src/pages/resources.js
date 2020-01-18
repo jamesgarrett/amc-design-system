@@ -1,9 +1,9 @@
 import React from 'react'
 
-  class Contact extends React.Component{
+  class Resources extends React.Component{
   	render(){
   		return(
-	    <div className='contact'>
+	    <div className='resources'>
         <header className="header-text">
   	      <h1 className='headline-1'>Resources</h1>
   	      <p className='subhead-1'>Everything you need to get up and running with the Gold Standard Design System.</p>
@@ -13,4 +13,4 @@ import React from 'react'
   	}
   }
 
-export default Contact;
+export default Resources;

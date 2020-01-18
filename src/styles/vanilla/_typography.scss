@@ -1,35 +1,31 @@
-
-.typeTable .row .title{
-  min-width:8rem;
-  flex-grow: 0;
-}
-
 .headline-1{
-  font-family: $font-primary;
+  font-family: var(--font-primary);
   font-size: 3.75rem;
-  font-weight: 200;
+  font-weight: 100;
+  text-transform: capitalize;
   line-height: get-line-height(4.25rem,3.75rem);
   letter-spacing: -0.068rem;
 }
 
 .headline-2{
-  font-family: $font-primary;
+  font-family: var(--font-primary);
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 200;
+  text-transform: capitalize;
   line-height: get-line-height(3.25rem,3rem);
   letter-spacing: -0.5px;
 }
 
 .headline-3{
-  font-family: $font-primary;
+  font-family: var(--font-primary);
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 200;
   line-height: get-line-height(2.25rem,2rem);
   letter-spacing: 1px;
 }
 
 .headline-3--strong{
-  font-family: $font-primary;
+  font-family: var(--font-primary);
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -38,7 +34,7 @@
 }
 
 .headline-4{
-  font-family: $font-primary;
+  font-family: var(--font-primary);
   font-size: 1.5rem;
   font-weight: 300;
   line-height: get-line-height(1.75rem,1.5rem);
@@ -46,15 +42,15 @@
 }
 
 .headline-5{
-  font-family: $font-primary;
+  font-family: var(--font-primary);
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: get-line-height(1.75rem,1.25rem);
-  letter-spacing: 2px;
+  letter-spacing: .25px;
 }
 
 .headline-5--strong{
-  font-family: $font-primary;
+  font-family: var(--font-primary);
   font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -63,49 +59,95 @@
 }
 
 .headline-6{
-  font-family: $font-primary;
+  font-family: var(--font-primary);
   font-size: 1.125rem;
   font-weight: 300;
   line-height: get-line-height(1.25rem,1.125rem);
   letter-spacing: 2px;
 }
 
-.subhead-1{
-  font-family: Unitext;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-}
-
-.subhead-2{
-  font-family: Unitext;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.14;
-  letter-spacing: normal;
-}
-
 .body-1{
-  font-family: Unitext;
-  font-size: 16px;
-  font-weight: 300;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: normal;
 }
 
 .body-2{
-  font-family: Unitext;
-  font-size: 14px;
+  font-family: var(--font-primary);
+  font-size: .875rem;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.43;
   letter-spacing: normal;
 }
 
+.subhead-1{
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+
+.subhead-2{
+  font-family: var(--font-primary);
+  font-size: .875rem;
+  font-weight: 300;
+  line-height: 1.14;
+  letter-spacing: normal;
+}
+
+.button{
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.125;
+  letter-spacing: 1.25px;
+}
+
+.caption{
+  font-family: var(--font-primary);
+  font-size: .875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.label{
+  font-family: var(--font-primary);
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: .875;
+  letter-spacing: 1.5px;
+}
+
 p{
+  font-family: var(--font-primary);
   font-weight: 300;
   font-style: normal;
   line-height: 1;
   margin-top:0;
   margin-bottom:1rem;
 }
+
+.fs15{font-size: var(--fs15);}
+.fs14{font-size: var(--fs14);}
+.fs13{font-size: var(--fs13);}
+.fs12{font-size: var(--fs12);}
+.fs11{font-size: var(--fs11);}
+.fs10{font-size: var(--fs10);}
+.fs09{font-size: var(--fs09);}
+.fs08{font-size: var(--fs08);}
+.fs07{font-size: var(--fs07);}
+.fs06{font-size: var(--fs06);}
+.fs05{font-size: var(--fs05);}
+.fs04{font-size: var(--fs04);}
+.fs03{font-size: var(--fs03);}
+.fs02{font-size: var(--fs02);}
+.fs01{font-size: var(--fs01);}
+.fs00{font-size: var(--fs00);}

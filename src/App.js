@@ -2,9 +2,11 @@
   import About from './pages/about';
   import Home from './pages/home';
   import Typography from './pages/typography';
-  import Contact from './pages/contact';
+  import Conversions from './pages/conversions';
+  import Resources from './pages/resources';
   import Logo from './img/logo512-dark.png';
   import Navigation from './components/navigation';
+  import Sidenav from './components/sidenav';
   import Footer from './components/footer';
   import { NavLink, Switch, Route } from 'react-router-dom';
 
@@ -12,24 +14,24 @@
     <Switch>
       <Route exact path='/home' component={Home}></Route>
       <Route exact path='/about' component={About}></Route>
-      <Route exact path='/contact' component={Contact}></Route>
+      <Route exact path='/resources' component={Resources}></Route>
       <Route exact path='/typography' component={Typography}></Route>
     </Switch>
   );
 
   const App = () => (
-    <div id='app-wrap' className='app'>
-      <div className='header'>
+    <div id='app-wrap' className='app container-fluid'>
+      <div className='header container-fixed'>
         <div className='lockup'>
           <img src={Logo} className='logo' alt='website logo' />
-          <h5 className='headline-5--strong'>Design System</h5>
+          <h5 className='headline-5--strong hidden-sm'>Design System</h5>
         </div>
         <Navigation />
       </div>
-      <div className='body'>
+      <div className='body container-fixed'>
         <Main />
       </div>
-      <Footer />
+      <Footer className='container-fixed'/>
     </div>
   );
 
