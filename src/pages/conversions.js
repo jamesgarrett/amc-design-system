@@ -1,10 +1,11 @@
 import React from 'react'
+import Sidenav from '../components/sidenav';
 
   class Conversions extends React.Component{
 	render(){
 		return(    
 			<nav>
-		      <ul className="side-nav">
+				<Sidenav />
 		        <section className="intro m-b col-6">
 			        <h2 className='headline-2 m-v col-8'>Common Conversions Table</h2>
 			        <p className='subhead-1 m-b col-8'>Our typography classes use a numeric scale to define a flexible, unit independent type system. We use this system to translate our type accurately across platforms which use a variety of metrics for typography. We have provided a reference table for common sizing conversions:</p>          
@@ -134,7 +135,6 @@ import React from 'react'
 			            </tr>
 			        </article>
 			      </div>
-		      </ul>
 		    </nav>
 		)
 	}

@@ -6,7 +6,6 @@
   import Resources from './pages/resources';
   import Logo from './img/logo512-dark.png';
   import Navigation from './components/navigation';
-  import Sidenav from './components/sidenav';
   import Footer from './components/footer';
   import { NavLink, Switch, Route } from 'react-router-dom';
 
@@ -16,6 +15,7 @@
       <Route exact path='/about' component={About}></Route>
       <Route exact path='/resources' component={Resources}></Route>
       <Route exact path='/typography' component={Typography}></Route>
+      <Route exact path='/conversions' component={Conversions}></Route>
     </Switch>
   );
 
