@@ -18,6 +18,9 @@
     	padding:1rem;
     	flex-grow:0;
     }
+    .app.dark td{
+      border:.5px solid rgba(255,255,255,0.1);
+    }
 }  
 
 @media screen and (max-width:1024px){

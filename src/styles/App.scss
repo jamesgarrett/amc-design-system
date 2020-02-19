@@ -19,14 +19,18 @@
 
 
 .app{
-  &.dark *{
-    background:black;
+  &.dark, &.dark *{
+    background:#111;
     color:white;
   }
   &.light *{
     color:black;
     background:white;
   }
+}
+
+.app.dark td, .app.dark tBody{
+  border:.5px solid rgba(255,255,255,0.1px);
 }
 
 /* normalize */
@@ -64,7 +68,8 @@ footer{
 div#app-wrap {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
+    min-height:100vh;
 }
 
 .body{
