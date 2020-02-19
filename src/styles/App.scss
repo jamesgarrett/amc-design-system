@@ -1,6 +1,7 @@
 /* tenants.scss */
 
 @import 'tenant/variables';
+@import 'tenant/sundance';
 
 /* vanilla.scss */
 
@@ -12,6 +13,7 @@
 /* components */
 
 @import 'components/navigation';
+@import 'components/sidenav';
 @import 'components/tables';
 @import 'components/cards';
 

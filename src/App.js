@@ -2,6 +2,7 @@
   import About from './pages/about';
   import Home from './pages/home';
   import Typography from './pages/typography';
+  import Sundance from './pages/sundance';
   import Conversions from './pages/conversions';
   import Resources from './pages/resources';
   import Logo from './img/logo512-dark.png';
@@ -16,6 +17,7 @@
       <Route exact path='/resources' component={Resources}></Route>
       <Route exact path='/typography' component={Typography}></Route>
       <Route exact path='/conversions' component={Conversions}></Route>
+      <Route exact path='/networks/:networkParam' component={Sundance}></Route>
     </Switch>
   );
 

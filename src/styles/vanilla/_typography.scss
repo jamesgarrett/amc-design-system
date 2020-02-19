@@ -1,5 +1,5 @@
 .headline-1{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: 3.75rem;
   font-weight: 100;
   text-transform: capitalize;
@@ -8,7 +8,7 @@
 }
 
 .headline-2{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: 3rem;
   font-weight: 200;
   text-transform: capitalize;
@@ -17,7 +17,7 @@
 }
 
 .headline-3{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: 2rem;
   font-weight: 200;
   line-height: get-line-height(2.25rem,2rem);
@@ -25,7 +25,7 @@
 }
 
 .headline-3--strong{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -34,7 +34,7 @@
 }
 
 .headline-4{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: 1.5rem;
   font-weight: 300;
   line-height: get-line-height(1.75rem,1.5rem);
@@ -42,7 +42,7 @@
 }
 
 .headline-5{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: 1.25rem;
   font-weight: 300;
   line-height: get-line-height(1.75rem,1.25rem);
@@ -50,7 +50,7 @@
 }
 
 .headline-5--strong{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -59,7 +59,7 @@
 }
 
 .headline-6{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: 1.125rem;
   font-weight: 300;
   line-height: get-line-height(1.25rem,1.125rem);
@@ -67,7 +67,7 @@
 }
 
 .body-1{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -75,7 +75,7 @@
 }
 
 .body-2{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: .875rem;
   font-weight: 400;
   font-style: normal;
@@ -84,7 +84,7 @@
 }
 
 .subhead-1{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.25;
@@ -92,7 +92,7 @@
 }
 
 .subhead-2{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: .875rem;
   font-weight: 300;
   line-height: 1.14;
@@ -100,7 +100,7 @@
 }
 
 .button{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
@@ -109,7 +109,7 @@
 }
 
 .caption{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: .875rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -118,7 +118,7 @@
 }
 
 .label{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-size: .75rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -127,7 +127,7 @@
 }
 
 p{
-  font-family: var(--font-primary);
+  font-family: var(--font-amc);
   font-weight: 300;
   font-style: normal;
   line-height: 1;
@@ -135,19 +135,26 @@ p{
   margin-bottom:1rem;
 }
 
-.fs15{font-size: var(--fs15);}
-.fs14{font-size: var(--fs14);}
-.fs13{font-size: var(--fs13);}
-.fs12{font-size: var(--fs12);}
-.fs11{font-size: var(--fs11);}
-.fs10{font-size: var(--fs10);}
-.fs09{font-size: var(--fs09);}
-.fs08{font-size: var(--fs08);}
-.fs07{font-size: var(--fs07);}
-.fs06{font-size: var(--fs06);}
-.fs05{font-size: var(--fs05);}
-.fs04{font-size: var(--fs04);}
-.fs03{font-size: var(--fs03);}
-.fs02{font-size: var(--fs02);}
-.fs01{font-size: var(--fs01);}
-.fs00{font-size: var(--fs00);}
+
+.font-secondary{
+
+}
+
+@media screen and (min-width: 960px){
+  .fs-desktop-15{font-size: var(--fs15);}
+  .fs-desktop-14{font-size: var(--fs14);}
+  .fs-desktop-13{font-size: var(--fs13);}
+  .fs-desktop-12{font-size: var(--fs12);}
+  .fs-desktop-11{font-size: var(--fs11);}
+  .fs-desktop-10{font-size: var(--fs10);}
+  .fs-desktop-09{font-size: var(--fs09);}
+  .fs-desktop-08{font-size: var(--fs08);}
+  .fs-desktop-07{font-size: var(--fs07);}
+  .fs-desktop-06{font-size: var(--fs06);}
+  .fs-desktop-05{font-size: var(--fs05);}
+  .fs-desktop-04{font-size: var(--fs04);}
+  .fs-desktop-03{font-size: var(--fs03);}
+  .fs-desktop-02{font-size: var(--fs02);}
+  .fs-desktop-01{font-size: var(--fs01);}
+  .fs-desktop-00{font-size: var(--fs00);}
+}
