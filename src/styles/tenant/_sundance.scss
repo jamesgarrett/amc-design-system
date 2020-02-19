@@ -1,71 +1,75 @@
 
 .sundance{
-	.headline-1{
-	  font-family: var(--font-sdtv-primary);
-	  font-size: 3rem;
+	$font-primary: benton-sans, Helvetica, sans-serif;
+	$font-secondary: benton-sans-extra-compressed, Helvetica, sans-serif;
+
+	.headline-1, .headline-2, .headline-3, .headline-4, .headline-5, .headline-6{
+	  font-family: $font-primary;
 	  font-weight: 300;
 	  text-transform: lowercase;
 	  line-height: 1.08;
 	}
 
-	.headline-2{
-	  font-family: var(--font-sdtv-primary);
-	  font-size: 2.5rem;
-	  font-weight: 200;
-	  text-transform: lowercase;
-	  line-height: get-line-height(3.25rem,3rem);
+	.headline-1{font-size: var(--fs10);}
+	.headline-2{font-size: var(--fs09);}
+	.headline-3{font-size: var(--fs07);}
+	.headline-4{font-size: var(--fs05);}
+	.headline-5{font-size: var(--fs04);}
+	.headline-6{font-size: var(--fs02);}
+
+	.secondary-1, .secondary-2, .secondary-3, .secondary-4, .secondary-5, .secondary-6{
+	  font-family: $font-secondary;
+	  font-weight: 400;
+	  text-transform: uppercase;
+	  line-height: 1;
 	}
 
-	.headline-3{
-	  font-family: var(--font-sdtv-primary);
-	  font-size: 2rem;
-	  font-weight: 200;
-	  text-transform: lowercase;
-	  line-height: get-line-height(2.25rem,2rem);
-	}
+	.secondary-1{font-size: var(--fs13);}
+	.secondary-2{font-size: var(--fs10);}
+	.secondary-3{font-size: var(--fs09);}
+	.secondary-4{font-size: var(--fs07);}
+	.secondary-5{font-size: var(--fs05);}
+	.secondary-6{font-size: var(--fs04);}
 
-	.headline-4{
-	  font-family: var(--font-sdtv-primary);
-	  font-size: 1.5rem;
-	  font-weight: 300;
-	  text-transform: lowercase;
-	  line-height: get-line-height(1.75rem,1.5rem);
+	.tertiary-1, .tertiary-2, .tertiary-3, .tertiary-4, .tertiary-5, .tertiary-6{
+	  font-family: $font-primary;
+	  font-weight: 400;
+	  text-transform: capitalize;
+	  line-height: 1.08;
 	}
+	
+	.tertiary-1{font-size: var(--fs10);}
+	.tertiary-2{font-size: var(--fs09);}
+	.tertiary-3{font-size: var(--fs07);}
+	.tertiary-4{font-size: var(--fs05);}
+	.tertiary-5{font-size: var(--fs04);}
+	.tertiary-6{font-size: var(--fs02);}
 
-	.headline-5{
-	  font-family: var(--font-sdtv-primary);
-	  font-size: 1.25rem;
-	  text-transform: lowercase;
-	  font-weight: 300;
-	  line-height: get-line-height(1.75rem,1.25rem);
-	}
-
-	.headline-5--strong{
-	  font-family: var(--font-sdtv-primary);
-	  font-size: 1.25rem;
-	  font-weight: 700;
-	  text-transform: lowercase;
-	  line-height: get-line-height(1.75rem,1.25rem);
-	}
-
-	.headline-6{
-	  font-family: var(--font-sdtv-primary);
-	  font-size: 1.125rem;
-	  font-weight: 300;
-	  text-transform: lowercase;
-	  line-height: get-line-height(1.25rem,1.125rem);
-	}
-
-	.body-1{
-	  font-family: var(--font-sdtv-primary);
-	  font-size: 1rem;
+	.label-lg, .label-md, .label-sm, .label-xs, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
+	  font-family: $font-primary;
 	  font-weight: 400;
 	  line-height: 1.5;
-	  letter-spacing: normal;
+	  text-transform: uppercase;
+	  letter-spacing: 1px;
 	}
 
+	.label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
+	  text-transform: capitalize;
+	}
+
+	.button-lg, .button-md, .button-sm, .button-xs{
+		text-transform: uppercase;
+		font-weight:700;
+		letter-spacing:1.5px;
+	}
+
+	.label-lg, .label-secondary-lg, .button-lg, .body-lg{font-size: var(--fs04);}
+	.label-md, .label-secondary-md, .button-md, .body-md{font-size: var(--fs02);}
+	.label-sm, .label-secondary-sm, .button-sm, .body-sm{font-size: var(--fs01);}
+	.label-xs, .label-secondary-xs, .button-xs, .body-xs{font-size: var(--fs00);}
+
 	.body-2{
-	  font-family: var(--font-sdtv-primary);
+	  font-family: $font-primary;
 	  font-size: .875rem;
 	  font-weight: 400;
 	  font-style: normal;
@@ -74,7 +78,7 @@
 	}
 
 	.subhead-1{
-	  font-family: var(--font-sdtv-primary);
+	  font-family: $font-primary;
 	  font-size: 1rem;
 	  font-weight: 300;
 	  line-height: 1.25;
@@ -82,7 +86,7 @@
 	}
 
 	.subhead-2{
-	  font-family: var(--font-sdtv-primary);
+	  font-family: $font-primary;
 	  font-size: .875rem;
 	  font-weight: 300;
 	  line-height: 1.14;
@@ -90,7 +94,7 @@
 	}
 
 	.button{
-	  font-family: var(--font-sdtv-primary);
+	  font-family: $font-primary;
 	  font-size: 1rem;
 	  text-transform: uppercase;
 	  font-weight: 700;
@@ -99,7 +103,7 @@
 	}
 
 	.caption{
-	  font-family: var(--font-sdtv-primary);
+	  font-family: $font-primary;
 	  font-size: .875rem;
 	  font-weight: 600;
 	  text-transform: uppercase;
@@ -108,7 +112,7 @@
 	}
 
 	.label{
-	  font-family: var(--font-sdtv-primary);
+	  font-family: $font-primary;
 	  font-size: .75rem;
 	  font-weight: 600;
 	  text-transform: uppercase;
@@ -117,7 +121,7 @@
 	}
 
 	p{
-	  font-family: var(--font-sdtv-primary);
+	  font-family: $font-primary;
 	  font-weight: 300;
 	  font-style: normal;
 	  line-height: 1;

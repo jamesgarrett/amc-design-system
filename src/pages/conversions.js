@@ -1,27 +1,24 @@
 import React from 'react'
-import Sidenav from '../components/sidenav';
 
   class Conversions extends React.Component{
 	render(){
 		return(    
 			<nav>
 		        <section className="intro m-b col-6">
-			        <h2 className='headline-1 m-v col-8'>Common Conversions Table</h2>
-	                <h4 className='headline-4 m-v col-8'>Please refer to this table for basic information about cross platform type standards.</h4>
-			        <p className='subhead-1 m-b col-8'>Our typography classes use a numeric scale to define a flexible, unit independent type system. We use this system to translate our type accurately across platforms which use a variety of metrics for typography. We have provided a reference table for common sizing conversions:</p>          
-				      <Sidenav />
+			        <h2 className='headline-1 m-v col-8'>Conversions Table</h2>
+	                <h4 className='headline-4 m-v col-8'>Common cross platform type standards.</h4>
+			        <p className='subhead-1 m-b col-8'>Our typography classes use a numeric scale to define a flexible, unit independent type system. We use this system to translate our type accurately across platforms which use a variety of metrics for typography. We have provided a reference table for common sizing conversions:</p>
 			      </section>
 
-
-			      <div class="row m-b m-lg">
-			        <article className="typeTable">
-			            <th className="row">
+			      <table className="row m-b m-lg">
+			        <tbody className="typeTable">
+			            <tr className="row headerRow">
 			              <td className="col-1">Scale</td>
 			              <td className="col-1">Pixel Size</td>
 			              <td className="col-1">Web</td>
 			              <td className="col-1">iOS</td>
 			              <td className="col-1">Android</td>
-			            </th>
+			            </tr>
 			            <tr className="row">
 			              <td className="col-1 fs15">15</td>
 			              <td className="col-1">68px</td>
@@ -135,8 +132,8 @@ import Sidenav from '../components/sidenav';
 			              <td className="col-1">12pt</td>
 			              <td className="col-1">12sp</td>
 			            </tr>
-			        </article>
-			      </div>
+			        </tbody>
+			      </table>
 		    </nav>
 		)
 	}

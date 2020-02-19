@@ -1,14 +1,14 @@
-  import React from 'react';
+  import React, {Component} from 'react';
   import About from './pages/about';
   import Home from './pages/home';
   import Typography from './pages/typography';
   import Sundance from './pages/sundance';
   import Conversions from './pages/conversions';
   import Resources from './pages/resources';
-  import Logo from './img/logo512-dark.png';
+  import Logo from './img/logo512-light.png';
   import Navigation from './components/navigation';
   import Footer from './components/footer';
-  import { NavLink, Switch, Route } from 'react-router-dom';
+  import { Switch, Route } from 'react-router-dom';
 
   const Main = () => (
     <Switch>
@@ -17,24 +17,28 @@
       <Route exact path='/resources' component={Resources}></Route>
       <Route exact path='/typography' component={Typography}></Route>
       <Route exact path='/conversions' component={Conversions}></Route>
-      <Route exact path='/networks/:networkParam' component={Sundance}></Route>
+      <Route exact path='/sundance' component={Sundance}></Route>
     </Switch>
   );
 
-  const App = () => (
-    <div id='app-wrap' className='app container-fluid'>
-      <div className='header container-fixed'>
-        <div className='lockup'>
-          <img src={Logo} className='logo' alt='website logo' />
-          <h5 className='headline-5--strong hidden-sm'>Design System</h5>
+  class App extends Component {
+    render(){
+      return(
+        <div id='app-wrap' className='app dark'>
+          <div className='header container-fixed'>
+            <div className='lockup'>
+              <img src={Logo} className='logo' alt='website logo' />
+              <h5 className='headline-5--strong hidden-sm'>Design System</h5>
+            </div>
+            <Navigation />
+          </div>
+          <div className='body container-fixed'>
+            <Main />
+          </div>
+          <Footer className='container-fixed'/>
         </div>
-        <Navigation />
-      </div>
-      <div className='body container-fixed'>
-        <Main />
-      </div>
-      <Footer className='container-fixed'/>
-    </div>
-  );
+      )
+    }
+  }
 
   export default App;
