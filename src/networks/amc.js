@@ -4,7 +4,7 @@ class AmcType extends React.Component{
 	render(){
     // {this.props.network}
 		return(
-		<div className="typography amc col-12 m-v">
+		<div className="typography col-12 m-v">
 		  
 		  <table className="row m-b m-lg">
 				<tbody className="typeTable headerRow">

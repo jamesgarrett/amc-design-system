@@ -4,7 +4,7 @@ class SundanceType extends React.Component{
 	render(){
     // {this.props.network}
 		return(
-			<div className="typography sundance col-12 m-v">
+			<div className="typography col-12 m-v">
 
           <table className="row m-b m-lg">
       			<tbody className="typeTable">
@@ -370,44 +370,35 @@ class SundanceType extends React.Component{
                 </tr>
 
                 <tr className="row">
-                  <td className="typeName col-3"><div className="subhead-1">Subhead 1</div></td>
-                  <td className="col-1">01</td>
-                  <td className="col-1">Sentence</td>
-                  <td className="col-1">300</td>
-                  <td className="col-1">16</td>
-                  <td className="col-1">0</td>
-                  <td className="col-1">16</td>
-                </tr>
-
-                <tr className="row">
-                  <td className="typeName col-3"><div className="subhead-2">Subhead 2</div></td>
+                  <td className="typeName col-3"><div className="body-link-sm">Body Link MD</div></td>
                   <td className="col-1">00</td>
                   <td className="col-1">Sentence</td>
-                  <td className="col-1">300</td>
-                  <td className="col-1">14</td>
+                  <td className="col-1">400</td>
+                  <td className="col-1">16</td>
                   <td className="col-1">0</td>
-                  <td className="col-1">14</td>
+                  <td className="col-1">24</td>
                 </tr>
 
                 <tr className="row">
-                  <td className="typeName col-3"><div className="button">Button</div></td>
-                  <td className="col-1">01</td>
-                  <td className="col-1">Uppercase</td>
-                  <td className="col-1">Bold</td>
-                  <td className="col-1">16</td>
-                  <td className="col-1">1.25</td>
+                  <td className="typeName col-3"><div className="body-link-sm">Body Link SM</div></td>
+                  <td className="col-1">00</td>
+                  <td className="col-1">Sentence</td>
+                  <td className="col-1">400</td>
+                  <td className="col-1">14</td>
+                  <td className="col-1">0</td>
                   <td className="col-1">20</td>
                 </tr>
 
                 <tr className="row">
-                  <td className="typeName col-3"><div className="caption">Caption</div></td>
+                  <td className="typeName col-3"><div className="body-link-sm">Body Link XS</div></td>
                   <td className="col-1">00</td>
-                  <td className="col-1">Uppercase</td>
-                  <td className="col-1">Bold</td>
-                  <td className="col-1">14</td>
-                  <td className="col-1">1</td>
+                  <td className="col-1">Sentence</td>
+                  <td className="col-1">400</td>
+                  <td className="col-1">12</td>
+                  <td className="col-1">0</td>
                   <td className="col-1">16</td>
                 </tr>
+
 
               </tbody>
             </table>

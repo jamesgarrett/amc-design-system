@@ -13,8 +13,10 @@ const NetworkPage = ({ match, location }) => {
 	  typeTable = <SundanceType />;
 	}
 
+	var net = network;
+
 	return (
-	  <div> 
+	  <div className={net}> 
 	    <section className="intro m-b col-6">
 	      <h1 className='headline-1 m-v'>Typography</h1>
 	      <h4 className='headline-4 m-v col-8'>About the System</h4>

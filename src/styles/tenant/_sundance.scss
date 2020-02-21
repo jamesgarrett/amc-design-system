@@ -3,7 +3,7 @@
 	$font-primary: benton-sans, Helvetica, sans-serif;
 	$font-secondary: benton-sans-extra-compressed, oswald, Helvetica, sans-serif;
 
-	.headline-1, .headline-2, .headline-3, .headline-4, .headline-5, .headline-6{
+	.headline, .headline-1, .headline-2, .headline-3, .headline-4, .headline-5, .headline-6{
 	  font-family: $font-primary;
 	  font-weight: 300;
 	  text-transform: lowercase;
@@ -17,7 +17,7 @@
 	.headline-5{font-size: var(--fs04);}
 	.headline-6{font-size: var(--fs02);}
 
-	.secondary-1, .secondary-2, .secondary-3, .secondary-4, .secondary-5, .secondary-6{
+	.secondary, .secondary-1, .secondary-2, .secondary-3, .secondary-4, .secondary-5, .secondary-6{
 	  font-family: $font-secondary;
 	  font-weight: 400;
 	  text-transform: uppercase;
@@ -31,7 +31,7 @@
 	.secondary-5{font-size: var(--fs05);}
 	.secondary-6{font-size: var(--fs04);}
 
-	.tertiary-1, .tertiary-2, .tertiary-3, .tertiary-4, .tertiary-5, .tertiary-6{
+	.tertiary, .tertiary-1, .tertiary-2, .tertiary-3, .tertiary-4, .tertiary-5, .tertiary-6{
 	  font-family: $font-primary;
 	  font-weight: 400;
 	  text-transform: capitalize;
@@ -45,7 +45,7 @@
 	.tertiary-5{font-size: var(--fs04);}
 	.tertiary-6{font-size: var(--fs02);}
 
-	.label-lg, .label-md, .label-sm, .label-xs, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
+	.label, .label-lg, .label-md, .label-sm, .label-xs, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
 	  font-family: $font-primary;
 	  font-weight: 400;
 	  line-height: 1.5;
@@ -53,11 +53,12 @@
 	  letter-spacing: 1px;
 	}
 
-	.label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
+	.label-secondary, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
 	  text-transform: capitalize;
 	}
 
-	.button-lg, .button-md, .button-sm, .button-xs{
+	.button, .button-lg, .button-md, .button-sm, .button-xs{
+		font-family: $font-primary;
 		text-transform: uppercase;
 		font-weight:700;
 		letter-spacing:1.5px;
@@ -68,7 +69,7 @@
 	.label-sm, .label-secondary-sm, .button-sm {font-size: var(--fs01);}
 	.label-xs, .label-secondary-xs, .button-xs {font-size: var(--fs00);}
 
-	.body-xs, .body-sm, .body-md, .body-lg, .body-xl{
+	p, .body, .body-xs, .body-sm, .body-md, .body-lg, .body-xl{
 	  font-family: $font-primary;
 	  font-weight: 400;
 	  font-style: normal;
@@ -78,52 +79,9 @@
 
 	.body-xl {font-size: var(--fs07);}
 	.body-lg {font-size: var(--fs04);}
-	.body-md {font-size: var(--fs02);}
+	.body-md, p {font-size: var(--fs02);}
 	.body-sm {font-size: var(--fs01);}
 	.body-xs {font-size: var(--fs00);}
-
-	.subhead-1{
-	  font-family: $font-primary;
-	  font-size: 1rem;
-	  font-weight: 300;
-	  line-height: 1.25;
-	  letter-spacing: normal;
-	}
-
-	.subhead-2{
-	  font-family: $font-primary;
-	  font-size: .875rem;
-	  font-weight: 300;
-	  line-height: 1.14;
-	  letter-spacing: normal;
-	}
-
-	.button{
-	  font-family: $font-primary;
-	  font-size: 1rem;
-	  text-transform: uppercase;
-	  font-weight: 700;
-	  line-height: 1.125;
-	  letter-spacing: 1.25px;
-	}
-
-	.caption{
-	  font-family: $font-primary;
-	  font-size: .875rem;
-	  font-weight: 600;
-	  text-transform: uppercase;
-	  line-height: 1;
-	  letter-spacing: 1px;
-	}
-
-	.label{
-	  font-family: $font-primary;
-	  font-size: .75rem;
-	  font-weight: 600;
-	  text-transform: uppercase;
-	  line-height: .875;
-	  letter-spacing: 1.5px;
-	}
 
 	p{
 	  font-family: $font-primary;
