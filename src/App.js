@@ -7,7 +7,7 @@
   import Logo from './img/logo512-light.png';
   import Navigation from './components/navigation';
   import Footer from './components/footer';
-  import { Switch, Route} from 'react-router-dom';
+  import { NavLink, Switch, Route} from 'react-router-dom';
 
   const Main = () => (
     <Switch>
@@ -25,7 +25,7 @@
         <div id='app-wrap' className='app dark'>
           <div className='header container-fixed'>
             <div className='lockup'>
-              <img src={Logo} className='logo' alt='website logo' />
+              <NavLink to='/'><img src={Logo} className='logo' alt='website logo' /></NavLink>
               <h5 className='headline-5--strong hidden-sm'>Design System</h5>
             </div>
             <Navigation />
