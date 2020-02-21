@@ -1,23 +1,21 @@
   import React, {Component} from 'react';
   import About from './pages/about';
   import Home from './pages/home';
-  import Typography from './pages/typography';
-  import Sundance from './pages/sundance';
-  import Conversions from './pages/conversions';
+  import NetworksPage from './pages/networksPage';
+  import NetworkPage from './pages/networkPage';
   import Resources from './pages/resources';
   import Logo from './img/logo512-light.png';
   import Navigation from './components/navigation';
   import Footer from './components/footer';
-  import { Switch, Route } from 'react-router-dom';
+  import { Switch, Route} from 'react-router-dom';
 
   const Main = () => (
     <Switch>
-      <Route exact path='/home' component={Home}></Route>
+      <Route exact path='/' component={Home}></Route>
       <Route exact path='/about' component={About}></Route>
       <Route exact path='/resources' component={Resources}></Route>
-      <Route exact path='/typography' component={Typography}></Route>
-      <Route exact path='/conversions' component={Conversions}></Route>
-      <Route exact path='/sundance' component={Sundance}></Route>
+      <Route exact path='/typography/' component={NetworksPage}></Route>
+      <Route exact path='/typography/:network' component={NetworkPage}></Route>
     </Switch>
   );
 

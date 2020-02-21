@@ -1,7 +1,7 @@
 
 .sundance{
 	$font-primary: benton-sans, Helvetica, sans-serif;
-	$font-secondary: benton-sans-extra-compressed, Helvetica, sans-serif;
+	$font-secondary: benton-sans-extra-compressed, oswald, Helvetica, sans-serif;
 
 	.headline-1, .headline-2, .headline-3, .headline-4, .headline-5, .headline-6{
 	  font-family: $font-primary;
@@ -63,19 +63,24 @@
 		letter-spacing:1.5px;
 	}
 
-	.label-lg, .label-secondary-lg, .button-lg, .body-lg{font-size: var(--fs04);}
-	.label-md, .label-secondary-md, .button-md, .body-md{font-size: var(--fs02);}
-	.label-sm, .label-secondary-sm, .button-sm, .body-sm{font-size: var(--fs01);}
-	.label-xs, .label-secondary-xs, .button-xs, .body-xs{font-size: var(--fs00);}
+	.label-lg, .label-secondary-lg, .button-lg {font-size: var(--fs04);}
+	.label-md, .label-secondary-md, .button-md {font-size: var(--fs02);}
+	.label-sm, .label-secondary-sm, .button-sm {font-size: var(--fs01);}
+	.label-xs, .label-secondary-xs, .button-xs {font-size: var(--fs00);}
 
-	.body-2{
+	.body-xs, .body-sm, .body-md, .body-lg, .body-xl{
 	  font-family: $font-primary;
-	  font-size: .875rem;
 	  font-weight: 400;
 	  font-style: normal;
 	  line-height: 1.43;
 	  letter-spacing: normal;
 	}
+
+	.body-xl {font-size: var(--fs07);}
+	.body-lg {font-size: var(--fs04);}
+	.body-md {font-size: var(--fs02);}
+	.body-sm {font-size: var(--fs01);}
+	.body-xs {font-size: var(--fs00);}
 
 	.subhead-1{
 	  font-family: $font-primary;
