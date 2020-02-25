@@ -4,7 +4,7 @@ import Conversions from '../pages/conversions';
 
 const NetworksPage = () => {
 return (
-	  <div className="col-12">    
+	  <div className="container-fixed">    
 	    <section className="intro m-b col-6">
 	      <h1 className='headline-1 m-v'>Typography</h1>
 	      <h4 className='headline-4 m-v col-8'>About the System</h4>

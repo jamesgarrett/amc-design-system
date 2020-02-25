@@ -9,6 +9,7 @@ import { NavLink } from 'react-router-dom';
 		        <li><NavLink to='/about'>Guidelines</NavLink></li>
 		        <li><NavLink to='/typography'>Typography</NavLink></li>
 		        <li><NavLink to='/resources'>Resources</NavLink></li>
+		        <li><NavLink to='/home/sundance'>Examples</NavLink></li>
 		      </ul>
 		    </nav>
 		)

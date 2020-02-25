@@ -1,6 +1,10 @@
   $font-primary: Unitext, Helvetica, sans-serif;
-  $brand-primary: rgba(0,0,0,1);
+  $brand-primary: black;
   $brand-secondary: rgba(255,255,255,.6);
+  $brand-accent: #ffc600;
+  $ui-dark: black;
+  $ui-light: white;
+
 
   .dark{
     color:white;
@@ -76,74 +80,31 @@
   .label-sm, .label-primary-sm, .label-secondary-sm, .button-sm {font-size: var(--fs01);}
   .label-xs, .label-primary-xs, .label-secondary-xs, .button-xs {font-size: var(--fs00);}
 
-.body-1{
-  font-family: var(--font-amc);
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: normal;
-}
 
-.body-2{
-  font-family: var(--font-amc);
-  font-size: .875rem;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 1.43;
-  letter-spacing: normal;
-}
+  .button, .button-lg, .button-md, .button-sm, .button-xs{
+    font-family: $font-primary;
+    text-transform: uppercase;
+    font-weight:700;
+    letter-spacing:1.5px;
+  }
 
-.subhead-1{
-  font-family: var(--font-amc);
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 1.25;
-  letter-spacing: normal;
-}
+  body, p, .body, .body-xs, .body-sm, .body-md, .body-lg, .body-xl{
+    font-family: $font-primary;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+  }
 
-.subhead-2{
-  font-family: var(--font-amc);
-  font-size: .875rem;
-  font-weight: 300;
-  line-height: 1.14;
-  letter-spacing: normal;
-}
+  .body-xl {font-size: var(--fs07);}
+  .body-lg, .body-link-lg {font-size: var(--fs04);}
+  .body-md, .body-link-md, p {font-size: var(--fs02);}
+  .body-sm, .body-link-sm {font-size: var(--fs01);}
+  .body-xs, .body-link-xs {font-size: var(--fs00);}
 
-.button{
-  font-family: var(--font-amc);
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  line-height: 1.125;
-  letter-spacing: 1.25px;
-}
-
-.caption{
-  font-family: var(--font-amc);
-  font-size: .875rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  line-height: 1;
-  letter-spacing: 1px;
-}
-
-.label{
-  font-family: var(--font-amc);
-  font-size: .75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  line-height: .875;
-  letter-spacing: 1.5px;
-}
-
-p{
-  font-family: var(--font-amc);
-  font-weight: 300;
-  font-style: normal;
-  line-height: 1;
-  margin-top:0;
-  margin-bottom:1rem;
-}
+  a, .body-link, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
+    color: $brand-primary;
+  }
 
 @media screen and (min-width: 960px){
   .fs-desktop-15{font-size: var(--fs15);}

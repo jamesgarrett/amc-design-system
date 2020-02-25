@@ -17,7 +17,7 @@ const NetworkPage = ({ match, location }) => {
 
 	return (
 	<div className={net}>
-	  <body> 
+	  <body className="container-fixed"> 
 	    <section className="intro m-b col-6">
 	      <h1 className='headline-1 m-v'>Typography</h1>
 	      <h4 className='tertiary-4 m-v col-8'>About the System</h4>

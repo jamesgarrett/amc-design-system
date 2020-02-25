@@ -32,10 +32,10 @@
             </div>
             <Navigation />
           </div>
-          <div className='body container-fixed'>
+          <div className='body container-fluid'>
             <Main />
           </div>
-          <Footer className='container-fixed'/>
+          <Footer className='container-fixed gutter'/>
         </div>
       )
     }
