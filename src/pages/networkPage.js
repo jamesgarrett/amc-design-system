@@ -17,12 +17,13 @@ const NetworkPage = ({ match, location }) => {
 
 	return (
 	<div className={net}>
-	  <body className="container-fixed"> 
+	  <body className="container-fixed">
 	    <section className="intro m-b col-6">
 	      <h1 className='headline-1 m-v'>Typography</h1>
 	      <h4 className='tertiary-4 m-v col-8'>About the System</h4>
-	      <p className='subhead-1 description m-v col-8'>The goal of the type system is to define a repeatable set of elements that can be deployed rapidly with consistent results. We use a core set of styles, and a fixed, unit independent sizing scale to generate consistent, readable type pairings.</p>
-	      <Sidenav/>
+	      <p className='body-lg description m-v col-8'>The goal of the type system is to define a repeatable set of elements that can be deployed rapidly with consistent results. We use a core set of styles, and a fixed, unit independent sizing scale to generate consistent, readable type pairings.</p>
+				<p className='body-lg m-v'>Select a network from the menu below to view its typography scale.</p>
+				<Sidenav/>
 	      {typeTable}
 	      <Conversions />
 	    </section>

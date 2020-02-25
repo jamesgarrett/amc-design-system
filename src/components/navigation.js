@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
   class Navigation extends React.Component{
 	render(){
-		return(    
+		return(
 			<nav>
 		      <ul className="top-nav">
 		        <li><NavLink to='/about'>Guidelines</NavLink></li>
@@ -14,6 +14,6 @@ import { NavLink } from 'react-router-dom';
 		    </nav>
 		)
 	}
-	
+
 }
 export default Navigation;
