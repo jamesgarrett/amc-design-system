@@ -1,110 +1,91 @@
-  $font-primary: Unitext, Helvetica, sans-serif;
-  $brand-primary: black;
-  $brand-secondary: rgba(255,255,255,.6);
-  $brand-accent: #ffc600;
-  $ui-dark: black;
-  $ui-light: white;
+$font-primary: Unitext, Helvetica, sans-serif;
+$brand-primary: black;
+$brand-secondary: rgba(255,255,255,.6);
+$brand-accent: #ffc600;
+$ui-dark: black;
+$ui-light: white;
+
+.dark{
+  color:white;
+}
+
+h1, h2, h3, h4, h5, h6, .headline, .headline-1, .headline-2, .headline-3, .headline-4, .headline-5, .headline-6, .secondary, .secondary-1, .secondary-2, .secondary-3, .secondary-4, .secondary-5, .secondary-6, .tertiary, .tertiary-1, .tertiary-2, .tertiary-3, .tertiary-4, .tertiary-5, .tertiary-6{
+  font-family: $font-primary;
+  font-weight: 200;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  line-height: 1.08;
+}
+
+h1, .headline-1{font-size: var(--fs10);}
+h2, .headline-2{font-size: var(--fs09);}
+h3, .headline-3{font-size: var(--fs07);}
+h4, .headline-4{font-size: var(--fs05);}
+h5, .headline-5{font-size: var(--fs04);}
+h6, .headline-6{font-size: var(--fs02);}
+
+.label, .label-lg, .label-md, .label-sm, .label-xs, .label-primary, .label-primary-lg, .label-primary-md, .label-primary-sm, .label-primary-xs, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
+  font-family: $font-primary;
+  line-height: 1.08;
+  text-transform: uppercase;
+}
+
+.label-primary, .label-primary-lg, .label-primary-md, .label-primary-sm, .label-primary-xs{
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.label-secondary, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.button, .button-lg, .button-md, .button-sm, .button-xs{
+  font-family: $font-primary;
+  text-transform: uppercase;
+  font-weight:700;
+  letter-spacing:1.5px;
+}
+
+.label-lg, .label-primary-lg, .label-secondary-lg, .button-lg {font-size: var(--fs04);}
+.label-md, .label-primary-md, .label-secondary-md, .button-md {font-size: var(--fs02);}
+.label-sm, .label-primary-sm, .label-secondary-sm, .button-sm {font-size: var(--fs01);}
+.label-xs, .label-primary-xs, .label-secondary-xs, .button-xs {font-size: var(--fs00);}
 
 
-  .dark{
-    color:white;
+.button, .button-lg, .button-md, .button-sm, .button-xs{
+  font-family: $font-primary;
+  text-transform: uppercase;
+  font-weight:700;
+  letter-spacing:1.5px;
+}
+
+body, p, .body, .body-xs, .body-sm, .body-md, .body-lg, .body-xl{
+  font-family: $font-primary;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+}
+
+.body-sm, .body-xs{
+  font-weight: 400;
+}
+
+.body-xl, .body-link-xl {font-size: var(--fs07);}
+.body-lg, .body-link-lg {font-size: var(--fs04);}
+.body-md, .body-link-md, p {font-size: var(--fs02);}
+.body-sm, .body-link-sm {font-size: var(--fs01);}
+.body-xs, .body-link-xs {font-size: var(--fs00);}
+
+.body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
+  font-weight:700;
+  opacity: .6;
+  cursor: pointer;
+  &:hover{
+    opacity:1;
   }
-
-  h1, h2, h3, h4, h5, h6, .headline, .headline-1, .headline-2, .headline-3, .headline-4, .headline-5, .headline-6{
-    font-family: $font-primary;
-    font-weight: 200;
-    text-transform: capitalize;
-    line-height: 1.08;
-  }
-
-  h1, .headline-1{font-size: var(--fs13);}
-  h2, .headline-2{font-size: var(--fs10);}
-  h3, .headline-3{font-size: var(--fs09);}
-  h4, .headline-4{font-size: var(--fs07);}
-  h5, .headline-5{font-size: var(--fs05);}
-  h6, .headline-6{font-size: var(--fs04);}
-
-  .secondary, .secondary-1, .secondary-2, .secondary-3, .secondary-4, .secondary-5, .secondary-6{
-    font-family: $font-primary;
-    font-weight: 500;
-    text-transform: uppercase;
-    line-height: 1;
-  }
-
-  .secondary-1{font-size: var(--fs10);}
-  .secondary-2{font-size: var(--fs09);}
-  .secondary-3{font-size: var(--fs07);}
-  .secondary-4{font-size: var(--fs05);}
-  .secondary-5{font-size: var(--fs04);}
-  .secondary-6{font-size: var(--fs02);}
-
-  .tertiary, .tertiary-1, .tertiary-2, .tertiary-3, .tertiary-4, .tertiary-5, .tertiary-6{
-    font-family: $font-primary;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 1.08;
-  }
-  
-  .tertiary-1{font-size: var(--fs10);}
-  .tertiary-2{font-size: var(--fs09);}
-  .tertiary-3{font-size: var(--fs07);}
-  .tertiary-4{font-size: var(--fs05);}
-  .tertiary-5{font-size: var(--fs04);}
-  .tertiary-6{font-size: var(--fs02);}
-
-  .label, .label-lg, .label-md, .label-sm, .label-xs, .label-primary, .label-primary-lg, .label-primary-md, .label-primary-sm, .label-primary-xs, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
-    font-family: $font-primary;
-    font-weight: 400;
-    line-height: 1.5;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-
-  .label-primary, .label-primary-lg, .label-primary-md, .label-primary-sm, .label-primary-xs{
-    text-transform: uppercase;
-  }
-
-  .label-secondary, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
-    text-transform: capitalize;
-  }
-
-  .button, .button-lg, .button-md, .button-sm, .button-xs{
-    font-family: $font-primary;
-    text-transform: uppercase;
-    font-weight:700;
-    letter-spacing:1.5px;
-  }
-
-  .label-lg, .label-primary-lg, .label-secondary-lg, .button-lg {font-size: var(--fs04);}
-  .label-md, .label-primary-md, .label-secondary-md, .button-md {font-size: var(--fs02);}
-  .label-sm, .label-primary-sm, .label-secondary-sm, .button-sm {font-size: var(--fs01);}
-  .label-xs, .label-primary-xs, .label-secondary-xs, .button-xs {font-size: var(--fs00);}
-
-
-  .button, .button-lg, .button-md, .button-sm, .button-xs{
-    font-family: $font-primary;
-    text-transform: uppercase;
-    font-weight:700;
-    letter-spacing:1.5px;
-  }
-
-  body, p, .body, .body-xs, .body-sm, .body-md, .body-lg, .body-xl{
-    font-family: $font-primary;
-    font-weight: 300;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-  }
-
-  .body-xl {font-size: var(--fs07);}
-  .body-lg, .body-link-lg {font-size: var(--fs04);}
-  .body-md, .body-link-md, p {font-size: var(--fs02);}
-  .body-sm, .body-link-sm {font-size: var(--fs01);}
-  .body-xs, .body-link-xs {font-size: var(--fs00);}
-
-  a, .body-link, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
-    color: $brand-primary;
-  }
+}
 
 @media screen and (min-width: 960px){
   .fs-desktop-15{font-size: var(--fs15);}
