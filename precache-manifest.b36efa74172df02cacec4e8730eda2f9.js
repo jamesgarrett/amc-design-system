@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04d8db4c5f829c8847b0b15a1bf5e799",
+    "revision": "635435f6807d0b40cf270352305580dc",
     "url": "/design-system-poc/index.html"
   },
   {
-    "revision": "ac3aed18072be2b78519",
-    "url": "/design-system-poc/static/css/main.8999fa0f.chunk.css"
+    "revision": "feb56ab7f4c752acd105",
+    "url": "/design-system-poc/static/css/main.965030c1.chunk.css"
   },
   {
-    "revision": "b9de4868308d0a451d62",
-    "url": "/design-system-poc/static/js/2.6739f1ef.chunk.js"
+    "revision": "9884013d4614aa30e77c",
+    "url": "/design-system-poc/static/js/2.d627459d.chunk.js"
   },
   {
     "revision": "25ab7760a9d196e1bee67b6bdb56e1bd",
-    "url": "/design-system-poc/static/js/2.6739f1ef.chunk.js.LICENSE"
+    "url": "/design-system-poc/static/js/2.d627459d.chunk.js.LICENSE"
   },
   {
-    "revision": "ac3aed18072be2b78519",
-    "url": "/design-system-poc/static/js/main.deebc42e.chunk.js"
+    "revision": "feb56ab7f4c752acd105",
+    "url": "/design-system-poc/static/js/main.c19be9d9.chunk.js"
   },
   {
     "revision": "d51513f546a28dd75f8e",
     "url": "/design-system-poc/static/js/runtime-main.2dd3859b.js"
+  },
+  {
+    "revision": "08a7007bbf6adff4956072c3cb1a22f9",
+    "url": "/design-system-poc/static/media/amc-home-tile.08a7007b.png"
+  },
+  {
+    "revision": "4c8448d1274a8800c2a3d5a5c5009848",
+    "url": "/design-system-poc/static/media/amc-type-tile.4c8448d1.png"
   },
   {
     "revision": "bdcc060dab1be59c0d045bad7d5a683e",
@@ -82,5 +90,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1f8043f037d4a5976991d21db8ebdf2b",
     "url": "/design-system-poc/static/media/rosehaven-image_wide_16x9.1f8043f0.jpg"
+  },
+  {
+    "revision": "7bdb271df363f088ff654ed952bbb926",
+    "url": "/design-system-poc/static/media/sundance-home-tile.7bdb271d.png"
+  },
+  {
+    "revision": "a855db7a32cd54016b12ea7c0473d0b3",
+    "url": "/design-system-poc/static/media/sundance-type-tile.a855db7a.png"
   }
 ]);
