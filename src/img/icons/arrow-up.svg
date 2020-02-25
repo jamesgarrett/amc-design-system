@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="7px" viewBox="0 0 12 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="__m/nav/global/provider-mvpd/lg" transform="translate(-136.000000, -20.000000)" fill="#FFFFFF">
+            <g id="icon/arrow-centered" transform="translate(142.000000, 24.000000) rotate(180.000000) translate(-142.000000, -24.000000) translate(136.000000, 18.000000)">
+                <polygon id="shape" points="0.881893774 3.61810623 6 8.73621245 11.1181062 3.61810623 11.6568542 4.15685425 6 9.8137085 0.343145751 4.15685425"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

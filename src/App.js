@@ -7,6 +7,7 @@
   import Logo from './img/logo512-light.png';
   import Navigation from './components/navigation';
   import Footer from './components/footer';
+  import HomePage from './pages/homePage';
   import { NavLink, Switch, Route} from 'react-router-dom';
 
   const Main = () => (
@@ -16,6 +17,7 @@
       <Route exact path='/resources' component={Resources}></Route>
       <Route exact path='/typography/' component={NetworksPage}></Route>
       <Route exact path='/typography/:network' component={NetworkPage}></Route>
+      <Route exact path='/home/:network' component={HomePage}></Route>
     </Switch>
   );
 

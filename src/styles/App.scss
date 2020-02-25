@@ -16,12 +16,13 @@
 @import 'components/sidenav';
 @import 'components/tables';
 @import 'components/cards';
-
+@import 'components/hero';
+@import 'components/button';
+@import 'components/swimlane';
 
 .app{
-  &.dark, &.dark *{
+  &.dark{
     background:#111;
-    color:white;
   }
   &.light *{
     color:black;
@@ -31,6 +32,8 @@
 
 .app.dark td, .app.dark tBody{
   border:.5px solid rgba(255,255,255,0.1px);
+  background:#111;
+
 }
 
 /* normalize */

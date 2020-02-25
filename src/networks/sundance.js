@@ -370,8 +370,8 @@ class SundanceType extends React.Component{
                 </tr>
 
                 <tr className="row">
-                  <td className="typeName col-3"><div className="body-link-sm">Body Link MD</div></td>
-                  <td className="col-1">00</td>
+                  <td className="typeName col-3"><div className="body-link-md">Body Link MD</div></td>
+                  <td className="col-1">02</td>
                   <td className="col-1">Sentence</td>
                   <td className="col-1">400</td>
                   <td className="col-1">16</td>
@@ -381,7 +381,7 @@ class SundanceType extends React.Component{
 
                 <tr className="row">
                   <td className="typeName col-3"><div className="body-link-sm">Body Link SM</div></td>
-                  <td className="col-1">00</td>
+                  <td className="col-1">01</td>
                   <td className="col-1">Sentence</td>
                   <td className="col-1">400</td>
                   <td className="col-1">14</td>
@@ -390,7 +390,7 @@ class SundanceType extends React.Component{
                 </tr>
 
                 <tr className="row">
-                  <td className="typeName col-3"><div className="body-link-sm">Body Link XS</div></td>
+                  <td className="typeName col-3"><div className="body-link-xs">Body Link XS</div></td>
                   <td className="col-1">00</td>
                   <td className="col-1">Sentence</td>
                   <td className="col-1">400</td>

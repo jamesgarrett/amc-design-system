@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.5804878,2.2097561 C19.3528581,1.34203527 18.6798012,0.661541351 17.8146341,0.424390244 C16.2536585,0 10,0 10,0 C10,0 3.74634146,0 2.18536585,0.424390244 C1.32019877,0.661541351 0.64714194,1.34203527 0.419512195,2.2097561 C1.89478063e-13,3.78536585 1.89478063e-13,7.07317073 1.89478063e-13,7.07317073 C1.89478063e-13,7.07317073 1.89478063e-13,10.3609756 0.419512195,11.9365854 C0.64714194,12.8043062 1.32019877,13.4848001 2.18536585,13.7219512 C3.74634146,14.1463415 10,14.1463415 10,14.1463415 C10,14.1463415 16.2536585,14.1463415 17.8146341,13.7219512 C18.6798012,13.4848001 19.3528581,12.8043062 19.5804878,11.9365854 C20,10.3609756 20,7.07317073 20,7.07317073 C20,7.07317073 20,3.78536585 19.5804878,2.2097561 Z M7.95609756,10.0585366 L7.95609756,4.08780488 L13.1804878,7.07317073 L7.95609756,10.0585366 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="__m/social/row" transform="translate(-120.000000, -3.000000)">
+            <g id="icon/youtube" transform="translate(120.000000, 0.000000)">
+                <g id="icon" transform="translate(0.000000, 3.333333)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <rect id="tint" fill="#FFFFFF" mask="url(#mask-2)" x="0" y="0" width="20" height="20"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

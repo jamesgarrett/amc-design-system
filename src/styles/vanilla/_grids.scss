@@ -44,7 +44,15 @@ Our Grid Sizing Classes
   flex-wrap:wrap;
 }
 
-@media screen and (max-width:540px){
+@media screen and (max-width:960px){
+  .swimlane{
+      .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11{
+        width:84vw;
+      }
+  }
+}
+
+@media screen and (max-width:667px){
   .row{
     flex-direction:column;
   }

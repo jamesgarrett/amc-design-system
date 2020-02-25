@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="20px" viewBox="0 0 10 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.6375,6.47625 L11.35625,6.47625 L11.35625,4.400625 C11.326197,4.14624069 11.4107699,3.89165938 11.5870652,3.70582476 C11.7633606,3.51999014 12.0131363,3.42213145 12.26875,3.43875 L14.58125,3.43875 L14.58125,0.0125 L11.39375,0 C7.85625,0 7.05625,2.55625 7.05625,4.191875 L7.05625,6.47625 L5.00625,6.47625 L5.00625,10.006875 L7.05625,10.006875 L7.05625,20 L11.35625,20 L11.35625,10.006875 L14.2625,10.006875 L14.6375,6.47625 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="__m/social/row" transform="translate(-5.000000, 0.000000)">
+            <g id="icon/facebook">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="shape" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

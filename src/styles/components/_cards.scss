@@ -6,7 +6,18 @@
     margin-right:0%;
   }
   img{
-  max-width:100%;
+    max-width:100%;
+    &.thumbnail{
+      width:100%;
+    }
+  }
+  .card--top{
+    position: relative;
+  }
+  .flag{
+    position:absolute;
+    bottom:.75rem;
+    left:.5rem;
   }
 }
 
