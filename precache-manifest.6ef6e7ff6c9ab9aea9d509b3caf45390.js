@@ -1,31 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01b0e4f5a05c893eaacab3c5afb892ae",
+    "revision": "a711d9c408b32ce8dc4f3b742f2f16ff",
     "url": "/design-system-poc/index.html"
   },
   {
-    "revision": "61a73c278f4746ba7a8b",
-    "url": "/design-system-poc/static/css/main.e29ffb5c.chunk.css"
+    "revision": "086594f825742e650f4a",
+    "url": "/design-system-poc/static/css/main.62f73c2d.chunk.css"
   },
   {
-    "revision": "9884013d4614aa30e77c",
-    "url": "/design-system-poc/static/js/2.d627459d.chunk.js"
+    "revision": "3f1c5637f687e94b44c6",
+    "url": "/design-system-poc/static/js/2.aad82541.chunk.js"
   },
   {
     "revision": "25ab7760a9d196e1bee67b6bdb56e1bd",
-    "url": "/design-system-poc/static/js/2.d627459d.chunk.js.LICENSE"
+    "url": "/design-system-poc/static/js/2.aad82541.chunk.js.LICENSE"
   },
   {
-    "revision": "61a73c278f4746ba7a8b",
-    "url": "/design-system-poc/static/js/main.0559f85b.chunk.js"
+    "revision": "086594f825742e650f4a",
+    "url": "/design-system-poc/static/js/main.3973074a.chunk.js"
   },
   {
     "revision": "d51513f546a28dd75f8e",
     "url": "/design-system-poc/static/js/runtime-main.2dd3859b.js"
   },
   {
+    "revision": "9db5d9394d8a5f292e4cbf4494a18d4b",
+    "url": "/design-system-poc/static/media/10-second-forward.9db5d939.svg"
+  },
+  {
     "revision": "7ad8225a642cedad86b7d29df0e170d7",
     "url": "/design-system-poc/static/media/10-second-rewind.7ad8225a.svg"
+  },
+  {
+    "revision": "0404356fa868d63b8b9497b7c274afec",
+    "url": "/design-system-poc/static/media/15-second-forward.0404356f.svg"
+  },
+  {
+    "revision": "e6021b2253290d63a1c4885a1e92b8b6",
+    "url": "/design-system-poc/static/media/15-second-rewind.e6021b22.svg"
   },
   {
     "revision": "08a7007bbf6adff4956072c3cb1a22f9",
@@ -72,8 +84,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-system-poc/static/media/bobnewhartshow.bd9d7694.jpg"
   },
   {
+    "revision": "9018596957041233ff833230fde20eeb",
+    "url": "/design-system-poc/static/media/cast.90185969.svg"
+  },
+  {
     "revision": "3791e23c351e3b466b0643d42d8f9544",
     "url": "/design-system-poc/static/media/close-x.3791e23c.svg"
+  },
+  {
+    "revision": "db1b48369ab51b72e42689e25fbfc2db",
+    "url": "/design-system-poc/static/media/closed-captions--active.db1b4836.svg"
   },
   {
     "revision": "c7f87793d605916ebd53e17d997c8620",
@@ -88,12 +108,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-system-poc/static/media/comingtoamerica.5b1a82b9.jpg"
   },
   {
+    "revision": "38b24098896974478cfc78844508bb05",
+    "url": "/design-system-poc/static/media/download--complete.38b24098.svg"
+  },
+  {
+    "revision": "f6ea1842281aaca080c2c5fb3dc12714",
+    "url": "/design-system-poc/static/media/download.f6ea1842.svg"
+  },
+  {
+    "revision": "886d7e4baf65c580b605ec706a8e6b10",
+    "url": "/design-system-poc/static/media/facebook.886d7e4b.svg"
+  },
+  {
     "revision": "ef1637119e36a7f215e54789d0d09e0c",
     "url": "/design-system-poc/static/media/groundupthere.ef163711.jpg"
   },
   {
     "revision": "8c96147a831f24fe619b21204595f6da",
     "url": "/design-system-poc/static/media/groundupthere201.8c96147a.jpg"
+  },
+  {
+    "revision": "c6d3344d92a43ba166a43f7183ee93a5",
+    "url": "/design-system-poc/static/media/instagram.c6d3344d.svg"
   },
   {
     "revision": "8461e9b01a8f7bff0c8e2c5cf152739a",
@@ -110,6 +146,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d21fb9082c2cc513c5ae09b55dae38f5",
     "url": "/design-system-poc/static/media/menu.d21fb908.svg"
+  },
+  {
+    "revision": "a31441feeeb3391804c27ddb15981c92",
+    "url": "/design-system-poc/static/media/more-info.a31441fe.svg"
+  },
+  {
+    "revision": "41f9f5aeccf1cb6498c6c5f6a1e5f21f",
+    "url": "/design-system-poc/static/media/pause--outline.41f9f5ae.svg"
   },
   {
     "revision": "480b8246b0f358363c46819e007130a3",
@@ -132,6 +176,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-system-poc/static/media/screen--maximize.380571c4.svg"
   },
   {
+    "revision": "73fec8a140ab2641bc8124ef25319d8c",
+    "url": "/design-system-poc/static/media/screen--minimize.73fec8a1.svg"
+  },
+  {
     "revision": "6dcf0d25872487491ac379dde534fdd5",
     "url": "/design-system-poc/static/media/search.6dcf0d25.svg"
   },
@@ -144,7 +192,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-system-poc/static/media/sundance-type-tile.a855db7a.png"
   },
   {
+    "revision": "c2370e7d397752f8d7cc55867c10a6b1",
+    "url": "/design-system-poc/static/media/tumblr.c2370e7d.svg"
+  },
+  {
     "revision": "032c1afeb91064c35ecf2f5781fe3e7c",
     "url": "/design-system-poc/static/media/volume.032c1afe.svg"
+  },
+  {
+    "revision": "6c932d27c39465d960e2429977a8b115",
+    "url": "/design-system-poc/static/media/youtube.6c932d27.svg"
   }
 ]);

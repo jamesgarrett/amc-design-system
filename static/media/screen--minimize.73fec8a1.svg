@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon/screen--minimize</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="player/controls/landscape" transform="translate(-336.000000, -8.000000)" fill="#FFFFFF">
+            <g id="icon/screen--minimize" transform="translate(336.000000, 8.000000)">
+                <path d="M24,18 L18,18 L18,24 L16,24 L16,16 L24,16 L24,18 Z M8,16 L8,24 L6,24 L6,18 L0,18 L0,16 L8,16 Z M18,0 L18,6 L24,6 L24,8 L16,8 L16,0 L18,0 Z M8,0 L8,8 L0,8 L0,6 L6,6 L6,0 L8,0 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
