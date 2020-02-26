@@ -17,7 +17,7 @@
       <Route exact path='/resources' component={Resources}></Route>
       <Route exact path='/typography/' component={NetworksPage}></Route>
       <Route exact path='/typography/:network' component={NetworkPage}></Route>
-      <Route exact path='/home/:network' component={HomePage}></Route>
+      <Route exact path='/templates/home/:network' component={HomePage}></Route>
     </Switch>
   );
 

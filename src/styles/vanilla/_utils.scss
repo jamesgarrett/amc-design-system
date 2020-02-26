@@ -8,11 +8,11 @@
 	}
 }
 
-/* 
-a series of atomic classes for applying margins in our frontend 
+/*
+a series of atomic classes for applying margins in our frontend
 
 margin location
-	m-a = margin all -- applies margin 1rem to all sides 
+	m-a = margin all -- applies margin 1rem to all sides
 	m-t = margin top -- applies margin top
 	m-b = bottom
 	m-l = left
@@ -54,11 +54,11 @@ margin sizing
 
 /* text modifiers */
 
-.tl{text-align: left;}
+.tl, .t-c, .ta-l{text-align: left;}
 
-.tc{text-align:center;}
+.tc, .t-c, .ta-c{text-align:center;}
 
-.tr{text-align: right;}
+.tr, .t-r, .ta-r{text-align: right;}
 
 .ttu{text-transform: uppercase;}
 
@@ -75,5 +75,5 @@ margin sizing
 @media screen and (max-width:767px){
 	.hidden-sm{
 		visibility:hidden;
-	}	
+	}
 }

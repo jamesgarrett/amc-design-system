@@ -18,25 +18,25 @@ import { NavLink } from 'react-router-dom';
             <div className="card">
               <NavLink to='/typography/amc'>
               <img alt={alt_text} className="thumbnail" src={require('../img/tiles/amc-type-tile.png')} />
-              <div className="body-lg m-v">View AMC's Typography Table</div>
+              <div className="body-lg m-b">AMC Typography Table</div>
               </NavLink>
             </div>
             <div className="card">
               <NavLink to='/typography/sundance'>
               <img alt={alt_text} className="thumbnail" src={require('../img/tiles/sundance-type-tile.png')} />
-              <div className="body-lg m-v">View Sundance TV's Typography Table</div>
+              <div className="body-lg m-b">Sundance TV Typography Table</div>
               </NavLink>
             </div>
             <div className="card">
               <NavLink to='/home/sundance'>
               <img alt={alt_text} className="thumbnail" src={require('../img/tiles/sundance-home-tile.png')} />
-              <div className="body-lg m-v">View Sundance TV's Sample Homepage Template</div>
+              <div className="body-lg m-b">Sundance TV Home Template</div>
               </NavLink>
             </div>
             <div className="card">
               <NavLink to='/home/amc'>
               <img alt={alt_text} className="thumbnail" src={require('../img/tiles/amc-home-tile.png')} />
-              <div className="body-lg m-v">View AMC's Sample Homepage Template</div>
+              <div className="body-lg m-b">AMC Home Template</div>
               </NavLink>
             </div>
           </div>

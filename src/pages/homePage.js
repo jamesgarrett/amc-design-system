@@ -18,7 +18,7 @@ const NetworkPage = ({ match, location }) => {
 	  <body>
 
 			<header className="container-fixed m-v">
-				<h1 className="headline-primary-1 m-v">Examples</h1>
+				<h1 className="headline-primary-1 m-v">Templates</h1>
 				<h2 className="body-lg m-v">Template: Homepage</h2>
 			</header>
 
