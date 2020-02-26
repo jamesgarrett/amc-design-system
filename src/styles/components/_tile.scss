@@ -1,0 +1,9 @@
+.tile {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    img.icon {
+      padding: 1rem;
+      width: 1.5rem;
+  }
+}

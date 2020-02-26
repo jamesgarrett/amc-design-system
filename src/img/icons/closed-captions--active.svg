@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon--right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="player/controls/portrait" transform="translate(-295.000000, 0.000000)">
+            <g id="player/controls">
+                <g id="icon/closed-captions--active" transform="translate(295.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="24" height="24"></rect>
+                    <path d="M9.085,15.36 C7.175,15.36 5.535,13.99 5.535,11.68 C5.535,9.35 7.175,8 9.085,8 C9.835,8 10.455,8.11 11.005,8.4 L10.875,9.65 C10.435,9.42 9.895,9.3 9.345,9.3 C8.145,9.3 7.155,10.09 7.155,11.65 C7.155,13.24 8.105,14.05 9.395,14.05 C9.955,14.05 10.505,13.91 11.015,13.65 L10.865,15.01 C10.385,15.25 9.845,15.36 9.085,15.36 Z M16.245,15.36 C14.335,15.36 12.695,13.99 12.695,11.68 C12.695,9.35 14.335,8 16.245,8 C16.995,8 17.615,8.11 18.165,8.4 L18.035,9.65 C17.595,9.42 17.055,9.3 16.505,9.3 C15.305,9.3 14.315,10.09 14.315,11.65 C14.315,13.24 15.265,14.05 16.555,14.05 C17.115,14.05 17.665,13.91 18.175,13.65 L18.025,15.01 C17.545,15.25 17.005,15.36 16.245,15.36 Z" id="CC" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

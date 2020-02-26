@@ -1,6 +1,5 @@
 /* tenants.scss */
 
-@import 'tenant/variables';
 @import 'tenant/amc';
 @import 'tenant/sundance';
 
@@ -20,6 +19,7 @@
 @import 'components/hero';
 @import 'components/button';
 @import 'components/swimlane';
+@import 'components/tile';
 
 .app{
   &.dark{
