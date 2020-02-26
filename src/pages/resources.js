@@ -45,20 +45,17 @@ class Resources extends React.Component{
           <h1 className='headline-1 m-v'>Resources</h1>
           <p className='body-lg m-v'>A collection of assets and resources to get you up and running building digital experiences.</p>
         </header>
-        <h4 className="headline-3 m-b m-lg">Icons</h4>
-        <p className="body-md">Download the full complement of icons in SVG format for use in your projects.</p>
-        <ul className="row icon-set">
+        <h4 className="headline-3 m-t m-lg">Icons</h4>
+        <p className="body-md">We use icons in our experience as recognizable ways to quickly communicate familiar concepts and expected behaviors to our users.</p>
+        <ul className="row icon-set m-v">
         {items.map(item =>
           <li key={item.src} className="tile t-c m-r">
             <img src={item.src} alt={item.alt} className="icon" />
             <p className="body-xs">{item.alt}</p>
           </li>)}
         </ul>
-        <Link to="/downloads/icons.zip" target="_blank" download>
-          <button className="button-md m-t">
-            Download All
-          </button>
-        </Link>
+        <p className="body-md">Download the full complement of icons in SVG format for use in your projects.</p>
+        <Link to="/downloads/icons.zip" className="button-md m-t" target="_blank" download>Download All</Link>
       </div>
     )
 

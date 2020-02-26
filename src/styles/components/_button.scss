@@ -1,6 +1,10 @@
-button{
+button, .button-md, .button-lg, .button-xl{
 	font-family: $font-primary;
 	padding:.5rem 1rem;
-	background-color: $brand-secondary;
+	color: $brand-primary;
+	background-color: lighten($brand-secondary,.4);
+	&:hover{
+		background-color: $brand-secondary;
+	}
 	text-align: center;
 }
