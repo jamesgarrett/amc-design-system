@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="23px" viewBox="0 0 30 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.7508034,20.0096546 L30.6666667,25.7345809 L30.0109493,26.8703167 L19.9905554,21.0850396 C16.8026867,25.0432108 11.119671,26.1996199 6.5808239,23.5791153 C1.5628276,20.6819738 -0.1564649,14.2654869 2.74067661,9.24749056 C5.63781812,4.22949427 12.0543051,2.51020177 17.0723014,5.40734328 C22.0902977,8.30448479 23.8095902,14.7209718 20.9124487,19.7389681 C20.8597227,19.8302921 20.8058311,19.9205236 20.7508034,20.0096546 Z M19.7767129,19.0832507 C22.3117117,14.692504 20.8073308,9.07807785 16.416584,6.54307903 C12.0258373,4.00808021 6.41141119,5.51246115 3.87641237,9.90320791 C1.34141354,14.2939547 2.84579448,19.9083808 7.23654124,22.4433796 C11.627288,24.9783784 17.2417141,23.4739975 19.7767129,19.0832507 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="__m/nav/global/provider_search/lg" transform="translate(-193.000000, -12.000000)">
+            <g id="icon/search" transform="translate(192.000000, 8.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="shape" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
