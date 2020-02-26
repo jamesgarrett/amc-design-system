@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon/close-x-thin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M22.6464466,0.646446609 L23.3535534,1.35355339 L12.7074466,12.0004466 L23.3535534,22.6464466 L22.6464466,23.3535534 L12.0004466,12.7074466 L1.35355339,23.3535534 L0.646446609,22.6464466 L11.2934466,12.0004466 L0.646446609,1.35355339 L1.35355339,0.646446609 L12.0004466,11.2934466 L22.6464466,0.646446609 Z" id="path-1"></path>
+    </defs>
+    <g id="icon/close-x-thin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#979797" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <rect id="tint" fill="#FFFFFF" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

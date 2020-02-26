@@ -10,6 +10,10 @@ import React from 'react'
           <h4 className="headline-3 m-b m-lg">Icons</h4>
           <div className="row">
               <div className="tile t-c m-r">
+                <img alt="" className="icon" src={require('../img/icons/10-second-rewind.svg')} />
+                <p className="body-xs">10 Second Rewind</p>
+              </div>
+              <div className="tile t-c m-r">
                 <img alt="" className="icon" src={require('../img/icons/arrow-down.svg')} />
                 <p className="body-xs">Arrow Down</p>
               </div>
@@ -26,6 +30,18 @@ import React from 'react'
                 <p className="body-xs">Arrow Up</p>
               </div>
               <div className="tile t-c m-r">
+                <img alt="" className="icon" src={require('../img/icons/close-x-thin.svg')} />
+                <p className="body-xs">Close X</p>
+              </div>
+              <div className="tile t-c m-r">
+                <img alt="" className="icon" src={require('../img/icons/closed-captions--default.svg')} />
+                <p className="body-xs">Closed Captions</p>
+              </div>
+              <div className="tile t-c m-r">
+                <img alt="" className="icon" src={require('../img/icons/menu.svg')} />
+                <p className="body-xs">Menu</p>
+              </div>
+              <div className="tile t-c m-r">
                 <img alt="" className="icon" src={require('../img/icons/play-icon-primary.svg')} />
                 <p className="body-xs">Play Icon Primary</p>
               </div>
@@ -34,8 +50,16 @@ import React from 'react'
                 <p className="body-xs">Play Icon Secondary</p>
               </div>
               <div className="tile t-c m-r">
-                <img alt="" className="icon" src={require('../img/icons/arrow-right.svg')} />
-                <p className="body-xs">Arrow Right</p>
+                <img alt="" className="icon" src={require('../img/icons/screen--maximize.svg')} />
+                <p className="body-xs">Screen Maximize</p>
+              </div>
+              <div className="tile t-c m-r">
+                <img alt="" className="icon" src={require('../img/icons/search.svg')} />
+                <p className="body-xs">Search</p>
+              </div>
+              <div className="tile t-c m-r">
+                <img alt="" className="icon" src={require('../img/icons/volume.svg')} />
+                <p className="body-xs">Volume</p>
               </div>
           </div>
 	      </header>

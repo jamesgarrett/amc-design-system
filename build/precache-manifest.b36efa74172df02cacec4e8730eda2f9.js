@@ -81,7 +81,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "3ad240f700e5111acad9d45bc76dc49c",
-    "url": "/design-system-poc/static/media/play-icon-rebrand.3ad240f7.svg"
+    "url": "/design-system-poc/static/media/play-icon-primary.3ad240f7.svg"
   },
   {
     "revision": "6b3518b7126b34c2d3a4b646d75cfc1f",
