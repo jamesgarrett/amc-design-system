@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom';
 		        <li><NavLink to='/about'>Guidelines</NavLink></li>
 		        <li><NavLink to='/typography'>Typography</NavLink></li>
 		        <li><NavLink to='/resources'>Resources</NavLink></li>
-		        <li><NavLink to='/templates/home/amc'>Examples</NavLink></li>
+		        <li><NavLink to='/templates/home/amc'>Templates</NavLink></li>
 		      </ul>
 		    </nav>
 		)
