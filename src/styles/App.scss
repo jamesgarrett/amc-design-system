@@ -22,16 +22,16 @@
 @import 'components/tile';
 
 .app{
-  &.dark{
+  &.light-text{
     background:#111;
   }
-  &.light *{
+  &.dark-text *{
     color:black;
     background:white;
   }
 }
 
-.app.dark td, .app.dark tBody{
+.app.light-text td, .app.light-text tBody{
   border:.5px solid rgba(255,255,255,0.1px);
   background:#111;
 

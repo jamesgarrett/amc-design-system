@@ -1,39 +1,37 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-
-
 class Resources extends React.Component{
   constructor(){
     super();
     this.state = {items: [
-      { src: require('../img/icons/10-second-forward.svg'), alt: '10 Second Forward' },
-      { src: require('../img/icons/10-second-rewind.svg'), alt: '10 Second Rewind' },
-      { src: require('../img/icons/15-second-forward.svg'), alt: '15 Second Forward' },
-      { src: require('../img/icons/15-second-rewind.svg'), alt: '15 Second Rewind' },
-      { src: require('../img/icons/arrow-down.svg'), alt: 'Arrow Down' },
-      { src: require('../img/icons/arrow-left.svg'), alt: 'Arrow Left' },
-      { src: require('../img/icons/arrow-right.svg'), alt: 'Arrow Right' },
-      { src: require('../img/icons/arrow-up.svg'), alt: 'Arrow Up' },
-      { src: require('../img/icons/cast.svg'), alt: 'Cast' },
-      { src: require('../img/icons/close-x.svg'), alt: 'Close X' },
-      { src: require('../img/icons/closed-captions--active.svg'), alt: 'Closed Captions Active' },
-      { src: require('../img/icons/closed-captions--default.svg'), alt: 'Closed Captions Default' },
-      { src: require('../img/icons/download.svg'), alt: 'Download' },
-      { src: require('../img/icons/download--complete.svg'), alt: 'Download Complete' },
-      { src: require('../img/icons/facebook.svg'), alt: 'Facebook' },
-      { src: require('../img/icons/instagram.svg'), alt: 'Instagram' },
-      { src: require('../img/icons/menu.svg'), alt: 'Menu' },
-      { src: require('../img/icons/more-info.svg'), alt: 'More Info' },
-      { src: require('../img/icons/pause--outline.svg'), alt: 'Pause Icon Primary' },
-      { src: require('../img/icons/play-icon-primary.svg'), alt: 'Play Icon Primary' },
-      { src: require('../img/icons/play-icon-secondary.svg'), alt: 'Play Icon Secondary' },
-      { src: require('../img/icons/screen--maximize.svg'), alt: 'Screen Maximize' },
-      { src: require('../img/icons/screen--minimize.svg'), alt: 'Screen Minimize' },
-      { src: require('../img/icons/search.svg'), alt: 'Search' },
-      { src: require('../img/icons/tumblr.svg'), alt: 'Tumblr' },
-      { src: require('../img/icons/volume.svg'), alt: 'Volume' },
-      { src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
+      { slug: '10-second-forward', src: require('../img/icons/10-second-forward.svg'), alt: '10 Second Forward' },
+      { slug: '10-second-rewind', src: require('../img/icons/10-second-rewind.svg'), alt: '10 Second Rewind' },
+      { slug: '15-second-forward', src: require('../img/icons/15-second-forward.svg'), alt: '15 Second Forward' },
+      { slug: '15-second-rewind', src: require('../img/icons/15-second-rewind.svg'), alt: '15 Second Rewind' },
+      { slug: 'arrow-down', src: require('../img/icons/arrow-down.svg'), alt: 'Arrow Down' },
+      { slug: 'arrow-left', src: require('../img/icons/arrow-left.svg'), alt: 'Arrow Left' },
+      { slug: 'arrow-right', src: require('../img/icons/arrow-right.svg'), alt: 'Arrow Right' },
+      { slug: 'arrow-up', src: require('../img/icons/arrow-up.svg'), alt: 'Arrow Up' },
+      { slug: 'cast', src: require('../img/icons/cast.svg'), alt: 'Cast' },
+      { slug: 'close-x', src: require('../img/icons/close-x.svg'), alt: 'Close X' },
+      { slug: 'closed-captions--active', src: require('../img/icons/closed-captions--active.svg'), alt: 'Closed Captions Active' },
+      { slug: 'closed-captions--default', src: require('../img/icons/closed-captions--default.svg'), alt: 'Closed Captions Default' },
+      { slug: 'download', src: require('../img/icons/download.svg'), alt: 'Download' },
+      { slug: 'download--complete', src: require('../img/icons/download--complete.svg'), alt: 'Download Complete' },
+      { slug: 'facebook', src: require('../img/icons/facebook.svg'), alt: 'Facebook' },
+      { slug: 'instagram', src: require('../img/icons/instagram.svg'), alt: 'Instagram' },
+      { slug: 'menu', src: require('../img/icons/menu.svg'), alt: 'Menu' },
+      { slug: 'more-info', src: require('../img/icons/more-info.svg'), alt: 'More Info' },
+      { slug: 'pause--outline', src: require('../img/icons/pause--outline.svg'), alt: 'Pause Icon Primary' },
+      { slug: 'play-icon-primary', src: require('../img/icons/play-icon-primary.svg'), alt: 'Play Icon Primary' },
+      { slug: 'play-icon-secondary', src: require('../img/icons/play-icon-secondary.svg'), alt: 'Play Icon Secondary' },
+      { slug: 'screen-maximize', src: require('../img/icons/screen--maximize.svg'), alt: 'Screen Maximize' },
+      { slug: 'screen-minimize', src: require('../img/icons/screen--minimize.svg'), alt: 'Screen Minimize' },
+      { slug: 'search', src: require('../img/icons/search.svg'), alt: 'Search' },
+      { slug: 'tumblr', src: require('../img/icons/tumblr.svg'), alt: 'Tumblr' },
+      { slug: 'volume', src: require('../img/icons/volume.svg'), alt: 'Volume' },
+      { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
     ]}
   }
 
@@ -55,7 +53,7 @@ class Resources extends React.Component{
           </li>)}
         </ul>
         <p className="body-md">Download the full complement of icons in SVG format for use in your projects.</p>
-        <Link to="/downloads/icons.zip" className="button-md m-t" target="_blank" download>Download All</Link>
+        <Link to="/downloads/icons.zip" className="button-md m-t" target="_blank" download><img className="m-r m-sm" src={require('../img/icons/download.svg')} /> Download All</Link>
       </div>
     )
 

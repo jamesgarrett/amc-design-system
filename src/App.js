@@ -24,7 +24,7 @@
   class App extends Component {
     render(){
       return(
-        <div id='app-wrap' className='app dark'>
+        <div id='app-wrap' className='app light-text'>
           <div className='header container-fixed'>
             <div className='lockup'>
               <NavLink to='/'><img src={Logo} className='logo' alt='website logo' /></NavLink>
