@@ -1,0 +1,18 @@
+/*
+margin and padding sizing
+  m-sm / p-sm = used in conjunction with a location, specifies a margin of .25rem
+  m-sm / p-sm = used in conjunction with a location, specifies a margin of .5rem
+	m-md / p-md = used in conjunction with a location, specifies a margin of 1rem
+  m-lg / p-lg = used in conjunction with a location, specifies a margin of 2rem
+	m-xl / p-xl = used in conjunction with a location, specifies a margin of 4rem
+*/
+
+.i-xs {width: var(--fs01);}
+
+.i-sm {width: var(--fs02);}
+
+.i-md {width: var(--fs04);}
+
+.i-lg {width: var(--fs06);}
+
+.i-xl {width: var(--fs07);}

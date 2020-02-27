@@ -41,7 +41,7 @@
 	  text-transform: capitalize;
 	  line-height: 1.08;
 	}
-	
+
 	.tertiary-1{font-size: var(--fs10);}
 	.tertiary-2{font-size: var(--fs09);}
 	.tertiary-3{font-size: var(--fs07);}
@@ -91,7 +91,7 @@
 	.body-sm, .body-link-sm {font-size: var(--fs01);}
 	.body-xs, .body-link-xs {font-size: var(--fs00);}
 
-	a, .body-link, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
+	.body-link, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
 		color: $brand-primary;
 	}
 

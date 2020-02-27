@@ -1,10 +1,18 @@
 :root{
     /* margin-units */
   --m: 1rem;
-  --m-small: 0.25rem;
+  --m-x-small: 0.25rem;
+  --m-small: 0.5rem;
   --m-medium: 1rem;
   --m-large: 2rem;
-  --m-extra-large: 4rem;
+  --m-x-large: 4rem;
+  /* padding-units */
+  --p: 1rem;
+  --p-x-small: 0.25rem;
+  --p-small: 0.5rem;
+  --p-medium: 1rem;
+  --p-large: 2rem;
+  --p-x-large: 4rem;
   /* font sizing */
   --fs15: 4.25rem;
   --fs14: 4rem;

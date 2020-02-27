@@ -1,7 +1,7 @@
 .amc{
   $font-primary: Unitext, Helvetica, sans-serif;
   $brand-primary: black;
-  $brand-secondary: rgba(255,255,255,.6);
+  $brand-secondary: white;
   $brand-accent: #ffc600;
   $ui-dark: black;
   $ui-light: white;
@@ -75,9 +75,8 @@
   .body-sm, .body-link-sm {font-size: var(--fs01);}
   .body-xs, .body-link-xs {font-size: var(--fs00);}
 
-  a, .body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
+  .body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
     font-weight:700;
-    opacity: .6;
     cursor: pointer;
     &:hover{
       opacity:1;

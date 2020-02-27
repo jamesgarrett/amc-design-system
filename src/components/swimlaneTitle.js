@@ -4,7 +4,7 @@ class SwimlaneTitle extends React.Component{
   render(){
     var alt_text = '';
     return(
-      <section className="swimlane gutter m-v m-lg">
+      <section className="swimlane p-h p-xl m-v m-lg">
 			<h2 className="headline-3 m-v">Popular Movies</h2>
 			<div className="row m-l cards-sm">
 				<div className="card eyebrow-card m-b">

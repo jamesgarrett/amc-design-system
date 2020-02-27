@@ -25,7 +25,7 @@
     render(){
       return(
         <div id='app-wrap' className='app light-text'>
-          <div className='header container-fixed'>
+          <div className='header p-h'>
             <div className='lockup'>
               <NavLink to='/'><img src={Logo} className='logo' alt='website logo' /></NavLink>
               <h5 className='headline-5--strong hidden-sm'>Design System</h5>

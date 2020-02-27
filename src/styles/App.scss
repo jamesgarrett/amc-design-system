@@ -12,13 +12,14 @@
 
 /* components */
 
-@import 'components/navigation';
-@import 'components/sidenav';
-@import 'components/tables';
+@import 'components/button';
 @import 'components/cards';
 @import 'components/hero';
-@import 'components/button';
+@import 'components/icons';
+@import 'components/navigation';
+@import 'components/sidenav';
 @import 'components/swimlane';
+@import 'components/tables';
 @import 'components/tile';
 
 .app{
@@ -56,10 +57,13 @@ a{
 /* containers */
 
 .header{
-  display: flex;
-  width: 100%;
+  display: grid;
+  justify-items: left;
   align-items: center;
-  justify-content: space-between;
+  grid-template-columns: 30% 70%;
+  nav{
+    justify-self: right;
+  }
 }
 
 footer{
@@ -74,6 +78,8 @@ div#app-wrap {
     flex-direction: column;
     height: 100%;
     min-height:100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .body{
