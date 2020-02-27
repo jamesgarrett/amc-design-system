@@ -32,7 +32,7 @@
             </div>
             <Navigation />
           </div>
-          <div className='body container-fluid'>
+          <div className='body container-fluid p-b p-xl'>
             <Main />
           </div>
           <Footer className='container-fixed gutter'/>
