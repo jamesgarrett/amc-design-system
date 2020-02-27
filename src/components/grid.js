@@ -4,8 +4,8 @@ class Grid extends React.Component{
   render(){
     var alt_text = ''
     return(
-      <section className="grid gutter m-v m-lg p-h p-xl">
-        <h2 className="headline-3 m-v">Featured Shows</h2>
+      <section className="grid gutter m-y m-lg p-x p-xl">
+        <h2 className="headline-3 m-y">Featured Shows</h2>
         <div className="row m-l cards-md">
           <div className="card m-b">
             <img alt={alt_text} className="thumbnail" src={require('../img/shows/closeup.jpg')} />

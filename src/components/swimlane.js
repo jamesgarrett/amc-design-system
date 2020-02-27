@@ -6,8 +6,8 @@ render(){
   var alt_text = ''
   return(
 
-    <section className="swimlane p-h p-xl m-v m-lg">
-      <h2 className="headline-3 m-v">Latest Episodes</h2>
+    <section className="swimlane p-x p-xl m-y m-lg">
+      <h2 className="headline-3 m-y">Latest Episodes</h2>
       <div className="row m-l cards-sm">
         <div className="card eyebrow-card m-b">
           <div className="card--top">

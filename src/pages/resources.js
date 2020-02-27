@@ -47,7 +47,7 @@ class Resources extends React.Component{
         <p className="body-md">We use icons in our experience as recognizable ways to quickly communicate familiar concepts and expected behaviors to our users.</p>
         <ul className="icon-set m-v">
         {items.map(item =>
-          <li key={item.src} className="tile t-l p-v">
+          <li key={item.src} className="tile p-v p-md">
             <img className="icon m-v i-xl" src={item.src} alt={item.alt} />
             <p className="body-xs">{item.alt}</p>
           </li>)}

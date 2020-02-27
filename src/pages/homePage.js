@@ -17,9 +17,9 @@ const NetworkPage = ({ match, location }) => {
 	<div className={net}>
 	  <body>
 
-			<header className="container-fixed m-v">
-				<h1 className="headline-primary-1 m-v">Templates</h1>
-				<h2 className="body-lg m-v">Template: Homepage</h2>
+			<header className="container-fixed m-y">
+				<h1 className="headline-primary-1 m-y">Templates</h1>
+				<h2 className="body-lg m-y">Template: Homepage</h2>
 			</header>
 
 			<NetworkNav />

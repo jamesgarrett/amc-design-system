@@ -5,8 +5,8 @@ class About extends React.Component {
       return (
         <div className="getting-started container-fixed">
         	<header className="header-text">
-		        <h1 className='headline-1 m-v'>Guidelines</h1>
-			    <p className='body-lg m-v'>A set of guidelines for using the design system to create digital experiences.</p>
+		        <h1 className='headline-1 m-y'>Guidelines</h1>
+			    <p className='body-lg m-y'>A set of guidelines for using the design system to create digital experiences.</p>
 	    	</header>
 	    </div>
           );

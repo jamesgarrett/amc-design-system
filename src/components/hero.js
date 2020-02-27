@@ -12,7 +12,7 @@ var divStyle = {
 		return(
 
       <section className="hero" style={divStyle}>
-        <div className="hero-content p-h p-xl">
+        <div className="hero-content p-x p-xl">
           <h5 className="tertiary-5 m-t">Returns October 6th</h5>
           <h1 className="headline-1">Rosehaven</h1>
           <p className="body-md">Daniel returns to his Tasmanian hometown to help his mom with her real estate business.</p>

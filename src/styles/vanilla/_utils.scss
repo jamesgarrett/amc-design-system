@@ -21,12 +21,12 @@ margin location
 
 .m-r {margin-right: var(--m);}
 
-.m-v {
+.m-y {
   @extend .m-t;
   @extend .m-b;
 }
 
-.m-h {
+.m-x {
   @extend .m-l;
   @extend .m-r;
 }
@@ -71,12 +71,12 @@ padding location
 
 .p-r {padding-right: var(--p);}
 
-.p-v {
+.p-y {
   @extend .p-t;
   @extend .p-b;
 }
 
-.p-h {
+.p-x {
   @extend .p-l;
   @extend .p-r;
 }
@@ -119,11 +119,11 @@ text modifiers
 	these modifiers can be used to align text on the fly
 */
 
-.tl, .t-c, .ta-l{text-align: left;}
+.tl{text-align: left;}
 
-.tc, .t-c, .ta-c{text-align:center;}
+.tc{text-align:center;}
 
-.tr, .t-r, .ta-r{text-align: right;}
+.tr{text-align: right;}
 
 .ttu{text-transform: uppercase;}
 
