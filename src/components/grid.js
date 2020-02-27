@@ -4,7 +4,7 @@ class Grid extends React.Component{
   render(){
     var alt_text = ''
     return(
-      <section className="grid gutter m-v m-lg">
+      <section className="grid gutter m-v m-lg p-h p-xl">
         <h2 className="headline-3 m-v">Featured Shows</h2>
         <div className="row m-l cards-md">
           <div className="card m-b">

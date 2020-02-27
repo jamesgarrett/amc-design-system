@@ -48,12 +48,12 @@ class Resources extends React.Component{
         <ul className="icon-set m-v">
         {items.map(item =>
           <li key={item.src} className="tile t-l p-v">
-            <img src={item.src} alt={item.alt} className="icon m-v" />
+            <img className="icon m-v i-xl" src={item.src} alt={item.alt} />
             <p className="body-xs">{item.alt}</p>
           </li>)}
         </ul>
         <p className="body-md">Download the full complement of icons in SVG format for use in your projects.</p>
-        <Link to="/downloads/icons.zip" className="button-md button button-light m-t" target="_blank" download><img className="m-r" src={require('../img/icons/download.svg')} /> Download All</Link>
+        <Link to="/downloads/icons.zip" className="button-md button button-light m-t" target="_blank" download><img className="m-r i-md" src={require('../img/icons/download.svg')} /> Download All</Link>
       </div>
     )
 

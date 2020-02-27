@@ -1,13 +1,3 @@
-.gutter{
-	padding: 0 3rem;
-}
-
-@media screen and (max-width:767px){
-	.gutter{
-		padding: 1.25rem;
-	}
-}
-
 /*
 a series of atomic classes for applying margins in our frontend
 
@@ -61,7 +51,7 @@ margin sizing
 .m-xl {--m: var(--m-x-large);}
 
 /*
-padding sizing
+padding location
 	p-a = padding all -- applies padding 1rem to all sides
 	p-t = padding top -- applies padding top
 	p-b = bottom
@@ -110,8 +100,24 @@ padding sizing
 
 .p-xl {--p: var(--p-x-large);}
 
+/*
+scale padding
+	we scale down our larger padding sizes to conserve valuable screen real estate on mobile
+*/
 
-/* text modifiers */
+@media screen and (max-width:767px){
+	.p-md {--p: var(--p-x-small);}
+
+	.p-lg {--p: var(--p-small);}
+
+	.p-xl {--p: var(--p-medium);}
+}
+
+
+/*
+text modifiers
+	these modifiers can be used to align text on the fly
+*/
 
 .tl, .t-c, .ta-l{text-align: left;}
 

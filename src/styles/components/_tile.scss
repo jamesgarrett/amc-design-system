@@ -4,30 +4,10 @@
   &:hover{
     background:#777;
   }
-  .icon{
-    width:1.5rem;
-  }
-}
-
-.icon-set{
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .tile {
     display: grid;
     justify-items: center;
     align-items: center;
-}
-
-@media screen and (min-width:768px){
-  .icon-set{
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media screen and (min-width:1024px){
-  .icon-set{
-    grid-template-columns: repeat(8, 1fr);
-  }
 }
