@@ -37,3 +37,30 @@ Our Grid Sizing Classes
     flex-direction:column;
   }
 }
+
+//  Lazy grid classes for building quick grid frameworks
+
+.lazy-grid {
+      display: grid;
+      justify-items: left;
+      align-items: center;
+      grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (min-width:768px){
+  .lazy-grid{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width:1024px){
+  .lazy-grid{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width:1440px){
+  .lazy-grid{
+      grid-template-columns: repeat(6, 1fr);
+  }
+}

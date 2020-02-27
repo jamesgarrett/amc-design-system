@@ -1,8 +1,7 @@
-button, .button-md, .button-lg, .button-xl{
+button, .button{
 	font-family: $font-primary;
 	padding:.5rem 1rem;
-	color: $brand-primary;
-	background-color: lighten($brand-secondary,.4);
+	display:flex;
 	&:hover{
 		background-color: $brand-secondary;
 	}

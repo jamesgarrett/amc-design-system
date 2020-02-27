@@ -42,18 +42,46 @@ margin location
 }
 
 /*
-margin sizing
+margin and padding sizing
   m-sm = used in conjunction with a location, specifies a margin of .25rem
+	m-md = used in conjunction with a location, specifies a margin of 1rem
   m-lg = used in conjunction with a location, specifies a margin of 2rem
+	m-xl = used in conjunction with a location, specifies a margin of 4rem
 */
 
-.m-sm {--m: var(--m-small);}
+.m-sm, .p-sm {--m: var(--m-small);}
 
-.m-md {--m: var(--m-medium);}
+.m-md, .p-md {--m: var(--m-medium);}
 
-.m-lg {--m: var(--m-large);}
+.m-lg, .p-lg {--m: var(--m-large);}
 
-.m-xl {--m: var(--m-extra-large);}
+.m-xl, .p-xl {--m: var(--m-extra-large);}
+
+/*
+padding sizing
+		padding classes follow all the same patterns as our margin sizing
+		.p instead of .m, with the same sizing and location metrics
+*/
+
+.p-a {padding: var(--m);}
+
+.p-t {padding-top: var(--m);}
+
+.p-b {padding-bottom: var(--m);}
+
+.p-l {padding-left: var(--m);}
+
+.p-r {padding-right: var(--m);}
+
+.p-v {
+  @extend .p-t;
+  @extend .p-b;
+}
+
+.p-h {
+  @extend .p-l;
+  @extend .p-r;
+}
 
 
 /* text modifiers */

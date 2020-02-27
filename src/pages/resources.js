@@ -45,15 +45,17 @@ class Resources extends React.Component{
         </header>
         <h4 className="headline-3 m-t m-lg">Icons</h4>
         <p className="body-md">We use icons in our experience as recognizable ways to quickly communicate familiar concepts and expected behaviors to our users.</p>
-        <ul className="row icon-set m-v">
+        <ul className="icon-set m-v">
         {items.map(item =>
-          <li key={item.src} className="tile t-c m-r">
-            <img src={item.src} alt={item.alt} className="icon" />
+          <li key={item.src} className="tile t-l p-v">
+            <img src={item.src} alt={item.alt} className="icon m-v" />
             <p className="body-xs">{item.alt}</p>
           </li>)}
         </ul>
         <p className="body-md">Download the full complement of icons in SVG format for use in your projects.</p>
-        <Link to="/downloads/icons.zip" className="button-md m-t" target="_blank" download><img className="m-r m-sm" src={require('../img/icons/download.svg')} /> Download All</Link>
+        <div className="lazy-grid">
+            <Link to="/downloads/icons.zip" className="button-md m-t" target="_blank" download><img className="m-r" src={require('../img/icons/download.svg')} /> Download All</Link>
+        </div>
       </div>
     )
 
