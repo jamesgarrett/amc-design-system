@@ -4,10 +4,9 @@ class AmcType extends React.Component{
 	render(){
     // {this.props.network}
 		return(
-		<div className="typography col-12 m-v">
+		<div className="typography col-12 m-y">
 
-		  <table className="row m-b m-lg">
-				<tbody className="typeTable headerRow">
+				<div className="typeTable headerRow">
 		          <tr className="row">
 		            <td className="typeName col-3">Class Name</td>
 		            <td className="col-1">Scale</td>
@@ -277,8 +276,7 @@ class AmcType extends React.Component{
                 <td className="col-1">0</td>
                 <td className="col-1">16</td>
               </tr>
-		      </tbody>
-		    </table>
+		      </div>
 
 		</div>
 

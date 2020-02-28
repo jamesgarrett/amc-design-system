@@ -1,3 +1,8 @@
+.typography .row{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 .intro{
   display:grid;
 }
@@ -5,7 +10,6 @@
 .typeTable{
 	background: #efefef;
   width: 100%;
-  border:1px solid rgba(255,255,255,0.4);
   .row{
     flex-direction:row;
   }
@@ -21,12 +25,12 @@
     .app.dark td{
       border:.5px solid rgba(255,255,255,0.1);
     }
-}  
+}
 
 @media screen and (max-width:1024px){
   .typeTable {
     td.typeName{
       flex-basis:100%;
     }
-  } 
+  }
 }

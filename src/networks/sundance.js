@@ -4,10 +4,9 @@ class SundanceType extends React.Component{
 	render(){
     // {this.props.network}
 		return(
-			<div className="typography col-12 m-v">
+			<div className="typography col-12 m-y">
 
-          <table className="row m-b m-lg">
-      			<tbody className="typeTable">
+      			<div className="typeTable">
                 <tr className="row headerRow">
                   <td className="typeName col-3">Class Name</td>
                   <td className="col-1">Scale</td>
@@ -46,7 +45,7 @@ class SundanceType extends React.Component{
                   <td className="col-1">0</td>
                   <td className="col-1">36</td>
                 </tr>
-                    
+
                 <tr className="row">
                   <td className="typeName col-3"><h3 className="headline-4">Headline 4</h3></td>
                   <td className="col-1">05</td>
@@ -55,7 +54,7 @@ class SundanceType extends React.Component{
                   <td className="col-1">24</td>
                   <td className="col-1">0</td>
                   <td className="col-1">28</td>
-                </tr>   
+                </tr>
 
                 <tr className="row">
                   <td className="typeName col-3"><h3 className="headline-5">Headline 5</h3></td>
@@ -106,7 +105,7 @@ class SundanceType extends React.Component{
                   <td className="col-1">0</td>
                   <td className="col-1">40</td>
                 </tr>
-                    
+
                 <tr className="row">
                   <td className="typeName col-3"><h3 className="secondary-4">Secondary 4</h3></td>
                   <td className="col-1">07</td>
@@ -115,7 +114,7 @@ class SundanceType extends React.Component{
                   <td className="col-1">32</td>
                   <td className="col-1">0</td>
                   <td className="col-1">32</td>
-                </tr>   
+                </tr>
 
                 <tr className="row">
                   <td className="typeName col-3"><h3 className="secondary-5">Secondary 5</h3></td>
@@ -166,7 +165,7 @@ class SundanceType extends React.Component{
                   <td className="col-1">0</td>
                   <td className="col-1">36</td>
                 </tr>
-                    
+
                 <tr className="row">
                   <td className="typeName col-3"><h3 className="tertiary-4">Tertiary 4</h3></td>
                   <td className="col-1">05</td>
@@ -175,7 +174,7 @@ class SundanceType extends React.Component{
                   <td className="col-1">24</td>
                   <td className="col-1">0</td>
                   <td className="col-1">28</td>
-                </tr>   
+                </tr>
 
                 <tr className="row">
                   <td className="typeName col-3"><h3 className="tertiary-5">Tertiary 5</h3></td>
@@ -400,13 +399,12 @@ class SundanceType extends React.Component{
                 </tr>
 
 
-              </tbody>
-            </table>
+              </div>
 
         </div>
 		)
 	}
-	
+
 }
 
-export default SundanceType;   
+export default SundanceType;

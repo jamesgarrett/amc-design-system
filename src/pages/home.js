@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
   	render(){
       var alt_text = ''
   		return(
-			<div className='home container-fixed'>
+			<div className='home m-x'>
         <header className="header-text">
 			    <h1 className='headline-1 m-y'>Introduction</h1>
 			    <p className='body-lg col-6'>The AMC Design System is designed to be a comprehensive resource for designers and developers on the digital product team.</p>

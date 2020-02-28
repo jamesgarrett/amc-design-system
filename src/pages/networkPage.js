@@ -2,6 +2,7 @@ import React from 'react';
 import Sidenav from '../components/sidenav';
 import AmcType from '../networks/amc';
 import SundanceType from '../networks/sundance';
+import SundanceTypeV2 from '../networks/sundancev2';
 import Conversions from '../pages/conversions';
 
 const NetworkPage = ({ match, location }) => {
@@ -11,13 +12,15 @@ const NetworkPage = ({ match, location }) => {
 	  typeTable = <AmcType />;
 	} if ( network === 'sundance') {
 	  typeTable = <SundanceType />;
+	} if ( network === 'sundancev2') {
+	  typeTable = <SundanceTypeV2 />;
 	}
 
 	var net = network;
 
 	return (
 	<div className={net}>
-	  <body className="container-fixed">
+	  <body className="m-x">
 	    <section className="intro m-b col-6">
 	      <h1 className='headline-1 m-y'>Typography</h1>
 	      <h4 className='tertiary-4 m-y col-8'>About the System</h4>

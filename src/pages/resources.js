@@ -11,7 +11,7 @@ class Resources extends React.Component{
   render(){
     let icons = this.state.iconSet
     return(
-      <div className='resources container-fixed'>
+      <div className='resources m-x'>
         <header className="header-text">
           <h1 className='headline-1 m-y'>Resources</h1>
           <p className='body-lg m-y'>A collection of assets and resources to get you up and running building digital experiences.</p>
