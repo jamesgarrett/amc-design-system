@@ -11,25 +11,29 @@ class SundanceTypeV2 extends React.Component{
     let typeStyles = this.state.SundanceTypeStyles
     console.log({typeStyles});
 		return(
-			<div className="typography col-12 m-v">
-      <div className="row">
-        <span className="body-lg">Name</span>
-        <span className="body-lg">Font</span>
-        <span className="body-lg">Size</span>
-        <span className="body-lg">Line Height</span>
-        <span className="body-lg">Weight</span>
-        <span className="body-lg">Letter Spacing</span>
-      </div>
-      {typeStyles.map(typeStyle =>
-        <li key={typeStyle.name} className="row p-y p-md">
-          <span className="body-xs">{typeStyle.name}</span>
-          <span className="body-xs">{typeStyle.font.postscriptName}</span>
-          <span className="body-xs">{typeStyle.font.size}</span>
-          <span className="body-xs">{typeStyle.lineHeight}</span>
-          <span className="body-xs">{typeStyle.font.weight}</span>
-          <span className="body-xs">{typeStyle.font.stretch}</span>
-        </li>)}
-      </div>
+
+			<ul className="typography col-12 m-y">
+        <li className="row m-x">
+          <span className="label-secondary p-x p-y">Class Name</span>
+          <span className="label-secondary p-x p-y">Font Family</span>
+          <span className="label-secondary p-x p-y">Size</span>
+          <span className="label-secondary p-x p-y">Case</span>
+          <span className="label-secondary p-x p-y">Line Height</span>
+          <span className="label-secondary p-x p-y">Font Weight</span>
+          <span className="label-secondary p-x p-y">Letter Spacing</span>
+        </li>
+        {typeStyles.map(typeStyle =>
+          <li key={typeStyle.name} className="row m-x">
+            <span className="body-md p-x p-y">{typeStyle.name}</span>
+            <span className="body-md p-x p-y">{typeStyle.font.postscriptName}</span>
+            <span className="body-md p-x p-y">{typeStyle.font.size}</span>
+            <span className="body-md p-x p-y">N/A</span>
+            <span className="body-md p-x p-y">{typeStyle.lineHeight}</span>
+            <span className="body-md p-x p-y">{typeStyle.font.weight}</span>
+            <span className="body-md p-x p-y">{typeStyle.font.stretch}</span>
+          </li>
+        )}
+      </ul>
 		)
 	}
 
