@@ -2,6 +2,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-primary-6",
     "lineHeight": 52,
+    "textTransform": "lowercase",
     "font": {
       "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
@@ -19,6 +20,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-primary-5",
     "lineHeight": 44,
+    "textTransform": "lowercase",
     "font": {
       "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
@@ -36,6 +38,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-primary-4",
     "lineHeight": 36,
+    "textTransform": "lowercase",
     "font": {
       "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
@@ -53,6 +56,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-primary-3",
     "lineHeight": 28,
+    "textTransform": "lowercase",
     "font": {
       "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
@@ -70,6 +74,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-primary-2",
     "lineHeight": 24,
+    "textTransform": "lowercase",
     "font": {
       "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
@@ -87,6 +92,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-primary-1",
     "lineHeight": 20,
+    "textTransform": "lowercase",
     "font": {
       "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
@@ -104,6 +110,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-primary-0",
     "lineHeight": 16,
+    "textTransform": "lowercase",
     "font": {
       "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
@@ -121,6 +128,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-secondary-6",
     "lineHeight": 60,
+    "textTransform": "uppercase",
     "font": {
       "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
@@ -138,6 +146,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-secondary-5",
     "lineHeight": 48,
+    "textTransform": "uppercase",
     "font": {
       "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
@@ -155,6 +164,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-secondary-4",
     "lineHeight": 40,
+    "textTransform": "uppercase",
     "font": {
       "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
@@ -172,6 +182,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-secondary-3",
     "lineHeight": 32,
+    "textTransform": "uppercase",
     "font": {
       "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
@@ -189,6 +200,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-secondary-2",
     "lineHeight": 24,
+    "textTransform": "uppercase",
     "font": {
       "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
@@ -206,6 +218,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-secondary-1",
     "lineHeight": 20,
+    "textTransform": "uppercase",
     "font": {
       "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
@@ -223,6 +236,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-secondary-0",
     "lineHeight": 16,
+    "textTransform": "uppercase",
     "font": {
       "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
@@ -240,6 +254,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-tertiary-6",
     "lineHeight": 52,
+    "textTransform": "Capitalize",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -257,6 +272,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-tertiary-5",
     "lineHeight": 44,
+    "textTransform": "Capitalize",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -274,6 +290,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-tertiary-4",
     "lineHeight": 36,
+    "textTransform": "Capitalize",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -291,6 +308,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-tertiary-3",
     "lineHeight": 28,
+    "textTransform": "Capitalize",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -308,6 +326,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-tertiary-2",
     "lineHeight": 24,
+    "textTransform": "Capitalize",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -325,6 +344,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-tertiary-1",
     "lineHeight": 20,
+    "textTransform": "Capitalize",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -342,6 +362,7 @@ const SundanceTypeStyles = [
   {
     "name": "display-tertiary-0",
     "lineHeight": 16,
+    "textTransform": "Capitalize",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -359,6 +380,7 @@ const SundanceTypeStyles = [
   {
     "name": "body-xl",
     "lineHeight": 32,
+    "textTransform": "Sentence",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -376,6 +398,7 @@ const SundanceTypeStyles = [
   {
     "name": "body-lg",
     "lineHeight": 28,
+    "textTransform": "Sentence",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -393,6 +416,7 @@ const SundanceTypeStyles = [
   {
     "name": "body-md",
     "lineHeight": 24,
+    "textTransform": "Sentence",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -410,6 +434,7 @@ const SundanceTypeStyles = [
   {
     "name": "body-sm",
     "lineHeight": 20,
+    "textTransform": "Sentence",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -427,6 +452,7 @@ const SundanceTypeStyles = [
   {
     "name": "body-xs",
     "lineHeight": 16,
+    "textTransform": "Sentence",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -444,6 +470,7 @@ const SundanceTypeStyles = [
   {
     "name": "body-link-xl",
     "lineHeight": 32,
+    "textTransform": "Sentence",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -461,6 +488,7 @@ const SundanceTypeStyles = [
   {
     "name": "body-link-lg",
     "lineHeight": 28,
+    "textTransform": "Sentence",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -478,6 +506,7 @@ const SundanceTypeStyles = [
   {
     "name": "body-link-md",
     "lineHeight": 24,
+    "textTransform": "Sentence",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -495,6 +524,7 @@ const SundanceTypeStyles = [
   {
     "name": "body-link-sm",
     "lineHeight": 20,
+    "textTransform": "Sentence",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -512,6 +542,7 @@ const SundanceTypeStyles = [
   {
     "name": "body-link-xs",
     "lineHeight": 16,
+    "textTransform": "Sentence",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -529,6 +560,7 @@ const SundanceTypeStyles = [
   {
     "name": "button-lg",
     "lineHeight": 20,
+    "textTransform": "Uppercase",
     "font": {
       "postscriptName": "BentonSans-Bold",
       "family": "BentonSans",
@@ -546,6 +578,7 @@ const SundanceTypeStyles = [
   {
     "name": "button-md",
     "lineHeight": 16,
+    "textTransform": "Uppercase",
     "font": {
       "postscriptName": "BentonSans-Bold",
       "family": "BentonSans",
@@ -563,6 +596,7 @@ const SundanceTypeStyles = [
   {
     "name": "button-sm",
     "lineHeight": 16,
+    "textTransform": "Uppercase",
     "font": {
       "postscriptName": "BentonSans-Bold",
       "family": "BentonSans",
@@ -580,6 +614,7 @@ const SundanceTypeStyles = [
   {
     "name": "button-xs",
     "lineHeight": 12,
+    "textTransform": "Uppercase",
     "font": {
       "postscriptName": "BentonSans-Bold",
       "family": "BentonSans",
@@ -597,6 +632,7 @@ const SundanceTypeStyles = [
   {
     "name": "label-primary-lg",
     "lineHeight": 24,
+    "textTransform": "Uppercase",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -614,6 +650,7 @@ const SundanceTypeStyles = [
   {
     "name": "label-primary-md",
     "lineHeight": 20,
+    "textTransform": "Uppercase",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -631,6 +668,7 @@ const SundanceTypeStyles = [
   {
     "name": "label-primary-sm",
     "lineHeight": 16,
+    "textTransform": "Uppercase",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -648,6 +686,7 @@ const SundanceTypeStyles = [
   {
     "name": "label-primary-xs",
     "lineHeight": 16,
+    "textTransform": "Uppercase",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -665,6 +704,7 @@ const SundanceTypeStyles = [
   {
     "name": "label-secondary-lg",
     "lineHeight": 24,
+    "textTransform": "Capitalize",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -682,6 +722,7 @@ const SundanceTypeStyles = [
   {
     "name": "label-secondary-md",
     "lineHeight": 20,
+    "textTransform": "Capitalize",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -699,6 +740,7 @@ const SundanceTypeStyles = [
   {
     "name": "label-secondary-sm",
     "lineHeight": 16,
+    "textTransform": "Capitalize",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
@@ -716,6 +758,7 @@ const SundanceTypeStyles = [
   {
     "name": "label-secondary-xs",
     "lineHeight": 16,
+    "textTransform": "Capitalize",
     "font": {
       "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
