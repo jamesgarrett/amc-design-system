@@ -24,7 +24,7 @@ class SundanceTypeV2 extends React.Component{
         </li>
         {typeStyles.map(typeStyle =>
           <li key={typeStyle.name} className="row m-x">
-            <span className="body-md p-x p-y">{typeStyle.name}</span>
+            <span className={`${typeStyle.name} p-x p-y`}>{typeStyle.name}</span>
             <span className="body-md p-x p-y">{typeStyle.font.postscriptName}</span>
             <span className="body-md p-x p-y">{typeStyle.font.size}</span>
             <span className="body-md p-x p-y">N/A</span>
