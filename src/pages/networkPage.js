@@ -2,7 +2,6 @@ import React from 'react';
 import Sidenav from '../components/sidenav';
 import AmcType from '../networks/amc';
 import SundanceType from '../networks/sundance';
-import SundanceTypeV2 from '../networks/sundancev2';
 import Conversions from '../pages/conversions';
 
 const NetworkPage = ({ match, location }) => {
@@ -12,8 +11,6 @@ const NetworkPage = ({ match, location }) => {
 	  typeTable = <AmcType />;
 	} if ( network === 'sundance') {
 	  typeTable = <SundanceType />;
-	} if ( network === 'sundancev2') {
-	  typeTable = <SundanceTypeV2 />;
 	}
 
 	var net = network;
