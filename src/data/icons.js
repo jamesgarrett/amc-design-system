@@ -1,4 +1,4 @@
-[
+const iconSet = [
   { slug: '10-second-forward', src: require('../img/icons/10-second-forward.svg'), alt: '10 Second Forward' },
   { slug: '10-second-rewind', src: require('../img/icons/10-second-rewind.svg'), alt: '10 Second Rewind' },
   { slug: '15-second-forward', src: require('../img/icons/15-second-forward.svg'), alt: '15 Second Forward' },
@@ -26,4 +26,6 @@
   { slug: 'tumblr', src: require('../img/icons/tumblr.svg'), alt: 'Tumblr' },
   { slug: 'volume', src: require('../img/icons/volume.svg'), alt: 'Volume' },
   { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
-]
+];
+
+export default iconSet;

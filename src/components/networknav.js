@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, Route } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 class NetworkNav extends React.Component{
 	render(){
@@ -16,7 +16,6 @@ class NetworkNav extends React.Component{
 	    </div>
 		)
 	}
-
 }
 
 export default NetworkNav;
