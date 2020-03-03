@@ -30,7 +30,7 @@
         <div id='app-wrap' className='app light-text'>
           <div className='header p-x'>
             <div className='lockup'>
-              <Link to='/'><img src={Logo} className='logo' alt='website logo' /></Link>
+              <Link to='/design-system-poc'><img src={Logo} className='logo' alt='website logo' /></Link>
               <h5 className='headline-5--strong hidden-sm'>Design System</h5>
             </div>
           </div>
