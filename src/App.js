@@ -8,17 +8,20 @@
   import Navigation from './components/navigation';
   import Footer from './components/footer';
   import HomePage from './pages/homePage';
-  import { NavLink, Switch, Route} from 'react-router-dom';
+  import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 
   const Main = () => (
-    <Switch>
-      <Route path='/' exact={true} component={Home}></Route>
-      <Route exact path='/about' component={About}></Route>
-      <Route exact path='/resources' component={Resources}></Route>
-      <Route exact path='/typography/' component={NetworksPage}></Route>
-      <Route exact path='/typography/:network' component={NetworkPage}></Route>
-      <Route exact path='/templates/home/:network' component={HomePage}></Route>
-    </Switch>
+    <Router basename="/design-system-poc">
+      <Navigation />
+      <Switch>
+        <Route path='/' exact={true} component={Home}></Route>
+        <Route exact path='/about' component={About}></Route>
+        <Route exact path='/resources' component={Resources}></Route>
+        <Route exact path='/typography/' component={NetworksPage}></Route>
+        <Route exact path='/typography/:network' component={NetworkPage}></Route>
+        <Route exact path='/templates/home/:network' component={HomePage}></Route>
+      </Switch>
+    </Router>
   );
 
   class App extends Component {
@@ -27,10 +30,9 @@
         <div id='app-wrap' className='app light-text'>
           <div className='header p-x'>
             <div className='lockup'>
-              <NavLink to='/'><img src={Logo} className='logo' alt='website logo' /></NavLink>
+              <Link to='/'><img src={Logo} className='logo' alt='website logo' /></Link>
               <h5 className='headline-5--strong hidden-sm'>Design System</h5>
             </div>
-            <Navigation />
           </div>
           <div className='body container-fluid'>
             <Main />
