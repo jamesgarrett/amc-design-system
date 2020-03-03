@@ -14,7 +14,7 @@ class SundanceType extends React.Component{
 
 			<ul className="typography col-12 m-y">
         <li className="row m-x">
-          <span className="label-secondary p-x p-y">Class</span>
+          <span className="label-secondary p-x p-y">Class Name</span>
           <span className="label-secondary p-x p-y">Font Family</span>
           <span className="label-secondary p-x p-y">Size</span>
           <span className="label-secondary p-x p-y">Case</span>
@@ -26,7 +26,7 @@ class SundanceType extends React.Component{
           <li key={typeStyle.name} className="row m-x">
             <span className={`${typeStyle.name} p-x p-y`}>{typeStyle.name}</span>
             <span className="body-md p-x p-y">{typeStyle.font.postscriptName}</span>
-            <span className="body-md p-x p-y">{typeStyle.font.size}</span>
+            <span className="body-md p-x p-y">{typeStyle.scale}</span>
             <span className="body-md p-x p-y">{typeStyle.textTransform}</span>
             <span className="body-md p-x p-y">{typeStyle.lineHeight}</span>
             <span className="body-md p-x p-y">{typeStyle.font.weight}</span>

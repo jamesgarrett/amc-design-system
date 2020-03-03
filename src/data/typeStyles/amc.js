@@ -3,6 +3,7 @@ const AmcTypeStyles = [
     "name": "display-primary-6",
     "lineHeight": 52,
     "textTransform": "Capitalize",
+    "scale": 10,
     "font": {
       "postscriptName": "Unitext-Extralight",
       "family": "Unitext",
@@ -21,6 +22,7 @@ const AmcTypeStyles = [
     "name": "display-primary-5",
     "lineHeight": 44,
     "textTransform": "Capitalize",
+    "scale": 9,
     "font": {
       "postscriptName": "Unitext-Extralight",
       "family": "Unitext",
@@ -39,6 +41,7 @@ const AmcTypeStyles = [
     "name": "display-primary-4",
     "lineHeight": 36,
     "textTransform": "Capitalize",
+    "scale": 7,
     "font": {
       "postscriptName": "Unitext-Light",
       "family": "Unitext",
@@ -57,6 +60,7 @@ const AmcTypeStyles = [
     "name": "display-primary-3",
     "lineHeight": 28,
     "textTransform": "Capitalize",
+    "scale": 5,
     "font": {
       "postscriptName": "Unitext-Light",
       "family": "Unitext",
@@ -75,6 +79,7 @@ const AmcTypeStyles = [
     "name": "display-primary-2",
     "lineHeight": 24,
     "textTransform": "Capitalize",
+    "scale": 4,
     "font": {
       "postscriptName": "Unitext-Light",
       "family": "Unitext",
@@ -93,6 +98,7 @@ const AmcTypeStyles = [
     "name": "display-primary-1",
     "lineHeight": 20,
     "textTransform": "Capitalize",
+    "scale": 2,
     "font": {
       "postscriptName": "Unitext-Light",
       "family": "Unitext",
@@ -111,6 +117,7 @@ const AmcTypeStyles = [
     "name": "display-primary-0",
     "lineHeight": 16,
     "textTransform": "Capitalize",
+    "scale": 1,
     "font": {
       "postscriptName": "Unitext-Light",
       "family": "Unitext",
@@ -129,6 +136,7 @@ const AmcTypeStyles = [
     "name": "body-xl",
     "lineHeight": 32,
     "textTransform": "Sentence",
+    "scale": 7,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -147,6 +155,7 @@ const AmcTypeStyles = [
     "name": "body-lg",
     "lineHeight": 28,
     "textTransform": "Sentence",
+    "scale": 4,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -165,6 +174,7 @@ const AmcTypeStyles = [
     "name": "body-md",
     "lineHeight": 24,
     "textTransform": "Sentence",
+    "scale": 2,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -183,6 +193,7 @@ const AmcTypeStyles = [
     "name": "body-sm",
     "lineHeight": 20,
     "textTransform": "Sentence",
+    "scale": 1,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -201,6 +212,7 @@ const AmcTypeStyles = [
     "name": "body-xs",
     "lineHeight": 16,
     "textTransform": "Sentence",
+    "scale": 0,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -219,6 +231,7 @@ const AmcTypeStyles = [
     "name": "body-link-xl",
     "lineHeight": 32,
     "textTransform": "Sentence",
+    "scale": 7,
     "font": {
       "postscriptName": "Unitext-Bold",
       "family": "Unitext",
@@ -237,6 +250,7 @@ const AmcTypeStyles = [
     "name": "body-link-lg",
     "lineHeight": 28,
     "textTransform": "Sentence",
+    "scale": 4,
     "font": {
       "postscriptName": "Unitext-Bold",
       "family": "Unitext",
@@ -255,6 +269,7 @@ const AmcTypeStyles = [
     "name": "body-link-md",
     "lineHeight": 24,
     "textTransform": "Sentence",
+    "scale": 2,
     "font": {
       "postscriptName": "Unitext-Bold",
       "family": "Unitext",
@@ -273,6 +288,7 @@ const AmcTypeStyles = [
     "name": "body-link-sm",
     "lineHeight": 20,
     "textTransform": "Sentence",
+    "scale": 1,
     "font": {
       "postscriptName": "Unitext-Bold",
       "family": "Unitext",
@@ -291,6 +307,7 @@ const AmcTypeStyles = [
     "name": "body-link-xs",
     "lineHeight": 16,
     "textTransform": "Sentence",
+    "scale": 0,
     "font": {
       "postscriptName": "Unitext-Bold",
       "family": "Unitext",
@@ -309,6 +326,7 @@ const AmcTypeStyles = [
     "name": "button-lg",
     "lineHeight": 20,
     "textTransform": "Uppercase",
+    "scale": 4,
     "font": {
       "postscriptName": "Unitext-Bold",
       "family": "Unitext",
@@ -327,6 +345,7 @@ const AmcTypeStyles = [
     "name": "button-md",
     "lineHeight": 16,
     "textTransform": "Uppercase",
+    "scale": 2,
     "font": {
       "postscriptName": "Unitext-Bold",
       "family": "Unitext",
@@ -345,6 +364,7 @@ const AmcTypeStyles = [
     "name": "button-sm",
     "lineHeight": 16,
     "textTransform": "Uppercase",
+    "scale": 1,
     "font": {
       "postscriptName": "Unitext-Bold",
       "family": "Unitext",
@@ -363,6 +383,7 @@ const AmcTypeStyles = [
     "name": "button-xs",
     "lineHeight": 12,
     "textTransform": "Uppercase",
+    "scale": 0,
     "font": {
       "postscriptName": "Unitext-Bold",
       "family": "Unitext",
@@ -381,6 +402,7 @@ const AmcTypeStyles = [
     "name": "label-primary-lg",
     "lineHeight": 24,
     "textTransform": "Uppercase",
+    "scale": 4,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -399,6 +421,7 @@ const AmcTypeStyles = [
     "name": "label-primary-md",
     "lineHeight": 20,
     "textTransform": "Uppercase",
+    "scale": 2,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -417,6 +440,7 @@ const AmcTypeStyles = [
     "name": "label-primary-sm",
     "lineHeight": 16,
     "textTransform": "Uppercase",
+    "scale": 1,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -435,6 +459,7 @@ const AmcTypeStyles = [
     "name": "label-primary-xs",
     "lineHeight": 16,
     "textTransform": "Uppercase",
+    "scale": 0,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -453,6 +478,7 @@ const AmcTypeStyles = [
     "name": "label-secondary-lg",
     "lineHeight": 24,
     "textTransform": "Capitalize",
+    "scale": 4,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -471,6 +497,7 @@ const AmcTypeStyles = [
     "name": "label-secondary-md",
     "lineHeight": 20,
     "textTransform": "Capitalize",
+    "scale": 2,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -489,6 +516,7 @@ const AmcTypeStyles = [
     "name": "label-secondary-sm",
     "lineHeight": 16,
     "textTransform": "Capitalize",
+    "scale": 1,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
@@ -507,6 +535,7 @@ const AmcTypeStyles = [
     "name": "label-secondary-xs",
     "lineHeight": 16,
     "textTransform": "Capitalize",
+    "scale": 0,
     "font": {
       "postscriptName": "Unitext-Regular",
       "family": "Unitext",
