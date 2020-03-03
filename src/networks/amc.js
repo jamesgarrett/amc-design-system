@@ -16,7 +16,7 @@ class AmcType extends React.Component{
         <li className="row m-x">
           <span className="label-secondary p-x p-y">Class Name</span>
           <span className="label-secondary p-x p-y">Font Family</span>
-          <span className="label-secondary p-x p-y">Size</span>
+          <span className="label-secondary p-x p-y">Scale</span>
           <span className="label-secondary p-x p-y">Case</span>
           <span className="label-secondary p-x p-y">Line Height</span>
           <span className="label-secondary p-x p-y">Font Weight</span>
