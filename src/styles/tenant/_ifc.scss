@@ -1,55 +1,81 @@
 @font-face {
     font-family: 'GT America';
-    src: url('fonts/GTAmerica-Light.woff2') format('woff2'),
-        url('fonts/GTAmerica-Light.woff') format('woff');
+    src: url('ifc-fonts/GTAmerica-Light.woff2') format('woff2'),
+        url('ifc-fonts/GTAmerica-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GT America';
-    src: url('fonts/GTAmerica-Black.woff2') format('woff2'),
-        url('fonts/GTAmerica-Black.woff') format('woff');
+    src: url('ifc-fonts/GTAmerica-Black.woff2') format('woff2'),
+        url('ifc-fonts/GTAmerica-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GT America';
-    src: url('fonts/GTAmerica-LightItalic.woff2') format('woff2'),
-        url('fonts/GTAmerica-LightItalic.woff') format('woff');
+    src: url('ifc-fonts/GTAmerica-LightItalic.woff2') format('woff2'),
+        url('ifc-fonts/GTAmerica-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'GT America';
-    src: url('fonts/GTAmerica-Regular.woff2') format('woff2'),
-        url('fonts/GTAmerica-Regular.woff') format('woff');
+    src: url('ifc-fonts/GTAmerica-Regular.woff2') format('woff2'),
+        url('ifc-fonts/GTAmerica-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GT America';
-    src: url('fonts/GTAmerica-RegularItalic.woff2') format('woff2'),
-        url('fonts/GTAmerica-RegularItalic.woff') format('woff');
+    src: url('ifc-fonts/GTAmerica-RegularItalic.woff2') format('woff2'),
+        url('ifc-fonts/GTAmerica-RegularItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'GT America';
-    src: url('fonts/GTAmerica-BlackItalic.woff2') format('woff2'),
-        url('fonts/GTAmerica-BlackItalic.woff') format('woff');
+    src: url('ifc-fonts/GTAmerica-BlackItalic.woff2') format('woff2'),
+        url('ifc-fonts/GTAmerica-BlackItalic.woff') format('woff');
     font-weight: 900;
     font-style: italic;
+}
+
+@font-face {
+    font-family: 'Editor';
+    src: url('Editor-Regular.woff2') format('woff2'),
+        url('Editor-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Editor';
+    src: url('Editor-Medium.woff2') format('woff2'),
+        url('Editor-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Editor Underline';
+    src: url('EditorUnderline-Regular.woff2') format('woff2'),
+        url('EditorUnderline-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
 .ifc{
 	$font-primary: 'GT America', avenir, Helvetica, sans-serif;
-	$font-secondary: editor, oswald, Helvetica, sans-serif;
+	$font-secondary: 'Editor', 'Georgia', 'Times New Roman', serif;
+  $font-tertiary: 'Editor Underline', 'Georgia', 'Times New Roman', serif;
 	$brand-primary: #e15d00;
 
 	body{
@@ -131,7 +157,7 @@
 	.label-xs, .label-primary-xs, .label-secondary-xs, .button-xs {font-size: var(--fs00);}
 
 	body, p, .body, .body-xs, .body-sm, .body-md, .body-lg, .body-xl{
-	  font-family: $font-primary;
+	  font-family: $font-secondary;
 	  font-weight: 400;
 	  font-style: normal;
 	  line-height: 1.43;
@@ -145,7 +171,11 @@
 	.body-xs, .body-link-xs {font-size: var(--fs00);}
 
 	.body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
-		color: $brand-primary;
+    font-family: $font-tertiary;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
 	}
 
 }
