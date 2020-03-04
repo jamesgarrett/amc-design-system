@@ -7,7 +7,7 @@
   import Logo from './img/logo512-light.png';
   import Navigation from './components/navigation';
   import Footer from './components/footer';
-  import HomePage from './pages/homePage';
+  import HomePage from './templates/homePage';
   import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 
   const Main = () => (
