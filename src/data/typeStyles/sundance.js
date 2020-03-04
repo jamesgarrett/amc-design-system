@@ -5,8 +5,8 @@ const SundanceTypeStyles = [
     "scale": 10,
     "textTransform": "lowercase",
     "font": {
-      "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Light",
       "size": 48,
       "weight": "light",
       "stretch": "normal"
@@ -24,8 +24,8 @@ const SundanceTypeStyles = [
     "scale": 9,
     "textTransform": "lowercase",
     "font": {
-      "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Light",
       "size": 40,
       "weight": "light",
       "stretch": "normal"
@@ -43,8 +43,8 @@ const SundanceTypeStyles = [
     "scale": 7,
     "textTransform": "lowercase",
     "font": {
-      "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Light",
       "size": 32,
       "weight": "light",
       "stretch": "normal"
@@ -62,8 +62,8 @@ const SundanceTypeStyles = [
     "scale": 5,
     "textTransform": "lowercase",
     "font": {
-      "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Light",
       "size": 24,
       "weight": "light",
       "stretch": "normal"
@@ -81,8 +81,8 @@ const SundanceTypeStyles = [
     "scale": 4,
     "textTransform": "lowercase",
     "font": {
-      "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Light",
       "size": 20,
       "weight": "light",
       "stretch": "normal"
@@ -100,8 +100,8 @@ const SundanceTypeStyles = [
     "scale": 2,
     "textTransform": "lowercase",
     "font": {
-      "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Light",
       "size": 16,
       "weight": "light",
       "stretch": "normal"
@@ -119,8 +119,8 @@ const SundanceTypeStyles = [
     "scale": 1,
     "textTransform": "lowercase",
     "font": {
-      "postscriptName": "BentonSans-Light",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Light",
       "size": 14,
       "weight": "light",
       "stretch": "normal"
@@ -138,8 +138,8 @@ const SundanceTypeStyles = [
     "scale": 13,
     "textTransform": "uppercase",
     "font": {
-      "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
+      "postscriptName": "BentonSansExtraComp-Regular",
       "size": 60,
       "weight": "regular",
       "stretch": "normal"
@@ -157,8 +157,8 @@ const SundanceTypeStyles = [
     "scale": 10,
     "textTransform": "uppercase",
     "font": {
-      "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
+      "postscriptName": "BentonSansExtraComp-Regular",
       "size": 48,
       "weight": "regular",
       "stretch": "normal"
@@ -176,8 +176,8 @@ const SundanceTypeStyles = [
     "scale": 9,
     "textTransform": "uppercase",
     "font": {
-      "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
+      "postscriptName": "BentonSansExtraComp-Regular",
       "size": 40,
       "weight": "regular",
       "stretch": "normal"
@@ -195,8 +195,8 @@ const SundanceTypeStyles = [
     "scale": 7,
     "textTransform": "uppercase",
     "font": {
-      "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
+      "postscriptName": "BentonSansExtraComp-Regular",
       "size": 32,
       "weight": "regular",
       "stretch": "normal"
@@ -214,8 +214,8 @@ const SundanceTypeStyles = [
     "scale": 5,
     "textTransform": "uppercase",
     "font": {
-      "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
+      "postscriptName": "BentonSansExtraComp-Regular",
       "size": 24,
       "weight": "regular",
       "stretch": "normal"
@@ -233,8 +233,8 @@ const SundanceTypeStyles = [
     "scale": 4,
     "textTransform": "uppercase",
     "font": {
-      "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
+      "postscriptName": "BentonSansExtraComp-Regular",
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
@@ -252,8 +252,8 @@ const SundanceTypeStyles = [
     "scale": 2,
     "textTransform": "uppercase",
     "font": {
-      "postscriptName": "BentonSansExtraComp-Regular",
       "family": "BentonSansExtraComp",
+      "postscriptName": "BentonSansExtraComp-Regular",
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
@@ -271,8 +271,8 @@ const SundanceTypeStyles = [
     "scale": 10,
     "textTransform": "Capitalize",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 48,
       "weight": "regular",
       "stretch": "normal"
@@ -290,8 +290,8 @@ const SundanceTypeStyles = [
     "scale": 9,
     "textTransform": "Capitalize",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 40,
       "weight": "regular",
       "stretch": "normal"
@@ -309,8 +309,8 @@ const SundanceTypeStyles = [
     "scale": 7,
     "textTransform": "Capitalize",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 32,
       "weight": "regular",
       "stretch": "normal"
@@ -328,8 +328,8 @@ const SundanceTypeStyles = [
     "scale": 5,
     "textTransform": "Capitalize",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 24,
       "weight": "regular",
       "stretch": "normal"
@@ -347,8 +347,8 @@ const SundanceTypeStyles = [
     "scale": 4,
     "textTransform": "Capitalize",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
@@ -366,8 +366,8 @@ const SundanceTypeStyles = [
     "scale": 2,
     "textTransform": "Capitalize",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
@@ -385,8 +385,8 @@ const SundanceTypeStyles = [
     "scale": 1,
     "textTransform": "Capitalize",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 14,
       "weight": "regular",
       "stretch": "normal"
@@ -404,8 +404,8 @@ const SundanceTypeStyles = [
     "scale": 7,
     "textTransform": "Sentence",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 24,
       "weight": "regular",
       "stretch": "normal"
@@ -423,8 +423,8 @@ const SundanceTypeStyles = [
     "scale": 4,
     "textTransform": "Sentence",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
@@ -442,8 +442,8 @@ const SundanceTypeStyles = [
     "scale": 2,
     "textTransform": "Sentence",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
@@ -461,8 +461,8 @@ const SundanceTypeStyles = [
     "scale": 1,
     "textTransform": "Sentence",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 14,
       "weight": "regular",
       "stretch": "normal"
@@ -480,8 +480,8 @@ const SundanceTypeStyles = [
     "scale": 0,
     "textTransform": "Sentence",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 12,
       "weight": "regular",
       "stretch": "normal"
@@ -499,8 +499,8 @@ const SundanceTypeStyles = [
     "scale": 7,
     "textTransform": "Sentence",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 24,
       "weight": "regular",
       "stretch": "normal"
@@ -518,8 +518,8 @@ const SundanceTypeStyles = [
     "scale": 4,
     "textTransform": "Sentence",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
@@ -537,8 +537,8 @@ const SundanceTypeStyles = [
     "scale": 2,
     "textTransform": "Sentence",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
@@ -556,8 +556,8 @@ const SundanceTypeStyles = [
     "scale": 1,
     "textTransform": "Sentence",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 14,
       "weight": "regular",
       "stretch": "normal"
@@ -575,8 +575,8 @@ const SundanceTypeStyles = [
     "scale": 0,
     "textTransform": "Sentence",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 12,
       "weight": "regular",
       "stretch": "normal"
@@ -594,8 +594,8 @@ const SundanceTypeStyles = [
     "scale": 4,
     "textTransform": "Uppercase",
     "font": {
-      "postscriptName": "BentonSans-Bold",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Bold",
       "size": 20,
       "weight": "bold",
       "stretch": "normal"
@@ -613,8 +613,8 @@ const SundanceTypeStyles = [
     "scale": 2,
     "textTransform": "Uppercase",
     "font": {
-      "postscriptName": "BentonSans-Bold",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Bold",
       "size": 16,
       "weight": "bold",
       "stretch": "normal"
@@ -632,8 +632,8 @@ const SundanceTypeStyles = [
     "scale": 1,
     "textTransform": "Uppercase",
     "font": {
-      "postscriptName": "BentonSans-Bold",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Bold",
       "size": 14,
       "weight": "bold",
       "stretch": "normal"
@@ -651,8 +651,8 @@ const SundanceTypeStyles = [
     "scale": 0,
     "textTransform": "Uppercase",
     "font": {
-      "postscriptName": "BentonSans-Bold",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Bold",
       "size": 12,
       "weight": "bold",
       "stretch": "normal"
@@ -670,8 +670,8 @@ const SundanceTypeStyles = [
     "scale": 4,
     "textTransform": "Uppercase",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
@@ -689,8 +689,8 @@ const SundanceTypeStyles = [
     "scale": 2,
     "textTransform": "Uppercase",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
@@ -708,8 +708,8 @@ const SundanceTypeStyles = [
     "scale": 1,
     "textTransform": "Uppercase",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 14,
       "weight": "regular",
       "stretch": "normal"
@@ -727,8 +727,8 @@ const SundanceTypeStyles = [
     "scale": 0,
     "textTransform": "Uppercase",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 12,
       "weight": "regular",
       "stretch": "normal"
@@ -746,8 +746,8 @@ const SundanceTypeStyles = [
     "scale": 4,
     "textTransform": "Capitalize",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
@@ -765,8 +765,8 @@ const SundanceTypeStyles = [
     "scale": 2,
     "textTransform": "Capitalize",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
@@ -784,8 +784,8 @@ const SundanceTypeStyles = [
     "scale": 1,
     "textTransform": "Capitalize",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 14,
       "weight": "regular",
       "stretch": "normal"
@@ -803,8 +803,8 @@ const SundanceTypeStyles = [
     "scale": 0,
     "textTransform": "Capitalize",
     "font": {
-      "postscriptName": "BentonSans-Regular",
       "family": "BentonSans",
+      "postscriptName": "BentonSans-Regular",
       "size": 12,
       "weight": "regular",
       "stretch": "normal"

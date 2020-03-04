@@ -5,8 +5,8 @@ const AmcTypeStyles = [
     "textTransform": "Capitalize",
     "scale": 10,
     "font": {
-      "postscriptName": "Unitext-Extralight",
       "family": "Unitext",
+      "postscriptName": "Unitext-Extralight",
       "size": 48,
       "weight": "200",
       "stretch": "normal"
@@ -24,8 +24,8 @@ const AmcTypeStyles = [
     "textTransform": "Capitalize",
     "scale": 9,
     "font": {
-      "postscriptName": "Unitext-Extralight",
       "family": "Unitext",
+      "postscriptName": "Unitext-Extralight",
       "size": 40,
       "weight": "200",
       "stretch": "normal"
@@ -43,8 +43,8 @@ const AmcTypeStyles = [
     "textTransform": "Capitalize",
     "scale": 7,
     "font": {
-      "postscriptName": "Unitext-Light",
       "family": "Unitext",
+      "postscriptName": "Unitext-Light",
       "size": 32,
       "weight": "300",
       "stretch": "normal"
@@ -62,8 +62,8 @@ const AmcTypeStyles = [
     "textTransform": "Capitalize",
     "scale": 5,
     "font": {
-      "postscriptName": "Unitext-Light",
       "family": "Unitext",
+      "postscriptName": "Unitext-Light",
       "size": 24,
       "weight": "300",
       "stretch": "normal"
@@ -81,8 +81,8 @@ const AmcTypeStyles = [
     "textTransform": "Capitalize",
     "scale": 4,
     "font": {
-      "postscriptName": "Unitext-Light",
       "family": "Unitext",
+      "postscriptName": "Unitext-Light",
       "size": 20,
       "weight": "300",
       "stretch": "normal"
@@ -100,8 +100,8 @@ const AmcTypeStyles = [
     "textTransform": "Capitalize",
     "scale": 2,
     "font": {
-      "postscriptName": "Unitext-Light",
       "family": "Unitext",
+      "postscriptName": "Unitext-Light",
       "size": 16,
       "weight": "300",
       "stretch": "normal"
@@ -119,277 +119,11 @@ const AmcTypeStyles = [
     "textTransform": "Capitalize",
     "scale": 1,
     "font": {
+      "family": "Unitext",
       "postscriptName": "Unitext-Light",
-      "family": "Unitext",
       "size": 14,
       "weight": "300",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "body-xl",
-    "lineHeight": 32,
-    "textTransform": "Sentence",
-    "scale": 7,
-    "font": {
-      "postscriptName": "Unitext-Regular",
-      "family": "Unitext",
-      "size": 24,
-      "weight": "300",
-      "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "body-lg",
-    "lineHeight": 28,
-    "textTransform": "Sentence",
-    "scale": 4,
-    "font": {
-      "postscriptName": "Unitext-Regular",
-      "family": "Unitext",
-      "size": 20,
-      "weight": "300",
-      "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "body-md",
-    "lineHeight": 24,
-    "textTransform": "Sentence",
-    "scale": 2,
-    "font": {
-      "postscriptName": "Unitext-Regular",
-      "family": "Unitext",
-      "size": 16,
-      "weight": "300",
-      "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "body-sm",
-    "lineHeight": 20,
-    "textTransform": "Sentence",
-    "scale": 1,
-    "font": {
-      "postscriptName": "Unitext-Regular",
-      "family": "Unitext",
-      "size": 14,
-      "weight": "400",
-      "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "body-xs",
-    "lineHeight": 16,
-    "textTransform": "Sentence",
-    "scale": 0,
-    "font": {
-      "postscriptName": "Unitext-Regular",
-      "family": "Unitext",
-      "size": 12,
-      "weight": "400",
-      "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "body-link-xl",
-    "lineHeight": 32,
-    "textTransform": "Sentence",
-    "scale": 7,
-    "font": {
-      "postscriptName": "Unitext-Bold",
-      "family": "Unitext",
-      "size": 24,
-      "weight": "600",
-      "stretch": "normal"
-    },
-    "color": {
-      "red": 237,
-      "green": 99,
-      "blue": 0,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "body-link-lg",
-    "lineHeight": 28,
-    "textTransform": "Sentence",
-    "scale": 4,
-    "font": {
-      "postscriptName": "Unitext-Bold",
-      "family": "Unitext",
-      "size": 20,
-      "weight": "600",
-      "stretch": "normal"
-    },
-    "color": {
-      "red": 237,
-      "green": 99,
-      "blue": 0,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "body-link-md",
-    "lineHeight": 24,
-    "textTransform": "Sentence",
-    "scale": 2,
-    "font": {
-      "postscriptName": "Unitext-Bold",
-      "family": "Unitext",
-      "size": 16,
-      "weight": "600",
-      "stretch": "normal"
-    },
-    "color": {
-      "red": 237,
-      "green": 99,
-      "blue": 0,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "body-link-sm",
-    "lineHeight": 20,
-    "textTransform": "Sentence",
-    "scale": 1,
-    "font": {
-      "postscriptName": "Unitext-Bold",
-      "family": "Unitext",
-      "size": 14,
-      "weight": "600",
-      "stretch": "normal"
-    },
-    "color": {
-      "red": 237,
-      "green": 99,
-      "blue": 0,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "body-link-xs",
-    "lineHeight": 16,
-    "textTransform": "Sentence",
-    "scale": 0,
-    "font": {
-      "postscriptName": "Unitext-Bold",
-      "family": "Unitext",
-      "size": 12,
-      "weight": "600",
-      "stretch": "normal"
-    },
-    "color": {
-      "red": 237,
-      "green": 99,
-      "blue": 0,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "button-lg",
-    "lineHeight": 20,
-    "textTransform": "Uppercase",
-    "scale": 4,
-    "font": {
-      "postscriptName": "Unitext-Bold",
-      "family": "Unitext",
-      "size": 20,
-      "weight": "600",
-      "stretch": "1"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "button-md",
-    "lineHeight": 16,
-    "textTransform": "Uppercase",
-    "scale": 2,
-    "font": {
-      "postscriptName": "Unitext-Bold",
-      "family": "Unitext",
-      "size": 16,
-      "weight": "600",
-      "stretch": "1"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "button-sm",
-    "lineHeight": 16,
-    "textTransform": "Uppercase",
-    "scale": 1,
-    "font": {
-      "postscriptName": "Unitext-Bold",
-      "family": "Unitext",
-      "size": 14,
-      "weight": "600",
-      "stretch": "1"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
-    }
-  },
-  {
-    "name": "button-xs",
-    "lineHeight": 12,
-    "textTransform": "Uppercase",
-    "scale": 0,
-    "font": {
-      "postscriptName": "Unitext-Bold",
-      "family": "Unitext",
-      "size": 12,
-      "weight": "600",
-      "stretch": "1"
     },
     "color": {
       "red": 255,
@@ -404,8 +138,8 @@ const AmcTypeStyles = [
     "textTransform": "Uppercase",
     "scale": 4,
     "font": {
-      "postscriptName": "Unitext-Regular",
       "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
       "size": 20,
       "weight": "600",
       "stretch": "1.5"
@@ -423,8 +157,8 @@ const AmcTypeStyles = [
     "textTransform": "Uppercase",
     "scale": 2,
     "font": {
-      "postscriptName": "Unitext-Regular",
       "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
       "size": 16,
       "weight": "600",
       "stretch": "1.5"
@@ -442,8 +176,8 @@ const AmcTypeStyles = [
     "textTransform": "Uppercase",
     "scale": 1,
     "font": {
-      "postscriptName": "Unitext-Regular",
       "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
       "size": 14,
       "weight": "600",
       "stretch": "1.5"
@@ -461,8 +195,8 @@ const AmcTypeStyles = [
     "textTransform": "Uppercase",
     "scale": 0,
     "font": {
-      "postscriptName": "Unitext-Regular",
       "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
       "size": 12,
       "weight": "600",
       "stretch": "1.5"
@@ -480,8 +214,8 @@ const AmcTypeStyles = [
     "textTransform": "Capitalize",
     "scale": 4,
     "font": {
-      "postscriptName": "Unitext-Regular",
       "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
       "size": 20,
       "weight": "400",
       "stretch": "1"
@@ -499,8 +233,8 @@ const AmcTypeStyles = [
     "textTransform": "Capitalize",
     "scale": 2,
     "font": {
-      "postscriptName": "Unitext-Regular",
       "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
       "size": 16,
       "weight": "400",
       "stretch": "1"
@@ -518,8 +252,8 @@ const AmcTypeStyles = [
     "textTransform": "Capitalize",
     "scale": 1,
     "font": {
-      "postscriptName": "Unitext-Regular",
       "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
       "size": 14,
       "weight": "400",
       "stretch": "1"
@@ -537,8 +271,8 @@ const AmcTypeStyles = [
     "textTransform": "Capitalize",
     "scale": 0,
     "font": {
-      "postscriptName": "Unitext-Regular",
       "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
       "size": 12,
       "weight": "400",
       "stretch": "1"
@@ -547,6 +281,272 @@ const AmcTypeStyles = [
       "red": 255,
       "green": 255,
       "blue": 255,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "button-lg",
+    "lineHeight": 20,
+    "textTransform": "Uppercase",
+    "scale": 4,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Bold",
+      "size": 20,
+      "weight": "600",
+      "stretch": "1"
+    },
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "button-md",
+    "lineHeight": 16,
+    "textTransform": "Uppercase",
+    "scale": 2,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Bold",
+      "size": 16,
+      "weight": "600",
+      "stretch": "1"
+    },
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "button-sm",
+    "lineHeight": 16,
+    "textTransform": "Uppercase",
+    "scale": 1,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Bold",
+      "size": 14,
+      "weight": "600",
+      "stretch": "1"
+    },
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "button-xs",
+    "lineHeight": 12,
+    "textTransform": "Uppercase",
+    "scale": 0,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Bold",
+      "size": 12,
+      "weight": "600",
+      "stretch": "1"
+    },
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "body-xl",
+    "lineHeight": 32,
+    "textTransform": "Sentence",
+    "scale": 7,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
+      "size": 24,
+      "weight": "300",
+      "stretch": "normal"
+    },
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "body-lg",
+    "lineHeight": 28,
+    "textTransform": "Sentence",
+    "scale": 4,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
+      "size": 20,
+      "weight": "300",
+      "stretch": "normal"
+    },
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "body-md",
+    "lineHeight": 24,
+    "textTransform": "Sentence",
+    "scale": 2,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
+      "size": 16,
+      "weight": "300",
+      "stretch": "normal"
+    },
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "body-sm",
+    "lineHeight": 20,
+    "textTransform": "Sentence",
+    "scale": 1,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
+      "size": 14,
+      "weight": "400",
+      "stretch": "normal"
+    },
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "body-xs",
+    "lineHeight": 16,
+    "textTransform": "Sentence",
+    "scale": 0,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Regular",
+      "size": 12,
+      "weight": "400",
+      "stretch": "normal"
+    },
+    "color": {
+      "red": 255,
+      "green": 255,
+      "blue": 255,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "body-link-xl",
+    "lineHeight": 32,
+    "textTransform": "Sentence",
+    "scale": 7,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Bold",
+      "size": 24,
+      "weight": "600",
+      "stretch": "normal"
+    },
+    "color": {
+      "red": 237,
+      "green": 99,
+      "blue": 0,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "body-link-lg",
+    "lineHeight": 28,
+    "textTransform": "Sentence",
+    "scale": 4,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Bold",
+      "size": 20,
+      "weight": "600",
+      "stretch": "normal"
+    },
+    "color": {
+      "red": 237,
+      "green": 99,
+      "blue": 0,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "body-link-md",
+    "lineHeight": 24,
+    "textTransform": "Sentence",
+    "scale": 2,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Bold",
+      "size": 16,
+      "weight": "600",
+      "stretch": "normal"
+    },
+    "color": {
+      "red": 237,
+      "green": 99,
+      "blue": 0,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "body-link-sm",
+    "lineHeight": 20,
+    "textTransform": "Sentence",
+    "scale": 1,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Bold",
+      "size": 14,
+      "weight": "600",
+      "stretch": "normal"
+    },
+    "color": {
+      "red": 237,
+      "green": 99,
+      "blue": 0,
+      "alpha": 1
+    }
+  },
+  {
+    "name": "body-link-xs",
+    "lineHeight": 16,
+    "textTransform": "Sentence",
+    "scale": 0,
+    "font": {
+      "family": "Unitext",
+      "postscriptName": "Unitext-Bold",
+      "size": 12,
+      "weight": "600",
+      "stretch": "normal"
+    },
+    "color": {
+      "red": 237,
+      "green": 99,
+      "blue": 0,
       "alpha": 1
     }
   }
