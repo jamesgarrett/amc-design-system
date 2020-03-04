@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fac3164c276fcb62c8853c39ede4750d",
+    "revision": "0158779c54ec9d11823044a0f984f05d",
     "url": "/design-system-poc/index.html"
   },
   {
-    "revision": "67d14278aa0625f07b75",
-    "url": "/design-system-poc/static/css/main.dd5c1411.chunk.css"
+    "revision": "f5e368a35afa58ceaa79",
+    "url": "/design-system-poc/static/css/main.78fd9bfb.chunk.css"
   },
   {
     "revision": "22ec612d2805a148b3bf",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-system-poc/static/js/2.a3f56a4f.chunk.js.LICENSE"
   },
   {
-    "revision": "67d14278aa0625f07b75",
-    "url": "/design-system-poc/static/js/main.f2f5a69f.chunk.js"
+    "revision": "f5e368a35afa58ceaa79",
+    "url": "/design-system-poc/static/js/main.c8ef8a37.chunk.js"
   },
   {
     "revision": "5c64e2e79c07cdef9d05",
@@ -38,6 +38,54 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e6021b2253290d63a1c4885a1e92b8b6",
     "url": "/design-system-poc/static/media/15-second-rewind.e6021b22.svg"
+  },
+  {
+    "revision": "9de279aa04afb7b24509a6a9d9c017a6",
+    "url": "/design-system-poc/static/media/GTAmerica-Black.9de279aa.woff2"
+  },
+  {
+    "revision": "ea48fe14d88522eed74bff9ad4ed7d5c",
+    "url": "/design-system-poc/static/media/GTAmerica-Black.ea48fe14.woff"
+  },
+  {
+    "revision": "69c200c466c213e76469c1fa7255f5ad",
+    "url": "/design-system-poc/static/media/GTAmerica-BlackItalic.69c200c4.woff2"
+  },
+  {
+    "revision": "8e2c6b07789c72380ae231a16ef004b2",
+    "url": "/design-system-poc/static/media/GTAmerica-BlackItalic.8e2c6b07.woff"
+  },
+  {
+    "revision": "9b361cdddf040d90d64798558421b7ca",
+    "url": "/design-system-poc/static/media/GTAmerica-Light.9b361cdd.woff2"
+  },
+  {
+    "revision": "b10667653502458039ac0502dc2052c2",
+    "url": "/design-system-poc/static/media/GTAmerica-Light.b1066765.woff"
+  },
+  {
+    "revision": "0bc8259eac5dac25a5d3952452bf0507",
+    "url": "/design-system-poc/static/media/GTAmerica-LightItalic.0bc8259e.woff"
+  },
+  {
+    "revision": "b959d841c917bebc7a22121b703aa922",
+    "url": "/design-system-poc/static/media/GTAmerica-LightItalic.b959d841.woff2"
+  },
+  {
+    "revision": "5a612b45e3c42136dfa58479953a9b5f",
+    "url": "/design-system-poc/static/media/GTAmerica-Regular.5a612b45.woff"
+  },
+  {
+    "revision": "f1df9218901eeb8d2b9f404236029b8f",
+    "url": "/design-system-poc/static/media/GTAmerica-Regular.f1df9218.woff2"
+  },
+  {
+    "revision": "c5f124c8c6264aabe1065e6fbff0844f",
+    "url": "/design-system-poc/static/media/GTAmerica-RegularItalic.c5f124c8.woff2"
+  },
+  {
+    "revision": "d42ef978b7ac8c5c5c2a8b2adf42f77f",
+    "url": "/design-system-poc/static/media/GTAmerica-RegularItalic.d42ef978.woff"
   },
   {
     "revision": "08a7007bbf6adff4956072c3cb1a22f9",
