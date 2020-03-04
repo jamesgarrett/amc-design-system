@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidenav from '../components/sidenav';
 import AmcType from '../networks/amc';
+import IfcType from '../networks/ifc';
 import SundanceType from '../networks/sundance';
 import Conversions from '../pages/conversions';
 
@@ -10,7 +11,9 @@ const NetworkPage = ({ match, location }) => {
 	if ( network === 'amc'){
 	  typeTable = <AmcType />;
 	} if ( network === 'sundance') {
-	  typeTable = <SundanceType />;
+	  typeTable = <IfcType />;
+	} if ( network === 'ifc') {
+	  typeTable = <IfcType />;
 	}
 
 	var net = network;

@@ -10,7 +10,8 @@ class Sidenav extends React.Component{
 	            <li className="button m-r">Networks</li>
                 <li><NavLink className="button" to='/typography/amc' >AMC</NavLink></li>
                 <li><NavLink className="button" to='/typography/sundance'>Sundance TV</NavLink></li>
-              </ul>
+								<li><NavLink className="button" to='/typography/ifc'>IFC</NavLink></li>
+							</ul>
           </div>
 
 	    </div>
