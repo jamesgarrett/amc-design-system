@@ -11,7 +11,7 @@ const NetworkPage = ({ match, location }) => {
 	if ( network === 'amc'){
 	  typeTable = <AmcType />;
 	} if ( network === 'sundance') {
-	  typeTable = <IfcType />;
+	  typeTable = <SundanceType />;
 	} if ( network === 'ifc') {
 	  typeTable = <IfcType />;
 	}

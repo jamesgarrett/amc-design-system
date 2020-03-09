@@ -1,3 +1,20 @@
+:root{
+    /* margin-units */
+  --m: 1rem;
+  --m-x-small: 0.25rem;
+  --m-small: 0.5rem;
+  --m-medium: 1rem;
+  --m-large: 2rem;
+  --m-x-large: 4rem;
+  /* padding-units */
+  --p: 1rem;
+  --p-x-small: 0.25rem;
+  --p-small: 0.5rem;
+  --p-medium: 1rem;
+  --p-large: 2rem;
+  --p-x-large: 4rem;
+}
+
 /*
 a series of atomic classes for applying margins in our frontend
 
@@ -112,6 +129,25 @@ scale padding
 
 	.p-xl {--p: var(--p-medium);}
 }
+
+/*
+icon sizing
+  m-sm / p-sm = used in conjunction with a location, specifies a margin of .25rem
+  m-sm / p-sm = used in conjunction with a location, specifies a margin of .5rem
+	m-md / p-md = used in conjunction with a location, specifies a margin of 1rem
+  m-lg / p-lg = used in conjunction with a location, specifies a margin of 2rem
+	m-xl / p-xl = used in conjunction with a location, specifies a margin of 4rem
+*/
+
+.i-xs {width: var(--fs01);}
+
+.i-sm {width: var(--fs02);}
+
+.i-md {width: var(--fs04);}
+
+.i-lg {width: var(--fs06);}
+
+.i-xl {width: var(--fs07);}
 
 
 /*

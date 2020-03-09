@@ -27,7 +27,7 @@ class Resources extends React.Component{
           )}
         </ul>
         <p className="body-md">Download the full complement of icons in SVG format for use in your projects.</p>
-        <Link to="/downloads/icons.zip" className="button-md button button-light m-t" target="_blank" download>
+        <Link to="/downloads/icons.zip" className="button-md button button-light m-y" target="_blank" download>
           <img className="m-r i-md" src={require('../img/icons/download.svg')} />
           Download All
         </Link>
