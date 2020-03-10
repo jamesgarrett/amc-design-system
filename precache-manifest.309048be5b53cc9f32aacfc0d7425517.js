@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0158779c54ec9d11823044a0f984f05d",
+    "revision": "89d260c27b0b74fef5aad465244e24b8",
     "url": "/design-system-poc/index.html"
   },
   {
-    "revision": "f5e368a35afa58ceaa79",
-    "url": "/design-system-poc/static/css/main.78fd9bfb.chunk.css"
+    "revision": "a111ecc5d5b388692603",
+    "url": "/design-system-poc/static/css/main.c41142aa.chunk.css"
   },
   {
-    "revision": "22ec612d2805a148b3bf",
-    "url": "/design-system-poc/static/js/2.a3f56a4f.chunk.js"
+    "revision": "cc693175260651a26ff6",
+    "url": "/design-system-poc/static/js/2.f8259c57.chunk.js"
   },
   {
     "revision": "25ab7760a9d196e1bee67b6bdb56e1bd",
-    "url": "/design-system-poc/static/js/2.a3f56a4f.chunk.js.LICENSE"
+    "url": "/design-system-poc/static/js/2.f8259c57.chunk.js.LICENSE"
   },
   {
-    "revision": "f5e368a35afa58ceaa79",
-    "url": "/design-system-poc/static/js/main.c8ef8a37.chunk.js"
+    "revision": "a111ecc5d5b388692603",
+    "url": "/design-system-poc/static/js/main.6b76ca69.chunk.js"
   },
   {
     "revision": "5c64e2e79c07cdef9d05",
@@ -38,6 +38,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e6021b2253290d63a1c4885a1e92b8b6",
     "url": "/design-system-poc/static/media/15-second-rewind.e6021b22.svg"
+  },
+  {
+    "revision": "82e6052c18671160e98f1c5e7a71ba5a",
+    "url": "/design-system-poc/static/media/Editor-Medium.82e6052c.woff"
+  },
+  {
+    "revision": "bfb901f4d2bdbb992dccd110e044d5be",
+    "url": "/design-system-poc/static/media/Editor-Medium.bfb901f4.woff2"
+  },
+  {
+    "revision": "a05367f74d6f985599f2314db689dcae",
+    "url": "/design-system-poc/static/media/Editor-Regular.a05367f7.woff2"
+  },
+  {
+    "revision": "c75e809c752dc1a30edae91d2f7aeeb4",
+    "url": "/design-system-poc/static/media/Editor-Regular.c75e809c.woff"
+  },
+  {
+    "revision": "a852300786a99fe167f49839760129c1",
+    "url": "/design-system-poc/static/media/EditorUnderline-Regular.a8523007.woff"
+  },
+  {
+    "revision": "edd3392ec321afa8a50c8cbd6ed77da9",
+    "url": "/design-system-poc/static/media/EditorUnderline-Regular.edd3392e.woff2"
   },
   {
     "revision": "9de279aa04afb7b24509a6a9d9c017a6",
@@ -88,8 +112,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/design-system-poc/static/media/GTAmerica-RegularItalic.d42ef978.woff"
   },
   {
+    "revision": "15d644c82265b3b784a8e6a34a887824",
+    "url": "/design-system-poc/static/media/amc-dark-lg.15d644c8.png"
+  },
+  {
+    "revision": "f2e72d37555f9abc5d88ea5b7e5045e2",
+    "url": "/design-system-poc/static/media/amc-dark.f2e72d37.svg"
+  },
+  {
     "revision": "08a7007bbf6adff4956072c3cb1a22f9",
     "url": "/design-system-poc/static/media/amc-home-tile.08a7007b.png"
+  },
+  {
+    "revision": "8e999716aaf10fd13c0390326f1936a0",
+    "url": "/design-system-poc/static/media/amc-light-lg.8e999716.png"
+  },
+  {
+    "revision": "a63e4707732852b85d2f4cbfed133c3e",
+    "url": "/design-system-poc/static/media/amc-light.a63e4707.svg"
+  },
+  {
+    "revision": "4c3c09305e53fcdc5587ffdedfd45039",
+    "url": "/design-system-poc/static/media/amc-premiere-dark.4c3c0930.svg"
+  },
+  {
+    "revision": "7e845bac2fabe55b30dd8d5bcc3cdd33",
+    "url": "/design-system-poc/static/media/amc-premiere-light.7e845bac.svg"
   },
   {
     "revision": "4c8448d1274a8800c2a3d5a5c5009848",
@@ -186,10 +234,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c2d2ee90cfe77620ed3fd96d92bbebf6",
     "url": "/design-system-poc/static/media/lawandorder1111.c2d2ee90.jpg"
-  },
-  {
-    "revision": "8e999716aaf10fd13c0390326f1936a0",
-    "url": "/design-system-poc/static/media/logo512-light.8e999716.png"
   },
   {
     "revision": "d21fb9082c2cc513c5ae09b55dae38f5",
