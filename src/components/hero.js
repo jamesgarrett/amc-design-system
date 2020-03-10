@@ -16,7 +16,7 @@ var divStyle = {
           <h5 className="tertiary-5 m-t">Returns October 6th</h5>
           <h1 className="headline-1">Rosehaven</h1>
           <p className="body-md">Daniel returns to his Tasmanian hometown to help his mom with her real estate business.</p>
-          <Link to="#" className="button-md button button-light m-t" target="_blank" download><img className="m-r i-md" src={require('../img/icons/play-icon-secondary.svg')} /> Watch Trailer</Link>
+          <Link to="#" className="button-md button button-light m-t" target="_blank" download><img className="m-r i-md" src={require('../img/icons/play-icon-secondary.svg')} alt="play icon"/> Watch Trailer</Link>
         </div>
       </section>
 
