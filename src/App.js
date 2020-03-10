@@ -4,7 +4,7 @@
   import NetworksPage from './pages/networksPage';
   import NetworkPage from './pages/networkPage';
   import Resources from './pages/resources';
-  import Logo from './img/logo512-light.png';
+  import Logo from './img/logos/amc-light.svg';
   import Navigation from './components/navigation';
   import Footer from './components/footer';
   import HomePage from './templates/homePage';
