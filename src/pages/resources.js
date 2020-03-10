@@ -1,15 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import iconSet from '../data/icons.js';
+import amcLogos from '../data/amc-logos.js';
+
 
 class Resources extends React.Component{
   constructor(){
     super();
-    this.state = {iconSet};
+    this.state = {
+        icons: {iconSet},
+        logos: {amcLogos},
+    };
   }
 
   render(){
-    let icons = this.state.iconSet
+    let icons = this.state.icons.iconSet
+    let logos = this.state.logos.amcLogos
     return(
       <div className='resources m-x'>
         <header className="header-text">
@@ -28,7 +34,23 @@ class Resources extends React.Component{
         </ul>
         <p className="body-md">Download the full complement of icons in SVG format for use in your projects.</p>
         <Link to="/downloads/icons.zip" className="button-md button button-light m-y" target="_blank" download>
-          <img className="m-r i-md" src={require('../img/icons/download.svg')} />
+          <img className="m-r i-md" src={require('../img/icons/download.svg')} alt="download all icons"/>
+          Download All
+        </Link>
+
+        <h4 className="headline-3 m-t m-lg">Logos</h4>
+        <p className="body-md">A set of logos approved for use in AMC digital experiences.</p>
+        <ul className="icon-set m-y">
+          {logos.map(logo =>
+            <li key={logo.slug} className={logo.dark ? 'dark ' + "tile p-y p-md" : 'light ' + "tile p-y p-md"}>
+              <img className="logo m-y i-xl" src={logo.src} alt={logo.alt} />
+              <p className="body-xs p-x tc">{logo.alt} <br></br> {logo.type}</p>
+            </li>
+          )}
+        </ul>
+        <p className="body-md">Download the full complement of icons in SVG format for use in your projects.</p>
+        <Link to="/downloads/amc-logos.zip" className="button-md button button-light m-y" target="_blank" download>
+          <img className="m-r i-md" src={require('../img/icons/download.svg')} alt="download all logos"/>
           Download All
         </Link>
       </div>

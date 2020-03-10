@@ -4,6 +4,13 @@
   &:hover{
     background:#777;
   }
+  &.dark{
+    background: #efefef;
+    color:black;
+    &:hover{
+      background:#999;
+    }
+  }
 }
 
 .tile {
