@@ -106,3 +106,22 @@ body, p, .body, .body-xs, .body-sm, .body-md, .body-lg, .body-xl{
   .fs-desktop-01{font-size: var(--fs01);}
   .fs-desktop-00{font-size: var(--fs00);}
 }
+
+@media screen and (max-width: 768px){
+  .fs-mobile-15{font-size: var(--fs15);}
+  .fs-mobile-14{font-size: var(--fs14);}
+  .fs-mobile-13{font-size: var(--fs13);}
+  .fs-mobile-12{font-size: var(--fs12);}
+  .fs-mobile-11{font-size: var(--fs11);}
+  .fs-mobile-10{font-size: var(--fs10);}
+  .fs-mobile-09{font-size: var(--fs09);}
+  .fs-mobile-08{font-size: var(--fs08);}
+  .fs-mobile-07{font-size: var(--fs07);}
+  .fs-mobile-06{font-size: var(--fs06);}
+  .fs-mobile-05{font-size: var(--fs05);}
+  .fs-mobile-04{font-size: var(--fs04);}
+  .fs-mobile-03{font-size: var(--fs03);}
+  .fs-mobile-02{font-size: var(--fs02);}
+  .fs-mobile-01{font-size: var(--fs01);}
+  .fs-mobile-00{font-size: var(--fs00);}
+}

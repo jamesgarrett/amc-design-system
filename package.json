@@ -1,7 +1,7 @@
 {
   "name": "amc-frontend",
   "version": "0.1.0",
-  "homepage": "http://jamesgarrett.github.io/design-system-poc",
+  "homepage": "https://amg.gs",
   "private": true,
   "dependencies": {
     "node-sass": "^4.12.0",
