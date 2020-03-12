@@ -4,7 +4,6 @@
   import NetworksPage from './pages/networksPage';
   import NetworkPage from './pages/networkPage';
   import Resources from './pages/resources';
-  import Logo from './img/logos/amc-light.svg';
   import Navigation from './components/navigation';
   import Footer from './components/footer';
   import HomePage from './templates/homePage';
@@ -28,12 +27,6 @@
     render(){
       return(
         <div id='app-wrap' className='app light-text'>
-          <div className='header p-x'>
-            <div className='lockup'>
-              <Link to='/design-system-poc'><img src={Logo} className='logo' alt='website logo' /></Link>
-              <h5 className='headline-5--strong hidden-sm'>Design System</h5>
-            </div>
-          </div>
           <div className='body container-fluid'>
             <Main />
           </div>

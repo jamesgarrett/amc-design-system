@@ -1,3 +1,7 @@
+import React from 'react'
+
+class GetShows extends React.Component{
+
   constructor(props){
       super(props);
       this.state = {
@@ -47,3 +51,6 @@
         </div>
       );
   }
+}
+
+export default GetShows;

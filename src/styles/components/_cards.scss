@@ -22,15 +22,11 @@
 
 @media screen and(max-width:1024px){
   .card {
-  flex: 1 0 33%;
-  margin-right:.5%;
-  flex-grow:0;
-  &:nth-child(3n){
-    margin-right:0%;
-  }
-  &:nth-child(4n){
-    margin-right:.5%;
-  }
+    flex: 1 0 33%;
+    flex-grow:0;
+    &:nth-child(3n){
+      margin-right:0%;
+    }
   }
 }
 
@@ -40,9 +36,6 @@
     flex-grow:0;
     &:nth-child(2n){
       margin-right:0%;
-    }
-    &:nth-child(3n){
-      margin-right:.5%;
     }
   }
 }
