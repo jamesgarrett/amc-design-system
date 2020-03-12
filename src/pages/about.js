@@ -5,11 +5,11 @@ class About extends React.Component {
     render(){
       return (
         <div className="getting-started m-x">
-        	<header className="header-text">
+        	<header className="header-text tc p-y">
 		        <h1 className='headline-1 m-y'>Guidelines</h1>
   			    <p className='body-lg m-y'>A set of guidelines for using the design system to create digital experiences.</p>
   	    	</header>
-          <body className="m-y">
+          <body className="p-y container-fixed">
             <div className="row three-up m-b m-lg">
               <div className="card m-b m-sm m-r">
                 <NavLink to='/resources'>

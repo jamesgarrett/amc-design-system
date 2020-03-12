@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 class Sidenav extends React.Component{
 	render(){
 		return(
-		<div className="container-fixed">
+		<div className="container-fluid">
 	      <div>
               <ul className="side-nav m-y">
 	            <li className="button m-r">Networks</li>
