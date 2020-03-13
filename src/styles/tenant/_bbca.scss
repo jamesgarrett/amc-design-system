@@ -139,14 +139,14 @@
 	  letter-spacing: normal;
 	}
 
-	.body-xl {font-size: var(--fs07);}
-	.body-lg, .body-link-lg {font-size: var(--fs04);}
-	.body-md, .body-link-md, p {font-size: var(--fs02);}
-	.body-sm, .body-link-sm {font-size: var(--fs01);}
-	.body-xs, .body-link-xs {font-size: var(--fs00);}
+	.body-xl, .body-link-xl {font-size: var(--fs09);}
+	.body-lg, .body-link-lg {font-size: var(--fs06);}
+	.body-md, .body-link-md, p {font-size: var(--fs04);}
+	.body-sm, .body-link-sm {font-size: var(--fs03);}
+	.body-xs, .body-link-xs {font-size: var(--fs02);}
 
 	.body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
-    font-family: $font-primary;
+    font-family: $font-secondary;
     font-weight: 400;
     font-style: normal;
     line-height: 1.43;

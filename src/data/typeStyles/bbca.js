@@ -326,8 +326,47 @@ const BBCATypeStyles = [
   },
   {
     "name": "body-xl",
-    "lineHeight": 32,
+    "lineHeight": 64,
+    "scale": 9,
+    "textTransform": "None",
+    "font": {
+      "family": "Verlag",
+      "postscriptName": "Verlag-Book",
+      "size": 54,
+      "weight": "Book",
+      "stretch": "normal"
+    },
+  },
+  {
+    "name": "body-lg",
+    "lineHeight": 56,
     "scale": 7,
+    "textTransform": "None",
+    "font": {
+      "family": "Verlag",
+      "postscriptName": "Verlag-Book",
+      "size": 40,
+      "weight": "Book",
+      "stretch": "normal"
+    },
+  },
+  {
+    "name": "body-md",
+    "lineHeight": 40,
+    "scale": 5,
+    "textTransform": "None",
+    "font": {
+      "family": "Verlag",
+      "postscriptName": "Verlag-Book",
+      "size": 28,
+      "weight": "Book",
+      "stretch": "normal"
+    },
+  },
+  {
+    "name": "body-sm",
+    "lineHeight": 32,
+    "scale": 3,
     "textTransform": "None",
     "font": {
       "family": "Verlag",
@@ -338,60 +377,21 @@ const BBCATypeStyles = [
     },
   },
   {
-    "name": "body-lg",
-    "lineHeight": 28,
-    "scale": 4,
-    "textTransform": "None",
-    "font": {
-      "family": "Verlag",
-      "postscriptName": "Verlag-Book",
-      "size": 20,
-      "weight": "Book",
-      "stretch": "normal"
-    },
-  },
-  {
-    "name": "body-md",
-    "lineHeight": 24,
+    "name": "body-xs",
+    "lineHeight": 30,
     "scale": 2,
     "textTransform": "None",
     "font": {
       "family": "Verlag",
       "postscriptName": "Verlag-Book",
-      "size": 16,
-      "weight": "Book",
-      "stretch": "normal"
-    },
-  },
-  {
-    "name": "body-sm",
-    "lineHeight": 20,
-    "scale": 1,
-    "textTransform": "None",
-    "font": {
-      "family": "Verlag",
-      "postscriptName": "Verlag-Book",
-      "size": 14,
-      "weight": "Book",
-      "stretch": "normal"
-    },
-  },
-  {
-    "name": "body-xs",
-    "lineHeight": 16,
-    "scale": 0,
-    "textTransform": "None",
-    "font": {
-      "family": "Verlag",
-      "postscriptName": "Verlag-Book",
-      "size": 12,
+      "size": 22,
       "weight": "Book",
       "stretch": "normal"
     },
   },
   {
     "name": "body-link-xl",
-    "lineHeight": 32,
+    "lineHeight": 28,
     "scale": 7,
     "textTransform": "None",
     "font": {

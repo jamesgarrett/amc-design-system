@@ -173,8 +173,12 @@ text modifiers
    @return $line-height / $font-size;
 }
 
+.d-n, .hidden{
+  display:none !important;
+}
+
 @media screen and (max-width:767px){
 	.hidden-sm{
-		visibility:hidden;
+		display:none;
 	}
 }

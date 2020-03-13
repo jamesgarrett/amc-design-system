@@ -9,7 +9,6 @@ class AmcType extends React.Component{
 
 	render(){
     let typeStyles = this.state.AmcTypeStyles
-    console.log({typeStyles});
 		return(
 
 			<ul className="typography col-12 m-y">

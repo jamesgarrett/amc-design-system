@@ -1,9 +1,3 @@
-.row{
-  &.three-up{
-    display:grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 .card {
   img{
     max-width:100%;
@@ -18,18 +12,5 @@
     position:absolute;
     bottom:.75rem;
     left:.5rem;
-  }
-}
-
-@media screen and(min-width:767px){
-  .row{
-    &.three-up{grid-template-columns: repeat(2, 1fr);}
-  }
-}
-
-
-@media screen and(min-width:1024px){
-  .row{
-    &.three-up{grid-template-columns: repeat(3, 1fr);}
   }
 }
