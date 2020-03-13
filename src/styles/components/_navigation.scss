@@ -30,3 +30,24 @@
 		}
 	}
 }
+
+@media screen and (max-width:768px){
+	.top-nav li a, .side-nav li a{
+		padding:.5rem;
+		display:block;
+		text-align: center;
+	}
+
+	ul.side-nav{
+		display:grid;
+		.nav-title{
+			grid-row:1;
+			padding:1rem 0;
+		}
+		li{
+			grid-row:2;
+		}
+		width:100%;
+		overflow-x:scroll;
+	}
+}

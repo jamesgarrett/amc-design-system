@@ -6,12 +6,12 @@ class NetworkNav extends React.Component{
 		return(
 		<div className="container-fixed">
 	      <div>
-              <ul className="side-nav m-y">
-	            <li className="button m-r">Networks</li>
-                <li><NavLink className="button" to='/templates/home/amc' >AMC</NavLink></li>
-                <li><NavLink className="button" to='/templates/home/sundance'>Sundance TV</NavLink></li>
-								<li><NavLink className="button" to='/templates/home/ifc'>IFC</NavLink></li>
-								<li><NavLink className="button" to='/templates/home/bbca'>BBC America</NavLink></li>
+              <ul className="side-nav p-x m-y">
+		            <li className="nav-title"><span className="button-md">Networks</span></li>
+                <li><NavLink className="button-md" to='/templates/home/amc' >AMC</NavLink></li>
+                <li><NavLink className="button-md" to='/templates/home/sundance'>Sundance TV</NavLink></li>
+								<li><NavLink className="button-md" to='/templates/home/ifc'>IFC</NavLink></li>
+								<li><NavLink className="button-md" to='/templates/home/bbca'>BBC America</NavLink></li>
               </ul>
           </div>
 
