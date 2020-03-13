@@ -16,10 +16,16 @@
   flex-wrap:wrap;
 }
 
-.row{
-  &.typography{
-    
+.typography{
+  .top-row{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 8;
   }
+  :not(.top-row){grid-row:2;grid-template-columns: repeat(6, 1fr);}
+}
+
+.row{
   &.three-up{
     grid-gap:.75rem;
     display:grid;

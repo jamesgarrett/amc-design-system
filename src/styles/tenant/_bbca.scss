@@ -133,21 +133,21 @@
 
 	body, p, .body, .body-xs, .body-sm, .body-md, .body-lg, .body-xl{
 	  font-family: $font-secondary;
-	  font-weight: 400;
+	  font-weight: 300;
 	  font-style: normal;
 	  line-height: 1.43;
 	  letter-spacing: normal;
 	}
 
-	.body-xl, .body-link-xl {font-size: var(--fs09);}
-	.body-lg, .body-link-lg {font-size: var(--fs06);}
-	.body-md, .body-link-md, p {font-size: var(--fs04);}
-	.body-sm, .body-link-sm {font-size: var(--fs03);}
-	.body-xs, .body-link-xs {font-size: var(--fs02);}
+	.body-xl, .body-link-xl {font-size: var(--fs06);}
+	.body-lg, .body-link-lg {font-size: var(--fs04);}
+	.body-md, .body-link-md, p {font-size: var(--fs03);}
+	.body-sm, .body-link-sm {font-size: var(--fs02);}
+	.body-xs, .body-link-xs {font-size: var(--fs01);}
 
 	.body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
     font-family: $font-secondary;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
     line-height: 1.43;
     letter-spacing: normal;

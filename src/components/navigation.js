@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Logo from '../img/logos/amc-light.svg';
 
   class Navigation extends React.Component{
@@ -12,10 +12,10 @@ import Logo from '../img/logos/amc-light.svg';
         </div>
         <nav>
           <ul className="top-nav">
-            <li><Link to='/about'>Guidelines</Link></li>
-            <li><Link to='/typography'>Typography</Link></li>
-            <li><Link to='/resources'>Resources</Link></li>
-            <li><Link to='/templates/home/amc'>Templates</Link></li>
+            <li><NavLink to='/about'>Guidelines</NavLink></li>
+            <li><NavLink to='/typography'>Typography</NavLink></li>
+            <li><NavLink to='/resources'>Resources</NavLink></li>
+            <li><NavLink to='/templates/home/amc'>Templates</NavLink></li>
           </ul>
         </nav>
       </div>

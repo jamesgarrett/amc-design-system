@@ -11,9 +11,9 @@ class AmcType extends React.Component{
     let typeStyles = this.state.AmcTypeStyles
 		return(
 
-			<ul className="typography col-12 m-y">
+			<ul className="typography col-12 p-y container-fixed">
         <li className="row m-x">
-          <span className="label-secondary p-x p-y">Class Name</span>
+          <span className="top-row label-secondary p-x p-y">Class Name</span>
           <span className="label-secondary p-x p-y">Font Family</span>
           <span className="label-secondary p-x p-y">Scale</span>
           <span className="label-secondary p-x p-y">Case</span>
@@ -23,7 +23,7 @@ class AmcType extends React.Component{
         </li>
         {typeStyles.map(typeStyle =>
           <li key={typeStyle.name} className="row m-x">
-            <span className={`${typeStyle.name} p-x p-y`}>{typeStyle.name}</span>
+            <span className={`top-row ${typeStyle.name} p-x p-y`}>{typeStyle.name}</span>
             <span className="body-md p-x p-y">{typeStyle.font.family}</span>
             <span className="body-md p-x p-y">{typeStyle.scale}</span>
             <span className="body-md p-x p-y">{typeStyle.textTransform}</span>

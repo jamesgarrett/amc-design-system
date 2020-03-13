@@ -3,7 +3,7 @@ import React from 'react'
   class Conversions extends React.Component{
 	render(){
 		return(
-			<nav>
+			<div className="container-fixed">
 		        <section className="inlio m-b col-6">
 			        <h2 className='headline-1 m-y col-8'>Conversions Table</h2>
 	                <h4 className='headline-4 m-y col-8'>Common cross platform type standards.</h4>
@@ -132,7 +132,7 @@ import React from 'react'
 		              <span className="p-x p-y">12sp</span>
 		            </li>
 			      </ul>
-		    </nav>
+		    </div>
 		)
 	}
 
