@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
       var alt_text = ''
   		return(
 			<div className='page home m-x'>
-        <header className="header-text tc container-fixed p-y">
+        <header className="header-text tl container-fixed p-y">
 			    <h1 className='headline-1 m-y'>Introduction</h1>
 			    <p className='body-lg col-6'>A set of resources for designers and developers.</p>
 			  </header>
@@ -20,7 +20,7 @@ import { NavLink } from 'react-router-dom';
             </div>
             <div className="card m-b m-sm m-r">
               <NavLink to='/typography/amc'>
-              <img alt="typography" className="thumbnail" src={require('../img/tiles/typography.png')} />
+              <img alt="Typography" className="thumbnail" src={require('../img/tiles/typography.png')} />
               </NavLink>
             </div>
             <div className="card m-b m-sm m-r">
@@ -35,12 +35,12 @@ import { NavLink } from 'react-router-dom';
             </div>
             <div className="card m-b m-sm m-r">
               <NavLink to='/resources/#icons'>
-              <img alt="Images" className="thumbnail" src={require('../img/tiles/icons.png')} />
+              <img alt="Icons" className="thumbnail" src={require('../img/tiles/icons.png')} />
               </NavLink>
             </div>
             <div className="card m-b m-sm m-r">
               <NavLink to='/voice'>
-              <img alt="Voice" className="thumbnail" src={require('../img/tiles/voice.png')} />
+              <img alt="Voice and Tone" className="thumbnail" src={require('../img/tiles/voice.png')} />
               </NavLink>
             </div>
           </div>
