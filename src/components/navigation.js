@@ -15,7 +15,7 @@ import Logo from '../img/logos/amc-light.svg';
             <li><NavLink to='/about'>Guidelines</NavLink></li>
             <li><NavLink to='/typography'>Typography</NavLink></li>
             <li><NavLink to='/resources'>Resources</NavLink></li>
-            <li><NavLink to='/templates/home/amc'>Templates</NavLink></li>
+            <li><NavLink to='/templates'>Templates</NavLink></li>
           </ul>
         </nav>
       </div>

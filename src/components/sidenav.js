@@ -7,7 +7,7 @@ class Sidenav extends React.Component{
 		<div className="container-fixed">
 	      <div>
 					<ul className="side-nav p-x m-y">
-						<li className="nav-title"><span className="button-md">Networks</span></li>
+						<li className="nav-title m-r"><span className="button-md">Networks</span></li>
 						<li><NavLink className="button-md" to='/typography/amc' >AMC</NavLink></li>
 						<li><NavLink className="button-md" to='/typography/sundance'>Sundance TV</NavLink></li>
 						<li><NavLink className="button-md" to='/typography/ifc'>IFC</NavLink></li>

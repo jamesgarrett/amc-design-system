@@ -4,9 +4,11 @@
   import NetworksPage from './pages/networksPage';
   import NetworkPage from './pages/networkPage';
   import Resources from './pages/resources';
+  import Templates from './pages/templates';
   import Navigation from './components/navigation';
   import Footer from './components/footer';
   import HomePage from './templates/homePage';
+  import FourOhFour from './templates/404';
   import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 
   const Main = () => (
@@ -18,7 +20,9 @@
         <Route exact path='/resources' component={Resources}></Route>
         <Route exact path='/typography/' component={NetworksPage}></Route>
         <Route exact path='/typography/:network' component={NetworkPage}></Route>
+        <Route exact path='/templates/' component={Templates}></Route>
         <Route exact path='/templates/home/:network' component={HomePage}></Route>
+        <Route exact path='/templates/404/:network' component={FourOhFour}></Route>
       </Switch>
     </Router>
   );
