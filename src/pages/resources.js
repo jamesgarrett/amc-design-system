@@ -55,6 +55,28 @@ class Resources extends React.Component{
             <img className="m-r i-md" src={require('../img/icons/download.svg')} alt="download all icons"/>
             Download All
           </Link>
+
+          <h4 className="display-primary-4 m-t m-lg">Sketch Files</h4>
+          <p className="body-md">Download our sketch files to get up and running designing digital experiences for AMC Networks.</p>
+
+          <div className="row three-up m-b m-lg">
+            <div className="card m-b m-sm m-r">
+              <a href="https://amcnetworks.box.com/shared/static/1ryqj8p5heauaqarrzdhe3a4o1hamyv1.zip" target="_blank" download>
+              <img alt="Logos" className="thumbnail" src={require('../img/tiles/sketch-getting-started.png')} />
+              </a>
+            </div>
+            <div className="card m-b m-sm m-r">
+              <a href="https://amcnetworks.box.com/shared/static/82nrhrsi9q2605hx86u64u0gczlf4rzq.zip" target="_blank" download>
+              <img alt="Logos" className="thumbnail" src={require('../img/tiles/sketch-amc-web.png')} />
+              </a>
+            </div>
+            <div className="card m-b m-sm m-r">
+              <a href="https://amcnetworks.box.com/shared/static/gv1mecoodjejnn84nxy1qbwgc1qbfg1j.zip" target="_blank" download>
+              <img alt="Logos" className="thumbnail" src={require('../img/tiles/sketch-amc-tv.png')} />
+              </a>
+            </div>
+          </div>
+
         </body>
       </div>
     )

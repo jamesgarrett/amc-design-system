@@ -31,7 +31,7 @@ const FourOhFour = ({ match, location }) => {
 	    </div>
 
       <header className="p-y container-fixed">
-        <h1 className="display-secondary-6 m-y">Uh Oh, That's a 404.</h1>
+        <h1 className="display-primary-6 m-y">Uh Oh, That's a 404.</h1>
         <h2 className="body-lg m-y p-b">The page you requested could not be found. <br></br>Click the link below to return to the homepage.</h2>
         <button className="button-md p-x p-y">Return to Home</button>
       </header>

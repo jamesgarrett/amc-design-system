@@ -7,8 +7,8 @@ class Footer extends React.Component{
 	render(){
 		return(
 			<footer className=''>
-				<div className='subtitle'>The digital assets and code included in these guidelines may only be used with the permission of, and for the benefit of, the AMC Networks Inc.</div>
-				<div className='subtitle'>©AMC Networks {today.getFullYear()}</div>
+				<div className='body-md'>The digital assets and code included in these guidelines may only be used with the permission of, and for the benefit of AMC Networks Inc.</div>
+				<div className='body-xs'>©AMC Networks {today.getFullYear()}</div>
 			</footer>
 		)
 	}
