@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.b64e65c7.chunk.css",
-    "main.js": "/static/js/main.9011360c.chunk.js",
-    "main.js.map": "/static/js/main.9011360c.chunk.js.map",
+    "main.js": "/static/js/main.8a5f56f9.chunk.js",
+    "main.js.map": "/static/js/main.8a5f56f9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09310013.js",
     "runtime-main.js.map": "/static/js/runtime-main.09310013.js.map",
-    "static/js/2.87592086.chunk.js": "/static/js/2.87592086.chunk.js",
-    "static/js/2.87592086.chunk.js.map": "/static/js/2.87592086.chunk.js.map",
+    "static/js/2.f1d1dc23.chunk.js": "/static/js/2.f1d1dc23.chunk.js",
+    "static/js/2.f1d1dc23.chunk.js.map": "/static/js/2.f1d1dc23.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.00fe9a4feec3e559c2d2b6ef004991bc.js": "/precache-manifest.00fe9a4feec3e559c2d2b6ef004991bc.js",
+    "precache-manifest.c3fd73059533f815b87ffa22e0ed26f1.js": "/precache-manifest.c3fd73059533f815b87ffa22e0ed26f1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b64e65c7.chunk.css.map": "/static/css/main.b64e65c7.chunk.css.map",
-    "static/js/2.87592086.chunk.js.LICENSE": "/static/js/2.87592086.chunk.js.LICENSE",
+    "static/js/2.f1d1dc23.chunk.js.LICENSE": "/static/js/2.f1d1dc23.chunk.js.LICENSE",
     "static/media/10-second-forward.svg": "/static/media/10-second-forward.9db5d939.svg",
     "static/media/10-second-rewind.svg": "/static/media/10-second-rewind.7ad8225a.svg",
     "static/media/15-second-forward.svg": "/static/media/15-second-forward.0404356f.svg",
@@ -61,6 +61,9 @@
     "static/media/screen--maximize.svg": "/static/media/screen--maximize.380571c4.svg",
     "static/media/screen--minimize.svg": "/static/media/screen--minimize.73fec8a1.svg",
     "static/media/search.svg": "/static/media/search.6dcf0d25.svg",
+    "static/media/sketch-amc-tv.png": "/static/media/sketch-amc-tv.c688351c.png",
+    "static/media/sketch-amc-web.png": "/static/media/sketch-amc-web.7349b74b.png",
+    "static/media/sketch-getting-started.png": "/static/media/sketch-getting-started.8d4340d1.png",
     "static/media/sundance.png": "/static/media/sundance.0703f4e4.png",
     "static/media/tumblr.svg": "/static/media/tumblr.c2370e7d.svg",
     "static/media/typography.png": "/static/media/typography.50cd4b12.png",
@@ -70,8 +73,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.09310013.js",
-    "static/js/2.87592086.chunk.js",
+    "static/js/2.f1d1dc23.chunk.js",
     "static/css/main.b64e65c7.chunk.css",
-    "static/js/main.9011360c.chunk.js"
+    "static/js/main.8a5f56f9.chunk.js"
   ]
 }
