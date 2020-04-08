@@ -10,12 +10,6 @@ const SundanceTypeStyles = [
       "size": 48,
       "weight": "light",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -29,12 +23,6 @@ const SundanceTypeStyles = [
       "size": 40,
       "weight": "light",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -48,12 +36,6 @@ const SundanceTypeStyles = [
       "size": 32,
       "weight": "light",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -67,12 +49,6 @@ const SundanceTypeStyles = [
       "size": 24,
       "weight": "light",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -86,12 +62,6 @@ const SundanceTypeStyles = [
       "size": 20,
       "weight": "light",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -105,12 +75,6 @@ const SundanceTypeStyles = [
       "size": 16,
       "weight": "light",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -124,12 +88,6 @@ const SundanceTypeStyles = [
       "size": 14,
       "weight": "light",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -143,12 +101,6 @@ const SundanceTypeStyles = [
       "size": 60,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -162,12 +114,6 @@ const SundanceTypeStyles = [
       "size": 48,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -181,12 +127,6 @@ const SundanceTypeStyles = [
       "size": 40,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -200,12 +140,6 @@ const SundanceTypeStyles = [
       "size": 32,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -219,12 +153,6 @@ const SundanceTypeStyles = [
       "size": 24,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -238,12 +166,6 @@ const SundanceTypeStyles = [
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -257,12 +179,6 @@ const SundanceTypeStyles = [
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -276,12 +192,6 @@ const SundanceTypeStyles = [
       "size": 48,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -295,12 +205,6 @@ const SundanceTypeStyles = [
       "size": 40,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -314,12 +218,6 @@ const SundanceTypeStyles = [
       "size": 32,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -333,12 +231,6 @@ const SundanceTypeStyles = [
       "size": 24,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -352,12 +244,6 @@ const SundanceTypeStyles = [
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -371,12 +257,6 @@ const SundanceTypeStyles = [
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -390,12 +270,6 @@ const SundanceTypeStyles = [
       "size": 14,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -409,12 +283,6 @@ const SundanceTypeStyles = [
       "size": 24,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -428,12 +296,6 @@ const SundanceTypeStyles = [
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -447,12 +309,6 @@ const SundanceTypeStyles = [
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -466,12 +322,6 @@ const SundanceTypeStyles = [
       "size": 14,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -485,12 +335,6 @@ const SundanceTypeStyles = [
       "size": 12,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -504,12 +348,6 @@ const SundanceTypeStyles = [
       "size": 24,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 237,
-      "green": 99,
-      "blue": 0,
-      "alpha": 1
     }
   },
   {
@@ -523,12 +361,6 @@ const SundanceTypeStyles = [
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 237,
-      "green": 99,
-      "blue": 0,
-      "alpha": 1
     }
   },
   {
@@ -542,12 +374,6 @@ const SundanceTypeStyles = [
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 237,
-      "green": 99,
-      "blue": 0,
-      "alpha": 1
     }
   },
   {
@@ -561,12 +387,6 @@ const SundanceTypeStyles = [
       "size": 14,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 237,
-      "green": 99,
-      "blue": 0,
-      "alpha": 1
     }
   },
   {
@@ -580,12 +400,6 @@ const SundanceTypeStyles = [
       "size": 12,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 237,
-      "green": 99,
-      "blue": 0,
-      "alpha": 1
     }
   },
   {
@@ -599,12 +413,6 @@ const SundanceTypeStyles = [
       "size": 20,
       "weight": "bold",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -618,12 +426,6 @@ const SundanceTypeStyles = [
       "size": 16,
       "weight": "bold",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -637,12 +439,6 @@ const SundanceTypeStyles = [
       "size": 14,
       "weight": "bold",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -656,12 +452,6 @@ const SundanceTypeStyles = [
       "size": 12,
       "weight": "bold",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -675,12 +465,6 @@ const SundanceTypeStyles = [
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -694,12 +478,6 @@ const SundanceTypeStyles = [
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -713,12 +491,6 @@ const SundanceTypeStyles = [
       "size": 14,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -732,12 +504,6 @@ const SundanceTypeStyles = [
       "size": 12,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -751,12 +517,6 @@ const SundanceTypeStyles = [
       "size": 20,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -770,12 +530,6 @@ const SundanceTypeStyles = [
       "size": 16,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -789,12 +543,6 @@ const SundanceTypeStyles = [
       "size": 14,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   },
   {
@@ -808,12 +556,6 @@ const SundanceTypeStyles = [
       "size": 12,
       "weight": "regular",
       "stretch": "normal"
-    },
-    "color": {
-      "red": 255,
-      "green": 255,
-      "blue": 255,
-      "alpha": 1
     }
   }
 ]
