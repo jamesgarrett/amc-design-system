@@ -9,13 +9,13 @@
   import Footer from './components/footer';
   import HomePage from './templates/homePage';
   import FourOhFour from './templates/404';
-  import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
+  import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
 
   const Main = () => (
-    <Router>
+    <BrowserRouter>
       <Navigation />
       <Switch>
-        <Route path='/' exact={true} component={Home}></Route>
+        <Route exact path='/' component={Home}></Route>
         <Route exact path='/about' component={About}></Route>
         <Route exact path='/resources' component={Resources}></Route>
         <Route exact path='/typography/' component={NetworksPage}></Route>
@@ -24,7 +24,7 @@
         <Route exact path='/templates/home/:network' component={HomePage}></Route>
         <Route exact path='/templates/404/:network' component={FourOhFour}></Route>
       </Switch>
-    </Router>
+    </BrowserRouter>
   );
 
   class App extends Component {
