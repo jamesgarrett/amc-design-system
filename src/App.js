@@ -9,10 +9,13 @@
   import Footer from './components/footer';
   import HomePage from './templates/homePage';
   import FourOhFour from './templates/404';
-  import { HashRouter, Link, Switch, Route } from 'react-router-dom';
+  import { createBrowserHistory } from 'history';
+  import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
+
+  const hist = createBrowserHistory();
 
   const Main = () => (
-    <HashRouter basename="/">
+    <BrowserRouter basename="/" history>
       <Navigation />
       <Switch>
         <Route exact path='/' component={Home}></Route>
@@ -24,7 +27,7 @@
         <Route exact path='/templates/home/:network' component={HomePage}></Route>
         <Route exact path='/templates/404/:network' component={FourOhFour}></Route>
       </Switch>
-    </HashRouter>
+    </BrowserRouter>
   );
 
   class App extends Component {
