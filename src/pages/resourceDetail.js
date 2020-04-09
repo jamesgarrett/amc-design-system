@@ -46,7 +46,7 @@ class Resources extends React.Component{
             {icons.map(icon =>
               <li key={icon.slug} className="tile p-y p-md">
                 <img className="icon m-y i-xl" src={icon.src} alt={icon.alt} />
-                <p className="body-xs tc">{icon.alt}</p>
+                <p className="body-xs">{icon.alt}</p>
               </li>
             )}
           </ul>
