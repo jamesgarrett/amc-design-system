@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-class Resourcenav extends React.Component{
+class ResourceNav extends React.Component{
 	render(){
 		return(
 		<div className="container-fixed">
@@ -21,4 +21,4 @@ class Resourcenav extends React.Component{
 
 }
 
-export default Resourcenav;
+export default ResourceNav;

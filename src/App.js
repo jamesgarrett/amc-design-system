@@ -17,7 +17,8 @@
       <Switch>
         <Route exact path='/' component={About}></Route>
         <Route exact path='/about' component={About}></Route>
-        <Route exact path='/resources' component={Resources}></Route>
+        <Route exact path='/resources/' component={Resources}></Route>
+        <Route exact path='/resources/:network' component={ResourceDetail}></Route>
         <Route exact path='/typography/' component={NetworksPage}></Route>
         <Route exact path='/typography/:network' component={NetworkPage}></Route>
         <Route exact path='/templates/' component={Templates}></Route>
