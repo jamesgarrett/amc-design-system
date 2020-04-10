@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b64e65c7.chunk.css",
-    "main.js": "/static/js/main.8a5f56f9.chunk.js",
-    "main.js.map": "/static/js/main.8a5f56f9.chunk.js.map",
+    "main.css": "/static/css/main.a6660bef.chunk.css",
+    "main.js": "/static/js/main.ccaa90dc.chunk.js",
+    "main.js.map": "/static/js/main.ccaa90dc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09310013.js",
     "runtime-main.js.map": "/static/js/runtime-main.09310013.js.map",
-    "static/js/2.f1d1dc23.chunk.js": "/static/js/2.f1d1dc23.chunk.js",
-    "static/js/2.f1d1dc23.chunk.js.map": "/static/js/2.f1d1dc23.chunk.js.map",
+    "static/js/2.2b786d5f.chunk.js": "/static/js/2.2b786d5f.chunk.js",
+    "static/js/2.2b786d5f.chunk.js.map": "/static/js/2.2b786d5f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c3fd73059533f815b87ffa22e0ed26f1.js": "/precache-manifest.c3fd73059533f815b87ffa22e0ed26f1.js",
+    "precache-manifest.0c4558f4d623d63e3101b75b0c11cd58.js": "/precache-manifest.0c4558f4d623d63e3101b75b0c11cd58.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b64e65c7.chunk.css.map": "/static/css/main.b64e65c7.chunk.css.map",
-    "static/js/2.f1d1dc23.chunk.js.LICENSE": "/static/js/2.f1d1dc23.chunk.js.LICENSE",
+    "static/css/main.a6660bef.chunk.css.map": "/static/css/main.a6660bef.chunk.css.map",
+    "static/js/2.2b786d5f.chunk.js.LICENSE": "/static/js/2.2b786d5f.chunk.js.LICENSE",
     "static/media/10-second-forward.svg": "/static/media/10-second-forward.9db5d939.svg",
     "static/media/10-second-rewind.svg": "/static/media/10-second-rewind.7ad8225a.svg",
     "static/media/15-second-forward.svg": "/static/media/15-second-forward.0404356f.svg",
@@ -64,6 +64,8 @@
     "static/media/sketch-amc-tv.png": "/static/media/sketch-amc-tv.c688351c.png",
     "static/media/sketch-amc-web.png": "/static/media/sketch-amc-web.7349b74b.png",
     "static/media/sketch-getting-started.png": "/static/media/sketch-getting-started.8d4340d1.png",
+    "static/media/sundance-dark.svg": "/static/media/sundance-dark.039dcf61.svg",
+    "static/media/sundance-light.svg": "/static/media/sundance-light.73f26776.svg",
     "static/media/sundance.png": "/static/media/sundance.0703f4e4.png",
     "static/media/tumblr.svg": "/static/media/tumblr.c2370e7d.svg",
     "static/media/typography.png": "/static/media/typography.50cd4b12.png",
@@ -73,8 +75,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.09310013.js",
-    "static/js/2.f1d1dc23.chunk.js",
-    "static/css/main.b64e65c7.chunk.css",
-    "static/js/main.8a5f56f9.chunk.js"
+    "static/js/2.2b786d5f.chunk.js",
+    "static/css/main.a6660bef.chunk.css",
+    "static/js/main.ccaa90dc.chunk.js"
   ]
 }

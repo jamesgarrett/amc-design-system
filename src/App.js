@@ -1,26 +1,24 @@
   import React, {Component} from 'react';
   import About from './pages/about';
-  import Home from './pages/home';
-  import NetworksPage from './pages/networksPage';
-  import NetworkPage from './pages/networkPage';
+  import NetworksPage from './pages/networks';
+  import NetworkPage from './pages/networkDetail';
   import Resources from './pages/resources';
+  import ResourceDetail from './pages/resourceDetail';
   import Templates from './pages/templates';
   import Navigation from './components/navigation';
   import Footer from './components/footer';
   import HomePage from './templates/homePage';
   import FourOhFour from './templates/404';
-  import { createBrowserHistory } from 'history';
   import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
 
-  const hist = createBrowserHistory();
-
   const Main = () => (
-    <BrowserRouter basename="/" history>
+    <BrowserRouter basename="/">
       <Navigation />
       <Switch>
-        <Route exact path='/' component={Home}></Route>
+        <Route exact path='/' component={About}></Route>
         <Route exact path='/about' component={About}></Route>
-        <Route exact path='/resources' component={Resources}></Route>
+        <Route exact path='/resources/' component={Resources}></Route>
+        <Route exact path='/resources/:network' component={ResourceDetail}></Route>
         <Route exact path='/typography/' component={NetworksPage}></Route>
         <Route exact path='/typography/:network' component={NetworkPage}></Route>
         <Route exact path='/templates/' component={Templates}></Route>

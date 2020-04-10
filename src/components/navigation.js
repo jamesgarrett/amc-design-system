@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
-import Logo from '../img/logos/amc-light.svg';
+import Logo from '../img/logos/amc/amc-light.svg';
 
   class Navigation extends React.Component{
 	render(){
