@@ -9,7 +9,6 @@ import Conversions from '../pages/conversions';
 const NetworkPage = ({ match, location }) => {
 	const { params: { network } } = match;
 	var typeTable;
-	var tableName = '<' + network.charAt(0).toUpperCase() + network.slice(1) + 'Type />';
 
 	if ( network === 'amc'){
 	  typeTable = <AmcType />;
