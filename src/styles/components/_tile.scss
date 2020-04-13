@@ -18,3 +18,15 @@
     justify-items: center;
     align-items: center;
 }
+
+.colors span{
+  display:grid;
+  grid-gap:1rem;
+}
+
+.colors .color{
+  border: 1px solid white;
+  box-sizing: border-box;
+  height: 10rem;
+  width: 100%;
+}

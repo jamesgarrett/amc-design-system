@@ -15,7 +15,9 @@ class SundanceResources extends React.Component{
   render(){
     let icons = this.state.icons.iconSet
     let logos = this.state.brand.logos
-    // let colors = this.state.brand.colors
+    let colors = this.state.brand.colors
+    console.log(colors)
+
     return(
       <div className='resources m-x'>
 
@@ -37,12 +39,15 @@ class SundanceResources extends React.Component{
           </Link>
 
           <h4 className="display-primary-4 m-t m-lg">Color Hexes</h4>
-          <p className="body-md">Web fonts are the fonts we use to give each of our applications it’s own unique feel.</p>
-          <ul className="icon-set m-y">
-            {icons.map(icon =>
-              <li key={icon.slug} className="tile p-y p-md">
-                <img className="icon m-y i-xl" src={icon.src} alt={icon.alt} />
-                <p className="body-xs">{icon.alt}</p>
+          <p className="body-md">We use colors to give each of our applications it’s own unique feel.</p>
+          <ul className="row five-up logos m-y">
+            {colors.map(color =>
+              <li key={color.name} className="colors">
+                <span className="color m-b" style={{backgroundColor: color.rgb}}></span>
+                <span>Slug: {color.slug}</span>
+                <span>Name: {color.name}</span>
+                <span>Hex: {color.hex}</span>
+                <span>RGB: {color.rgb}</span>
               </li>
             )}
           </ul>
