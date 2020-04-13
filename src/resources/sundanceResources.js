@@ -16,7 +16,7 @@ class SundanceResources extends React.Component{
     let icons = this.state.icons.iconSet
     let logos = this.state.brand.logos
     let colors = this.state.brand.colors
-    console.log(colors)
+    let fonts = this.state.brand.fonts
 
     return(
       <div className='resources m-x'>
@@ -55,18 +55,16 @@ class SundanceResources extends React.Component{
           <h4 className="display-primary-4 m-t m-lg">Web Fonts</h4>
           <p className="body-md">You can download the fonts we use in our digital experiences here, or email <a href="mailto:garrett.sibinga@amcnetworks.com">garrett.sibinga@amcnetworks.com</a>, to use the webfont packages from our CDN.</p>
 
-          <div className="row three-up m-b m-lg">
-            <div className="card m-b m-sm m-r">
-              <a href="https://amcnetworks.box.com/shared/static/jtzch5f0c7ytnsxjckcen6n85b6vh4yj.zip" target="_blank" rel="noopener noreferrer" download>
-              <img alt="Benton Sans Font Download" className="thumbnail" src={require('../img/tiles/benton-sans.jpg')} />
+          <ul className="row three-up logos m-b m-lg">
+          {fonts.map(font =>
+            <li key={font.slug} className="m-b">
+              <a href={font.download_link} target="_blank" rel="noopener noreferrer" download>
+                <img alt={font.name} className={font.slug} src={font.img} />
               </a>
-            </div>
-            <div className="card m-b m-sm m-r">
-              <a href="https://amcnetworks.box.com/shared/static/6w3rzjlofln76e2cxku5bvctd86qq25l.zip" target="_blank" rel="noopener noreferrer" download>
-              <img alt="Benton Sans Compressed Font Download" className="thumbnail" src={require('../img/tiles/benton-sans-condensed.jpg')} />
-              </a>
-            </div>
-          </div>
+              <p className="body-xs">{font.name}</p>
+            </li>
+          )}
+          </ul>
 
           <h4 className="display-primary-4 m-t m-lg">Icons</h4>
           <p className="body-md">We use icons in our experience as recognizable ways to quickly communicate familiar concepts and expected behaviors to our users.</p>

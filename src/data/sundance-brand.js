@@ -90,6 +90,21 @@ const logos = [
   },
 ]
 
-const SundanceBrand = {colors: colors, logos: logos}
+const fonts = [
+  {
+    slug: 'benton-sans',
+    name: 'Benton Sans',
+    img: require('../img/tiles/benton-sans.jpg'),
+    download_link: 'https://amcnetworks.box.com/shared/static/jtzch5f0c7ytnsxjckcen6n85b6vh4yj.zip',
+  },
+  {
+    slug: 'benton-sans-condensed',
+    name: 'Benton Sans Compressed Regular',
+    img: require('../img/tiles/benton-sans-condensed.jpg'),
+    download_link: 'https://amcnetworks.box.com/shared/static/6w3rzjlofln76e2cxku5bvctd86qq25l.zip',
+  },
+]
+
+const SundanceBrand = {colors: colors, logos: logos, fonts: fonts}
 
 export default SundanceBrand
