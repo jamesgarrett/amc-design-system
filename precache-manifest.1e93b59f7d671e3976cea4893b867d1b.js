@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25bf689f0ccf04a26d49d1398d071849",
+    "revision": "f47d87decdc6661038b64458b979d201",
     "url": "/index.html"
   },
   {
-    "revision": "fd4fb69a3e10a9f559ae",
-    "url": "/static/css/main.a6660bef.chunk.css"
+    "revision": "7fa0a1854436a569c954",
+    "url": "/static/css/main.2239da89.chunk.css"
   },
   {
-    "revision": "51607e015377ea7d95fd",
-    "url": "/static/js/2.2b786d5f.chunk.js"
+    "revision": "f1b823d70cfdce19e23e",
+    "url": "/static/js/2.6ac67e2e.chunk.js"
   },
   {
     "revision": "25ab7760a9d196e1bee67b6bdb56e1bd",
-    "url": "/static/js/2.2b786d5f.chunk.js.LICENSE"
+    "url": "/static/js/2.6ac67e2e.chunk.js.LICENSE"
   },
   {
-    "revision": "fd4fb69a3e10a9f559ae",
-    "url": "/static/js/main.ccaa90dc.chunk.js"
+    "revision": "7fa0a1854436a569c954",
+    "url": "/static/js/main.dad7b78f.chunk.js"
   },
   {
     "revision": "e887ef4f3b85ddb83db7",
@@ -236,6 +236,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bbca.42de85b2.png"
   },
   {
+    "revision": "130dfa5a8f625671d326a5153e8fefe1",
+    "url": "/static/media/benton-sans-condensed.130dfa5a.jpg"
+  },
+  {
+    "revision": "8ab8c660947a76c7e7d2dc1f92c13e59",
+    "url": "/static/media/benton-sans.8ab8c660.jpg"
+  },
+  {
     "revision": "bd9d769451fb9382ba3e0efd5c1073db",
     "url": "/static/media/bobnewhartshow.bd9d7694.jpg"
   },
@@ -348,8 +356,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/screen--minimize.73fec8a1.svg"
   },
   {
+    "revision": "bce213b11365ab60fff5c759a4162e14",
+    "url": "/static/media/sdtv-placeholder-poster.bce213b1.jpg"
+  },
+  {
+    "revision": "4a832c28caa7a3bb089efebcb09ff33d",
+    "url": "/static/media/sdtv-placeholder-square.4a832c28.jpg"
+  },
+  {
+    "revision": "b390570901a45b0bf77af70bcbcfd19d",
+    "url": "/static/media/sdtv-placeholder-ultrawide.b3905709.jpg"
+  },
+  {
+    "revision": "50d63c34a7107388e66ef3dbc27257c9",
+    "url": "/static/media/sdtv-placeholder-wide.50d63c34.jpg"
+  },
+  {
     "revision": "6dcf0d25872487491ac379dde534fdd5",
     "url": "/static/media/search.6dcf0d25.svg"
+  },
+  {
+    "revision": "364b07db70fcf58e614bf887cb363356",
+    "url": "/static/media/sketch-amc-mobile.364b07db.jpg"
   },
   {
     "revision": "c688351ca888cd46bf2b9ba076dc18ea",
