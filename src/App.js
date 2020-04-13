@@ -12,7 +12,7 @@
   import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
 
   const Main = () => (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/amc-design-system/">
       <Navigation />
       <Switch>
         <Route exact path='/' component={About}></Route>
