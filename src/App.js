@@ -9,10 +9,10 @@
   import Footer from './components/footer';
   import HomePage from './templates/homePage';
   import FourOhFour from './templates/404';
-  import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
+  import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
 
   const Main = () => (
-    <BrowserRouter basename="/amc-design-system/">
+    <Router basename="/">
       <Navigation />
       <Switch>
         <Route exact path='/' component={About}></Route>
@@ -25,7 +25,7 @@
         <Route exact path='/templates/home/:network' component={HomePage}></Route>
         <Route exact path='/templates/404/:network' component={FourOhFour}></Route>
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 
   class App extends Component {
