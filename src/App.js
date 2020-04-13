@@ -9,7 +9,7 @@
   import Footer from './components/footer';
   import HomePage from './templates/homePage';
   import FourOhFour from './templates/404';
-  import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
+  import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
   const Main = () => (
     <Router basename="/">
