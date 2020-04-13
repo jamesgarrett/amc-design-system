@@ -1,5 +1,4 @@
 import React from 'react';
-import Sidenav from '../components/sidenav';
 import { NavLink } from 'react-router-dom';
 
 const Templates = () => {

@@ -30,7 +30,7 @@ class AmcResources extends React.Component{
             )}
           </ul>
           <p className="body-md">Download the full complement of logos in SVG format for use in your projects.</p>
-          <Link to="/downloads/amc-logos.zip" className="button-md button button-light m-y" target="_blank" download>
+          <Link to="/downloads/amc-logos.zip" className="button-md button button-light m-y" target="_blank" rel="noopener noreferrer" download>
             <img className="m-r i-md" src={require('../img/icons/download.svg')} alt="download all logos"/>
             Download All
           </Link>
@@ -46,7 +46,7 @@ class AmcResources extends React.Component{
             )}
           </ul>
           <p className="body-md">Download the full complement of icons in SVG format for use in your projects.</p>
-          <Link to="/downloads/icons.zip" className="button-md button button-light m-y" target="_blank" download>
+          <Link to="/downloads/icons.zip" className="button-md button button-light m-y" target="_blank" rel="noopener noreferrer" download>
             <img className="m-r i-md" src={require('../img/icons/download.svg')} alt="download all icons"/>
             Download All
           </Link>
@@ -56,22 +56,22 @@ class AmcResources extends React.Component{
 
           <div className="row three-up m-b m-lg">
             <div className="card m-b m-sm m-r">
-              <a href="https://amcnetworks.box.com/shared/static/1ryqj8p5heauaqarrzdhe3a4o1hamyv1.zip" target="_blank" download>
+              <a href="https://amcnetworks.box.com/shared/static/1ryqj8p5heauaqarrzdhe3a4o1hamyv1.zip" target="_blank" rel="noopener noreferrer" download>
               <img alt="Getting Started Sketch File" className="thumbnail" src={require('../img/tiles/sketch-getting-started.png')} />
               </a>
             </div>
             <div className="card m-b m-sm m-r">
-              <a href="https://amcnetworks.box.com/shared/static/82nrhrsi9q2605hx86u64u0gczlf4rzq.zip" target="_blank" download>
+              <a href="https://amcnetworks.box.com/shared/static/82nrhrsi9q2605hx86u64u0gczlf4rzq.zip" target="_blank" rel="noopener noreferrer" download>
               <img alt="AMC Web Sketch Files" className="thumbnail" src={require('../img/tiles/sketch-amc-web.png')} />
               </a>
             </div>
             <div className="card m-b m-sm m-r">
-              <a href="https://amcnetworks.box.com/shared/static/gv1mecoodjejnn84nxy1qbwgc1qbfg1j.zip" target="_blank" download>
+              <a href="https://amcnetworks.box.com/shared/static/gv1mecoodjejnn84nxy1qbwgc1qbfg1j.zip" target="_blank" rel="noopener noreferrer" download>
               <img alt="AMC TV Sketch Files" className="thumbnail" src={require('../img/tiles/sketch-amc-tv.png')} />
               </a>
             </div>
             <div className="card m-b m-sm m-r">
-              <a href="https://amcnetworks.box.com/shared/static/yvd0s7ecx367f5kbv6iftar1fnye17g0.zip" target="_blank" download>
+              <a href="https://amcnetworks.box.com/shared/static/yvd0s7ecx367f5kbv6iftar1fnye17g0.zip" target="_blank" rel="noopener noreferrer" download>
               <img alt="AMC Mobile Sketch Files" className="thumbnail" src={require('../img/tiles/sketch-amc-mobile.jpg')} />
               </a>
             </div>
@@ -81,7 +81,7 @@ class AmcResources extends React.Component{
           <p className="body-md">We use a set of images for each network as placeholders while image requests are fulfilled. Please use the set below as the placeholder images for each network.</p>
 
           <p className="body-md">Download the full complement of images in png format for use in your projects.</p>
-          <Link to="https://amcnetworks.box.com/shared/static/ii7h7kd5acsko6jqezynpma0u9mg5m9p.zip" className="button-md button button-light m-y" target="_blank" download>
+          <Link to="https://amcnetworks.box.com/shared/static/ii7h7kd5acsko6jqezynpma0u9mg5m9p.zips" className="button-md button button-light m-y" target="_blank" rel="noopener noreferrer" download>
             <img className="m-r i-md" src={require('../img/icons/download.svg')} alt="download all icons"/>
             Download All
           </Link>

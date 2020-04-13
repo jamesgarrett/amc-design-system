@@ -15,23 +15,23 @@ class SundanceResources extends React.Component{
   render(){
     let icons = this.state.icons.iconSet
     let logos = this.state.brand.logos
-    let colors = this.state.brand.colors
+    // let colors = this.state.brand.colors
     return(
       <div className='resources m-x'>
 
-        <body className="container-fixed">
+        <section className="container-fixed">
           <h4 className="display-primary-4 m-t m-lg">Logos</h4>
           <p className="body-md">A set of logos approved for use in  digital experiences.</p>
           <ul className="row five-up logos m-y">
             {logos.map(logo =>
-              <li key={logo.slug} className={logo.dark ? "dark " + "tile p-y p-md hidden" : "light " + "tile p-y p-x p-md"}>
+              <li key={logo.name} className={logo.dark ? "dark " + "tile p-y p-md hidden" : "light " + "tile p-y p-x p-md"}>
                 <img className="m-y" src={logo.src} alt={logo.alt} />
                 <p className="body-xs p-x tc">{logo.alt} - {logo.type}</p>
               </li>
             )}
           </ul>
           <p className="body-md">Download the full complement of logos in SVG format for use in your projects.</p>
-          <Link to="/downloads/sundance-logos.zip" className="button-md button button-light m-y" target="_blank" download>
+          <Link to="/downloads/sundance-logos.zip" className="button-md button button-light m-y" target="_blank" rel="noopener noreferrer" download>
             <img className="m-r i-md" src={require('../img/icons/download.svg')} alt="download all logos"/>
             Download All
           </Link>
@@ -52,12 +52,12 @@ class SundanceResources extends React.Component{
 
           <div className="row three-up m-b m-lg">
             <div className="card m-b m-sm m-r">
-              <a href="https://amcnetworks.box.com/shared/static/jtzch5f0c7ytnsxjckcen6n85b6vh4yj.zip" target="_blank" download>
+              <a href="https://amcnetworks.box.com/shared/static/jtzch5f0c7ytnsxjckcen6n85b6vh4yj.zip" target="_blank" rel="noopener noreferrer" download>
               <img alt="Benton Sans Font Download" className="thumbnail" src={require('../img/tiles/benton-sans.jpg')} />
               </a>
             </div>
             <div className="card m-b m-sm m-r">
-              <a href="https://amcnetworks.box.com/shared/static/6w3rzjlofln76e2cxku5bvctd86qq25l.zip" target="_blank" download>
+              <a href="https://amcnetworks.box.com/shared/static/6w3rzjlofln76e2cxku5bvctd86qq25l.zip" target="_blank" rel="noopener noreferrer" download>
               <img alt="Benton Sans Compressed Font Download" className="thumbnail" src={require('../img/tiles/benton-sans-condensed.jpg')} />
               </a>
             </div>
@@ -74,7 +74,7 @@ class SundanceResources extends React.Component{
             )}
           </ul>
           <p className="body-md">Download the full complement of icons in SVG format for use in your projects.</p>
-          <Link to="/downloads/icons.zip" className="button-md button button-light m-y" target="_blank" download>
+          <Link to="/downloads/icons.zip" className="button-md button button-light m-y" target="_blank" rel="noopener noreferrer" download>
             <img className="m-r i-md" src={require('../img/icons/download.svg')} alt="download all icons"/>
             Download All
           </Link>
@@ -102,12 +102,12 @@ class SundanceResources extends React.Component{
           </div>
 
           <p className="body-md">Download the full complement of images in jpg format for use in your projects.</p>
-          <Link to="https://amcnetworks.box.com/shared/static/ii7h7kd5acsko6jqezynpma0u9mg5m9p.zips" className="button-md button button-light m-y" target="_blank" download>
+          <Link to="https://amcnetworks.box.com/shared/static/ii7h7kd5acsko6jqezynpma0u9mg5m9p.zips" className="button-md button button-light m-y" target="_blank" rel="noopener noreferrer" download>
             <img className="m-r i-md" src={require('../img/icons/download.svg')} alt="download all icons"/>
             Download All
           </Link>
 
-        </body>
+        </section>
       </div>
     )
 

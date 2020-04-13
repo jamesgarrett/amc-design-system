@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import iconSet from '../data/icons.js';
 import bbcaLogos from '../data/bbca-logos.js';
 
@@ -13,8 +13,8 @@ class BbcaResources extends React.Component{
   }
 
   render(){
-    let icons = this.state.icons.iconSet
-    let logos = this.state.logos.bbcaLogos
+    // let icons = this.state.icons.iconSet
+    // let logos = this.state.logos.bbcaLogos
     return(
       <div className='resources m-x'>
 

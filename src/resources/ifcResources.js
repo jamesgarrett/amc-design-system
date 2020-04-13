@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import iconSet from '../data/icons.js';
 import ifcLogos from '../data/ifc-logos.js';
 
@@ -13,8 +13,8 @@ class IfcResources extends React.Component{
   }
 
   render(){
-    let icons = this.state.icons.iconSet
-    let logos = this.state.logos.ifcLogos
+    // let icons = this.state.icons.iconSet
+    // let logos = this.state.logos.ifcLogos
     return(
       <div className='resources m-x'>
 
