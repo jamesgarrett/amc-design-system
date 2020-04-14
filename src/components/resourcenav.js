@@ -12,6 +12,7 @@ class ResourceNav extends React.Component{
 						<li><NavLink className="button-md" to='/resources/sundance'>Sundance TV</NavLink></li>
 						<li><NavLink className="button-md" to='/resources/ifc'>IFC</NavLink></li>
 						<li><NavLink className="button-md" to='/resources/bbca'>BBC America</NavLink></li>
+						<li><NavLink className="button-md" to='/resources/wetv'>WEtv</NavLink></li>
 					</ul>
           </div>
 
