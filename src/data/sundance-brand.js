@@ -1,3 +1,5 @@
+let SundanceBrand = []
+
 const colors = [
   {
     slug: 'accent-color-1',
@@ -98,13 +100,41 @@ const fonts = [
     download_link: 'https://amcnetworks.box.com/shared/static/jtzch5f0c7ytnsxjckcen6n85b6vh4yj.zip',
   },
   {
-    slug: 'benton-sans-condensed',
-    name: 'Benton Sans Compressed Regular',
+    slug: 'benton-sans-extra-compressed',
+    name: 'Benton Sans Extra Compressed Regular',
     img: require('../img/tiles/benton-sans-condensed.jpg'),
     download_link: 'https://amcnetworks.box.com/shared/static/6w3rzjlofln76e2cxku5bvctd86qq25l.zip',
   },
 ]
 
-const SundanceBrand = {colors: colors, logos: logos, fonts: fonts}
+const placeholders = [
+  {
+    slug: 'ultrawide',
+    name: 'Sundance Ultra Wide',
+    src: require('../img/placeholders/sdtv-ultrawide.jpg'),
+  },
+  {
+    slug: 'wide',
+    name: 'Sundance Wide',
+    src: require('../img/placeholders/sdtv-wide.jpg'),
+  },
+  {
+    slug: 'poster',
+    name: 'Sundance Poster',
+    src: require('../img/placeholders/sdtv-poster.jpg'),
+  },
+  {
+    slug: 'square',
+    name: 'Sundance Square',
+    src: require('../img/placeholders/sdtv-square.jpg'),
+  },
+  {
+    slug: 'background',
+    name: 'Sundance Background',
+    src: require('../img/placeholders/sdtv-background.jpg'),
+  },
+]
+
+SundanceBrand = {colors: colors, logos: logos, fonts: fonts, placeholders: placeholders}
 
 export default SundanceBrand
