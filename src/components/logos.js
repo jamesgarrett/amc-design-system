@@ -1,0 +1,28 @@
+import React, {Component} from 'react'
+import getBrand from '../components/getbrand.js'
+
+class Logos extends Component {
+	constructor(props){
+		super(props);
+		this.state = {
+				brand: getBrand(this.props.network),
+		};
+	}
+	render(){
+		let brand = getBrand(this.props.network)
+		return <>
+			<h4 className="display-primary-4 m-t m-lg">Logos</h4>
+			<p className="body-md">A set of logos approved for use in AMC digital experiences.</p>
+      <ul className="logos row five-up">
+			{brand.logos.map(logo =>
+				<li key={logo.src} className={logo.dark + "light " + "tile p-y p-md"}>
+					<img className="m-y" src={logo.src} alt={logo.alt} />
+					<p className="body-xs p-x tc">{logo.alt} - {logo.type}</p>
+				</li>
+			)}
+      </ul>
+		</>
+	}
+}
+
+export default Logos
