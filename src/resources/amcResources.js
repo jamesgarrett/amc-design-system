@@ -1,29 +1,32 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import iconSet from '../data/icons.js';
-import amcLogos from '../data/amc-logos.js';
+import AMCBrand from '../data/amc-brand.js';
 
 class AmcResources extends React.Component{
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
     this.state = {
         icons: {iconSet},
-        logos: {amcLogos},
+        brand: {AMCBrand}.AMCBrand,
     };
   }
 
   render(){
     let icons = this.state.icons.iconSet
-    let logos = this.state.logos.amcLogos
+    let logos = this.state.brand.logos
+    let colors = this.state.brand.colors
+    let fonts = this.state.brand.fonts
+    let placeholders = this.state.brand.placeholders
     return(
       <div className='resources m-x'>
 
-        <body className="container-fixed">
+        <section className="container-fixed">
           <h4 className="display-primary-4 m-t m-lg">Logos</h4>
           <p className="body-md">A set of logos approved for use in AMC digital experiences.</p>
           <ul className="row five-up logos m-y">
             {logos.map(logo =>
-              <li key={logo.slug} className={logo.dark ? "dark " + "tile p-y p-md hidden" : "light " + "tile p-y p-md"}>
+              <li key={logo.src} className={logo.dark ? "dark " + "tile p-y p-md hidden" : "light " + "tile p-y p-md"}>
                 <img className="m-y" src={logo.src} alt={logo.alt} />
                 <p className="body-xs p-x tc">{logo.alt} - {logo.type}</p>
               </li>
@@ -51,7 +54,18 @@ class AmcResources extends React.Component{
             Download All
           </Link>
 
-          <h4 className="display-primary-4 m-t m-lg">Sketch Files</h4>
+          <h4 className="display-primary-4 m-t m-lg">Image Placeholders</h4>
+          <p className="body-md">We use a set of images for each network as placeholders while image requests are fulfilled. Please use the set below as the placeholder images.</p>
+          <ul className="row five-up">
+          {placeholders.map(placeholder =>
+            <li key={placeholder.slug} className="card p-y p-md">
+              <img className="thumbnail" src={placeholder.src} alt={placeholder.alt} />
+              <p className="body-xs">{placeholder.name}</p>
+            </li>
+          )}
+          </ul>
+
+          <h4 className="display-primary-4 m-t m-lg">Getting Started</h4>
           <p className="body-md">Download our sketch files to get up and running designing digital experiences for AMC Networks.</p>
 
           <div className="row three-up m-b m-lg">
@@ -77,16 +91,7 @@ class AmcResources extends React.Component{
             </div>
           </div>
 
-          <h4 className="display-primary-4 m-t m-lg">Image Placeholders</h4>
-          <p className="body-md">We use a set of images for each network as placeholders while image requests are fulfilled. Please use the set below as the placeholder images for each network.</p>
-
-          <p className="body-md">Download the full complement of images in png format for use in your projects.</p>
-          <Link to="https://amcnetworks.box.com/shared/static/ii7h7kd5acsko6jqezynpma0u9mg5m9p.zips" className="button-md button button-light m-y" target="_blank" rel="noopener noreferrer" download>
-            <img className="m-r i-md" src={require('../img/icons/download.svg')} alt="download all icons"/>
-            Download All
-          </Link>
-
-        </body>
+        </section>
       </div>
     )
 
