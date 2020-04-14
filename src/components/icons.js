@@ -7,7 +7,12 @@ class Icons extends Component {
 	}
 	render(){
 		let brand = getBrand(this.props.network)
-		if (brand.icons){
+		if (!brand.icons) {
+			return <>
+				<h4 className="display-primary-4 m-t m-lg">Icons</h4>
+				<span className="body-md">Coming Soon</span>
+			</>
+		} else {
 			return <section>
 				<h4 className="display-primary-4 m-t m-lg">Icons</h4>
 				<p className="body-md">We use icons in our experience as recognizable ways to quickly communicate familiar concepts and expected behaviors to our users.</p>
@@ -20,11 +25,6 @@ class Icons extends Component {
 					)}
 				</ul>
 			</section>
-		} else {
-			return <>
-				<h4 className="display-primary-4 m-t m-lg">Icons</h4>
-				<h6>Coming Soon</h6>
-			</>
 		}
 	}
 }
