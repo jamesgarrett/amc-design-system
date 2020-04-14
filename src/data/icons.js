@@ -25,7 +25,8 @@ const iconSet = [
   { slug: 'search', src: require('../img/icons/search.svg'), alt: 'Search' },
   { slug: 'tumblr', src: require('../img/icons/tumblr.svg'), alt: 'Tumblr' },
   { slug: 'volume', src: require('../img/icons/volume.svg'), alt: 'Volume' },
+  { slug: 'volume--mute', src: require('../img/icons/volume--mute.svg'), alt: 'Mute' },
   { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
-];
+]
 
 export default iconSet;
