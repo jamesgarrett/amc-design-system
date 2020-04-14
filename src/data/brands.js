@@ -6,6 +6,6 @@ import WEtvBrand from '../data/wetv-brand.js';
 
 let brands = []
 
-brands = {amc: AMCBrand, bbca: BBCABrand, ifc: IFCBrand, sundance: SundanceBrand}
+brands = {amc: AMCBrand, bbca: BBCABrand, ifc: IFCBrand, sundance: SundanceBrand, wetv: WEtvBrand}
 
 export default brands
