@@ -1,7 +1,11 @@
 .sundance{
 	$font-primary: benton-sans, Helvetica, sans-serif;
 	$font-secondary: benton-sans-extra-compressed, oswald, Helvetica, sans-serif;
-	$brand-primary: #e15d00;
+	--primary-dark:#000000;
+	--primary-light:white;
+	--secondary-dark:#1d1f21;
+	--tertiary-dark:rgba(0,0,0,.6);
+	--brand-accent: #e15d00;
 
 	body{
 	  font-family: $font-primary;
@@ -96,7 +100,7 @@
 	.body-xs, .body-link-xs {font-size: var(--fs00);}
 
 	.body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
-		color: $brand-primary;
+		color: var(--brand-accent);
 	}
 
 }
