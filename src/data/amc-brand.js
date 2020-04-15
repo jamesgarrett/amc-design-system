@@ -103,14 +103,14 @@ const fonts = [
 
 const placeholders = [
   {
-    slug: 'wide',
-    name: 'AMC Wide',
-    src: require('../img/placeholders/amc-wide.jpg'),
-  },
-  {
     slug: 'ultrawide',
     name: 'AMC Ultra Wide',
     src: require('../img/placeholders/amc-ultrawide.jpg'),
+  },
+  {
+    slug: 'wide',
+    name: 'AMC Wide',
+    src: require('../img/placeholders/amc-wide.jpg'),
   },
   {
     slug: 'poster',

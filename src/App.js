@@ -5,15 +5,16 @@
   import Resources from './pages/resources';
   import ResourceDetail from './pages/resourceDetail';
   import Templates from './pages/templates';
+  // import Switcher from './components/switcher';
   import Navigation from './components/navigation';
   import Footer from './components/footer';
   import HomePage from './templates/homePage';
   import FourOhFour from './templates/404';
   import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-  const Main = () => (
+  const Main = (props) => (
     <Router basename="/">
-      <Navigation />
+      <Navigation/>
       <Switch>
         <Route exact path='/' component={About}></Route>
         <Route exact path='/about' component={About}></Route>
@@ -29,16 +30,27 @@
   );
 
   class App extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+          isDark: true,
+        }
+    }
+    toggleMode = () => {
+      this.setState(state => ({ isDark: !state.isDark }));
+    };
     render(){
       return(
-        <div id='app-wrap' className='app light-text'>
+        <div id='app-wrap' className={(this.state.isDark ? 'dark' : 'light')+' vanilla'}>
           <div className='body container-fluid'>
-            <Main />
+            <Main mode={this.state.isDark}/>
           </div>
+          <button onClick={this.toggleMode} type="button" className="button-dark display-primary-1" style={{position:'fixed', bottom: 0, right: 0, margin: '1rem', cursor: 'pointer'}}>Toggle {this.state.isDark ? 'Light' : 'Dark'} Mode</button>
           <Footer className='container-fixed gutter'/>
         </div>
       )
     }
   }
+
 
   export default App;
