@@ -1,17 +1,10 @@
-.vanilla{
-  --primary-dark: #111111;
-  --primary-light: #efefef;
-  --brand-accent: lavender;
-  --secondary-dark: #999999;
-  --secondary-light: #dedede;
-}
-
 /* tenants.scss */
 
-@import 'tenant/amc';
-@import 'tenant/sundance';
-@import 'tenant/ifc';
-@import 'tenant/bbca';
+@import 'theme/vanilla';
+@import 'theme/amc';
+@import 'theme/sundance';
+@import 'theme/ifc';
+@import 'theme/bbca';
 
 /* vanilla.scss */
 
