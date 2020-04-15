@@ -2,9 +2,6 @@ import React, {Component} from 'react'
 import getBrand from '../components/getbrand.js'
 
 class Colors extends Component {
-	constructor(props){
-		super(props);
-	}
 	render(){
 		let brand = getBrand(this.props.network)
 		let title = 'Colors'

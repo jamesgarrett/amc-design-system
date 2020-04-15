@@ -2,9 +2,6 @@ import React, {Component} from 'react'
 import getBrand from '../components/getbrand.js'
 
 class Logos extends Component {
-	constructor(props){
-		super(props);
-	}
 	render(){
 		let brand = getBrand(this.props.network)
 		if (!brand.logos) {
