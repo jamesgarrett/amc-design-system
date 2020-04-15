@@ -35,14 +35,14 @@ const colors = [
 
 const logos = [
   {
-    slug: 'sundance-dark',
+    slug: 'primary-dark',
     src: require('../img/logos/sundance/sundance-dark.svg'),
     alt: 'Sundance TV Dark',
     type: 'svg',
     dark: true,
   },
   {
-    slug: 'sundance-light',
+    slug: 'primary-light',
     src: require('../img/logos/sundance/sundance-light.svg'),
     alt: 'Sundance TV Light',
     type: 'svg',

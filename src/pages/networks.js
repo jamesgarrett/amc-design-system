@@ -11,7 +11,7 @@ return (
 	      <p className='body-lg description m-y col-8'>The goal of the type system is to define a repeatable set of elements that can be deployed rapidly with consistent results. We use a core set of styles, and a fixed, unit independent sizing scale to generate consistent, readable type pairings.</p>
 			</section>
 			<body className="m-y container-fixed">
-				<div className="row four-up m-b m-lg">
+				<div className="row five-up m-b m-lg">
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/typography/amc'>
 						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/amc.png')} />

@@ -35,14 +35,14 @@ const colors = [
 
 const logos = [
   {
-    name: 'amc-dark',
+    name: 'primary-dark',
     src: require('../img/logos/amc/amc-dark.svg'),
     alt: 'AMC Outline Dark',
     type: 'svg',
     dark: true,
   },
   {
-    slug: 'amc-light',
+    slug: 'primary-light',
     src: require('../img/logos/amc/amc-light.svg'),
     alt: 'AMC Outline Light',
     type: 'svg',
@@ -103,21 +103,6 @@ const fonts = [
 
 const placeholders = [
   {
-    slug: 'square',
-    name: 'AMC square',
-    src: require('../img/placeholders/amc-square.jpg'),
-  },
-  {
-    slug: 'poster',
-    name: 'AMC Poster',
-    src: require('../img/placeholders/amc-poster.jpg'),
-  },
-  {
-    slug: 'background',
-    name: 'AMC Background',
-    src: require('../img/placeholders/amc-background.jpg'),
-  },
-  {
     slug: 'wide',
     name: 'AMC Wide',
     src: require('../img/placeholders/amc-wide.jpg'),
@@ -126,6 +111,21 @@ const placeholders = [
     slug: 'ultrawide',
     name: 'AMC Ultra Wide',
     src: require('../img/placeholders/amc-ultrawide.jpg'),
+  },
+  {
+    slug: 'poster',
+    name: 'AMC Poster',
+    src: require('../img/placeholders/amc-poster.jpg'),
+  },
+  {
+    slug: 'square',
+    name: 'AMC square',
+    src: require('../img/placeholders/amc-square.jpg'),
+  },
+  {
+    slug: 'background',
+    name: 'AMC Background',
+    src: require('../img/placeholders/amc-background.jpg'),
   },
 ]
 
