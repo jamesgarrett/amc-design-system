@@ -16,7 +16,7 @@ class Icons extends Component {
 				<ul className="icon-set m-y">
  					{brand.icons.map(icon =>
 						<li key={icon.slug} className="tile p-y p-md">
-							<img className="icon m-y i-xl" src={icon.src} alt={icon.alt} />
+							<img className="icon m-y i-xl svg" src={icon.src} alt={icon.alt} />
 							<p className="body-xs">{icon.alt}</p>
 						</li>
 					)}
