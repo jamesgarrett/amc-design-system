@@ -9,7 +9,7 @@ class About extends React.Component {
 		        <h1 className='headline-1 m-y'>Guidelines</h1>
   			    <p className='body-lg m-y'>A set of guidelines for using the design system to create digital experiences.</p>
   	    	</header>
-          <body className="p-y container-fixed">
+          <div className="p-y container-fixed">
             <div className="row three-up m-b m-lg">
               <div className="card m-b m-sm m-r">
                 <NavLink to='/resources'>
@@ -69,7 +69,7 @@ class About extends React.Component {
               </div>
             </div>
 
-          </body>
+          </div>
 	    </div>
           );
     }
