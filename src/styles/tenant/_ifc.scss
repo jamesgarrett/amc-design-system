@@ -76,7 +76,7 @@
 	$font-primary: 'GT America', avenir, Helvetica, sans-serif;
 	$font-secondary: 'Editor', 'Georgia', 'Times New Roman', serif;
   $font-tertiary: 'Editor Underline', 'Georgia', 'Times New Roman', serif;
-	$brand-primary: #e15d00;
+	--brand-accent: #e15d00;
 
 	body{
 	  font-family: $font-primary;

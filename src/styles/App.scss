@@ -1,3 +1,11 @@
+.vanilla{
+  --primary-dark: #111111;
+  --primary-light: #efefef;
+  --brand-accent: lavender;
+  --secondary-dark: #999999;
+  --secondary-light: #dedede;
+}
+
 /* tenants.scss */
 
 @import 'tenant/amc';
@@ -24,20 +32,20 @@
 @import 'components/tables';
 @import 'components/tile';
 
-.app{
-  &.light-text{
-    background:#111;
+#app-wrap{
+  &.dark{
+    background:var(--primary-dark);
+    color:var(--primary-light);
   }
-  &.dark-text *{
-    color:black;
-    background:white;
+  &.light *{
+    background:var(--primary-light);
+    color:var(--primary-dark);
   }
 }
 
-.app.light-text td, .app.light-text tBody{
-  border:.5px solid rgba(255,255,255,0.1px);
-  background:#111;
-
+#app-wrap.light-text td, #app-wrap.light-text tBody{
+  border:var(--primary-light);
+  background:var(--primary-dark);
 }
 
 /* normalize */
@@ -69,7 +77,7 @@ a{
 }
 
 footer{
-  background:#222222;
+  background:var(--primary-dark);
   color:white;
   padding:2vw;
   flex-shrink: 0;

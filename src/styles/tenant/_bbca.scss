@@ -65,7 +65,11 @@
 .bbca{
 	$font-primary: 'Verlag', Helvetica, sans-serif;
 	$font-secondary: 'OPTIStymie', 'Georgia', 'Times New Roman', serif;
-	$brand-primary: #e15d00;
+  --primary-dark: #060606;
+  --primary-light: white;
+  --secondary-dark:#101010;
+  --secondary-light:#efefef;
+  --brand-accent: #698186;
 
 	body{
 	  font-family: $font-primary;
