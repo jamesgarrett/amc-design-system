@@ -6,9 +6,9 @@ class Navigation extends React.Component{
 render(){
 
 	return(
-    <div className='header p-x'>
+    <div className='header'>
       <div className='lockup'>
-          <Link to='/'><img src={Logo} className='logo svg' alt='website logo' /></Link>
+          <Link to='/' className="m-l"><img src={Logo} className='logo svg' alt='website logo' /></Link>
         <h5 className='headline-5--strong hidden-sm'>Design System</h5>
       </div>
       <nav>

@@ -15,17 +15,19 @@
   const Main = (props) => (
     <Router basename="/">
       <Navigation/>
-      <Switch>
-        <Route exact path='/' component={About}></Route>
-        <Route exact path='/about' component={About}></Route>
-        <Route exact path='/resources/' component={Resources}></Route>
-        <Route exact path='/resources/:network' component={ResourceDetail}></Route>
-        <Route exact path='/typography/' component={NetworksPage}></Route>
-        <Route exact path='/typography/:network' component={NetworkPage}></Route>
-        <Route exact path='/templates/' component={Templates}></Route>
-        <Route exact path='/templates/home/:network' component={HomePage}></Route>
-        <Route exact path='/templates/404/:network' component={FourOhFour}></Route>
-      </Switch>
+      <div className='body container-fluid'>
+        <Switch className="m-t m-lg">
+          <Route exact path='/' component={About}></Route>
+          <Route exact path='/about' component={About}></Route>
+          <Route exact path='/resources/' component={Resources}></Route>
+          <Route exact path='/resources/:network' component={ResourceDetail}></Route>
+          <Route exact path='/typography/' component={NetworksPage}></Route>
+          <Route exact path='/typography/:network' component={NetworkPage}></Route>
+          <Route exact path='/templates/' component={Templates}></Route>
+          <Route exact path='/templates/home/:network' component={HomePage}></Route>
+          <Route exact path='/templates/404/:network' component={FourOhFour}></Route>
+        </Switch>
+      </div>
     </Router>
   );
 
@@ -42,9 +44,7 @@
     render(){
       return(
         <div id='app-wrap' className={(this.state.isDark ? 'dark' : 'light')+' vanilla'}>
-          <div className='body container-fluid'>
-            <Main mode={this.state.isDark}/>
-          </div>
+          <Main mode={this.state.isDark}/>
           <button onClick={this.toggleMode} type="button" className="button-dark display-primary-1" style={{position:'fixed', bottom: 0, right: 0, margin: '1rem', cursor: 'pointer'}}>Toggle {this.state.isDark ? 'Light' : 'Dark'} Mode</button>
           <Footer className='container-fixed gutter'/>
         </div>
