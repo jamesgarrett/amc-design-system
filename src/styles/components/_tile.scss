@@ -1,6 +1,5 @@
 .tile{
   justify-items: center;
-  background:#111;
   &:hover{
     background:#777;
   }
@@ -17,6 +16,13 @@
     display: grid;
     justify-items: center;
     align-items: center;
+}
+
+.logos img{
+  object-fit: contain;
+  width:100%;
+  max-height:2rem;
+  max-width:12rem;
 }
 
 .colors span{

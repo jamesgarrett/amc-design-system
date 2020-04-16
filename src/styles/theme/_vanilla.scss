@@ -1,7 +1,7 @@
 .vanilla{
   --primary-dark: #111111;
   --primary-light: #efefef;
-  --brand-accent: lavender;
+  --brand-accent: var(--primary-light);
   --secondary-dark: #999999;
   --secondary-light: #dedede;
 }

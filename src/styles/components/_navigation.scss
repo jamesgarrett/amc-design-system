@@ -8,6 +8,11 @@
 	}
 }
 
+.side-nav{
+	display:flex;
+	flex-direction:row;
+}
+
 .top-nav, .side-nav{
 	display: flex;
 	li {
