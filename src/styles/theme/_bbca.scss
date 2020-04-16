@@ -1,82 +1,75 @@
 @font-face {
-    font-family: 'GT America';
-    src: url('ifc-fonts/GTAmerica-Light.woff2') format('woff2'),
-        url('ifc-fonts/GTAmerica-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GT America';
-    src: url('ifc-fonts/GTAmerica-Black.woff2') format('woff2'),
-        url('ifc-fonts/GTAmerica-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GT America';
-    src: url('ifc-fonts/GTAmerica-LightItalic.woff2') format('woff2'),
-        url('ifc-fonts/GTAmerica-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'GT America';
-    src: url('ifc-fonts/GTAmerica-Regular.woff2') format('woff2'),
-        url('ifc-fonts/GTAmerica-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GT America';
-    src: url('ifc-fonts/GTAmerica-RegularItalic.woff2') format('woff2'),
-        url('ifc-fonts/GTAmerica-RegularItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'GT America';
-    src: url('ifc-fonts/GTAmerica-BlackItalic.woff2') format('woff2'),
-        url('ifc-fonts/GTAmerica-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Editor';
-    src: url('ifc-fonts/Editor-Regular.woff2') format('woff2'),
-        url('ifc-fonts/Editor-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'Editor';
-    src: url('ifc-fonts/Editor-Medium.woff2') format('woff2'),
-        url('ifc-fonts/Editor-Medium.woff') format('woff');
+    font-family: 'OPTIStymie';
+    src: url('bbca-fonts/OPTIStymie-Open.woff2') format('woff2'),
+        url('bbca-fonts/OPTIStymie-Open.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Editor Underline';
-    src: url('ifc-fonts/EditorUnderline-Regular.woff2') format('woff2'),
-        url('ifc-fonts/EditorUnderline-Regular.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Verlag';
+    src: url('bbca-fonts/Verlag-Bold.woff2') format('woff2'),
+        url('bbca-fonts/Verlag-Bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Verlag';
+    src: url('bbca-fonts/Verlag-Black.woff2') format('woff2'),
+        url('bbca-fonts/Verlag-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
 
-.ifc{
-	$font-primary: 'GT America', avenir, Helvetica, sans-serif;
-	$font-secondary: 'Editor', 'Georgia', 'Times New Roman', serif;
-  $font-tertiary: 'Editor Underline', 'Georgia', 'Times New Roman', serif;
-	$brand-primary: #e15d00;
+@font-face {
+    font-family: 'Verlag';
+    src: url('bbca-fonts/Verlag-Light.woff2') format('woff2'),
+        url('bbca-fonts/Verlag-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OPTIStymie';
+    src: url('bbca-fonts/OPTIStymie-MediumCond.woff2') format('woff2'),
+        url('bbca-fonts/OPTIStymie-MediumCond.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OPTIStymie';
+    src: url('bbca-fonts/OPTIStymie-Bold.woff2') format('woff2'),
+        url('bbca-fonts/OPTIStymie-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OPTIStymie';
+    src: url('bbca-fonts/OPTIStymie-BoldCondensed.woff2') format('woff2'),
+        url('bbca-fonts/OPTIStymie-BoldCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OPTIStymie';
+    src: url('bbca-fonts/OPTIStymie-Light.woff2') format('woff2'),
+        url('bbca-fonts/OPTIStymie-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.bbca{
+	$font-primary: 'Verlag', Helvetica, sans-serif;
+	$font-secondary: 'OPTIStymie', 'Georgia', 'Times New Roman', serif;
+  --primary-dark: #060606;
+  --primary-light: white;
+  --secondary-dark:#101010;
+  --secondary-light:#efefef;
+  --brand-accent: #698186;
 
 	body{
 	  font-family: $font-primary;
@@ -144,21 +137,21 @@
 
 	body, p, .body, .body-xs, .body-sm, .body-md, .body-lg, .body-xl{
 	  font-family: $font-secondary;
-	  font-weight: 400;
+	  font-weight: 300;
 	  font-style: normal;
 	  line-height: 1.43;
 	  letter-spacing: normal;
 	}
 
-	.body-xl {font-size: var(--fs07);}
+	.body-xl, .body-link-xl {font-size: var(--fs06);}
 	.body-lg, .body-link-lg {font-size: var(--fs04);}
-	.body-md, .body-link-md, p {font-size: var(--fs02);}
-	.body-sm, .body-link-sm {font-size: var(--fs01);}
-	.body-xs, .body-link-xs {font-size: var(--fs00);}
+	.body-md, .body-link-md, p {font-size: var(--fs03);}
+	.body-sm, .body-link-sm {font-size: var(--fs02);}
+	.body-xs, .body-link-xs {font-size: var(--fs01);}
 
 	.body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
-    font-family: $font-tertiary;
-    font-weight: 400;
+    font-family: $font-secondary;
+    font-weight: 300;
     font-style: normal;
     line-height: 1.43;
     letter-spacing: normal;

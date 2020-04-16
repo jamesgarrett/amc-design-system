@@ -27,6 +27,11 @@ page styles for icon display
   grid-template-columns: repeat(3, 1fr);
 }
 
+#app-wrap.light .icon.svg, #app-wrap.light .logo.svg, {
+  filter: invert(1);
+  background:transparent;
+}
+
 
 @media screen and (min-width:768px){
   .icon-set{

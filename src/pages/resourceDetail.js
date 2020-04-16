@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import ResourceNav from '../components/resourcenav';
 import Colors from '../components/colors.js'
 import Logos from '../components/logos.js'

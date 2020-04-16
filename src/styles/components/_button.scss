@@ -8,12 +8,12 @@
 }
 
 .button-light{
-	color:$brand-secondary;
-	fill:$brand-secondary;
-	border:2px solid $brand-secondary;
+	color:var(--primary-light);
+	fill:var(--primary-light);
+	border:2px solid --brand-accent;
 	&:hover{
-		color: $brand-primary;
-		background-color: $brand-secondary;
+		color: var(--primary-dark);
+		background-color: var(--white-20);
 		img {
 			filter: invert(1);
 		}
@@ -23,7 +23,7 @@
 .button-dark{
 	color:$brand-primary;
 	fill:$brand-primary;
-	border:2px solid $brand-primary;
+	border:2px solid --brand-accent;
 	img{filter: invert(1)};
 	&:hover{
 		color: $brand-secondary;

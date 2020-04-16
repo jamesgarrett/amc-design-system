@@ -6,7 +6,7 @@ class Grid extends React.Component{
     return(
       <section className="grid gutter m-y m-lg p-x p-xl">
         <h2 className="headline-3 m-y">Featured Shows</h2>
-        <div className="row m-l cards-md">
+        <div className="row m-l three-up">
           <div className="card m-b">
             <img alt={alt_text} className="thumbnail" src={require('../img/shows/closeup.jpg')} />
             <h6 className="label-primary-xs m-t m-md">Returns October 6</h6>
