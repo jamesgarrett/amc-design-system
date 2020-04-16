@@ -46,7 +46,7 @@
         <div id='app-wrap' className={(this.state.isDark ? 'dark' : 'light')+' vanilla'}>
           <Main mode={this.state.isDark}/>
           <button onClick={this.toggleMode} type="button" className="button-dark display-primary-1" style={{position:'fixed', bottom: 0, right: 0, margin: '1rem', cursor: 'pointer'}}>Toggle {this.state.isDark ? 'Light' : 'Dark'} Mode</button>
-          <Footer className='container-fixed gutter'/>
+          <Footer className='footer container-fixed gutter'/>
         </div>
       )
     }

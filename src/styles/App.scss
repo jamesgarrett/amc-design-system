@@ -21,13 +21,12 @@
 @import 'components/hero';
 @import 'components/icons';
 @import 'components/navigation';
-@import 'components/sidenav';
 @import 'components/swimlane';
 @import 'components/tables';
 @import 'components/tile';
 
 #app-wrap{
-  &.dark .body, &.dark .header{
+  &.dark .body, &.dark .header, &.dark .footer{
     background:var(--primary-dark);
     color:var(--primary-light);
     td, tBody{
@@ -35,7 +34,7 @@
       background:var(--primary-dark);
     }
   }
-  &.light .body, &.light .header{
+  &.light .body, &.light .header, &.light .footer{
     background:var(--primary-light);
     color:var(--primary-dark);
     td, tBody{
