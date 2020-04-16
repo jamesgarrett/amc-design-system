@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Verlag';
+    src: url('Verlag-Bold.woff2') format('woff2'),
+        url('Verlag-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verlag';
+    src: url('Verlag-Black.woff2') format('woff2'),
+        url('Verlag-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verlag';
+    src: url('Verlag-Light.woff2') format('woff2'),
+        url('Verlag-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'OPTIStymie';
+    src: url('OPTIStymie-MediumCond.woff2') format('woff2'),
+        url('OPTIStymie-MediumCond.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OPTIStymie';
+    src: url('OPTIStymie-Bold.woff2') format('woff2'),
+        url('OPTIStymie-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OPTIStymie';
+    src: url('OPTIStymie-BoldCondensed.woff2') format('woff2'),
+        url('OPTIStymie-BoldCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OPTIStymie';
+    src: url('OPTIStymie-Light.woff2') format('woff2'),
+        url('OPTIStymie-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
