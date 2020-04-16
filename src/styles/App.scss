@@ -27,17 +27,24 @@
 @import 'components/tile';
 
 #app-wrap{
-  &.dark *{
+  &.dark .body, &.dark .header{
     background:var(--primary-dark);
     color:var(--primary-light);
+    td, tBody{
+      border:var(--primary-light);
+      background:var(--primary-dark);
+    }
   }
-  &.light *{
+  &.light .body, &.light .header{
     background:var(--primary-light);
     color:var(--primary-dark);
+    td, tBody{
+      border:var(--primary-dark);
+      background:var(--primary-light);
+    }
   }
-}
-
-#app-wrap.light-text td, #app-wrap.light-text tBody{
-  border:var(--primary-light);
-  background:var(--primary-dark);
+  &.light .icon.svg, &.light .logo.svg, {
+    filter: invert(1);
+    background:transparent;
+  }
 }

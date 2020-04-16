@@ -4,30 +4,31 @@
 	display:inline-flex;
 	text-align: center;
 	align-items: center;
-	.icon{width:1.5rem;}
+	line-height: 100%;
 }
 
-.button-light{
-	color:var(--primary-light);
-	fill:var(--primary-light);
-	border:2px solid --brand-accent;
+.button-primary{
+	border:2px solid;
+	transition: .5s ease-in-out;
+	background: var(--brand-accent);
 	&:hover{
-		color: var(--primary-dark);
-		background-color: var(--white-20);
-		img {
-			filter: invert(1);
-		}
+		transform:scale(1.25);
+		transition: .5s ease-in-out;
 	}
 }
 
-.button-dark{
-	color:$brand-primary;
-	fill:$brand-primary;
-	border:2px solid --brand-accent;
+.button-left{
+		transform-origin: center left;
+}
+
+.button-right{
+		transform-origin: center right;
+}
+
+.button-secondary{
+	border:2px solid;
 	img{filter: invert(1)};
 	&:hover{
-		color: $brand-secondary;
-		background-color: $brand-primary;
 		img {filter: invert(0);}
 	}
 }

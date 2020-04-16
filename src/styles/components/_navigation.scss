@@ -14,7 +14,7 @@
 		a{
 		    padding: .5rem 1rem;
 		    border:1px solid transparent;
-		    color:#efefef;
+		    color:var(--brand-light);
 		    opacity:0.6;
 		    transition:.5s ease-in-out;
 			&.active {
