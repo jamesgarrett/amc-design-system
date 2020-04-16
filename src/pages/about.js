@@ -46,7 +46,7 @@ class About extends React.Component {
             <h4 className="display-primary-4 m-t m-lg">Getting Started</h4>
             <p className="body-md">Download our sketch files to get up and running designing digital experiences for AMC Networks.</p>
 
-            <div className="row three-up m-b m-lg">
+            <div className="row four-up m-b m-lg">
               <div className="card m-b m-sm m-r">
                 <a href="https://amcnetworks.box.com/shared/static/1ryqj8p5heauaqarrzdhe3a4o1hamyv1.zip" target="_blank" rel="noopener noreferrer" download>
                 <img alt="Getting Started Sketch File" className="thumbnail" src={require('../img/tiles/sketch-getting-started.png')} />
