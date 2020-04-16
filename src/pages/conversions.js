@@ -3,8 +3,8 @@ import React from 'react'
   class Conversions extends React.Component{
 	render(){
 		return(
-			<div className="container-fixed">
-		        <section className="inlio m-b col-6">
+			<div className="m-x">
+		        <section className="intro m-b col-6">
 			        <h2 className='headline-1 m-y col-8'>Conversions Table</h2>
 	                <h4 className='headline-4 m-y col-8'>Common cross platform type standards.</h4>
 			        <p className='subhead-1 m-b col-8'>Our typography classes use a numeric scale to define a flexible, unit independent type system. We use this system to lianslate our type accurately across platforms which use a variety of meliics for typography. We have provided a reference table for common sizing conversions:</p>
