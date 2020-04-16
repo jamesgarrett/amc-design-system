@@ -90,27 +90,27 @@ const fonts = [
 const placeholders = [
   {
     slug: 'ultrawide',
-    name: 'AMC Ultra Wide',
+    name: 'IFC Ultra Wide',
     src: require('../img/placeholders/ifc-ultrawide.jpg'),
   },
   {
     slug: 'wide',
-    name: 'AMC Wide',
+    name: 'IFC Wide',
     src: require('../img/placeholders/ifc-wide.jpg'),
   },
   {
     slug: 'poster',
-    name: 'AMC Poster',
+    name: 'IFC Poster',
     src: require('../img/placeholders/ifc-poster.jpg'),
   },
   {
     slug: 'square',
-    name: 'AMC square',
+    name: 'IFC square',
     src: require('../img/placeholders/ifc-square.jpg'),
   },
   {
     slug: 'background',
-    name: 'AMC Background',
+    name: 'IFC Background',
     src: require('../img/placeholders/ifc-background.jpg'),
   },
 ]
