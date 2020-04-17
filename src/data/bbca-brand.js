@@ -35,18 +35,11 @@ const colors = [
 
 const logos = [
   {
-    name: 'primary-dark',
+    name: 'primary',
     src: require('../img/logos/bbca/bbca.svg'),
     alt: 'BBCA',
     type: 'svg',
     dark: true,
-  },
-  {
-    name: 'primary-light',
-    src: require('../img/logos/bbca/bbca.svg'),
-    alt: 'BBCA',
-    type: 'svg',
-    dark: false,
   },
   {
     name: 'bbca-sm',
