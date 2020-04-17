@@ -10,7 +10,7 @@ return (
 	      <h4 className='headline-4 m-y col-8'>About the System</h4>
 	      <p className='body-lg description m-y col-8'>The templates system harnesses the power of the typography system to create uniform interfaces across platforms, devices, and networks.</p>
 			</section>
-			<body className="m-y container-fixed">
+			<section className="m-y container-fixed">
 				<div className="row four-up m-b m-lg">
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/templates/home/amc'>
@@ -25,7 +25,7 @@ return (
 						</NavLink>
 					</div>
 				</div>
-				</body>
+				</section>
 	  </div>
 	);
 };

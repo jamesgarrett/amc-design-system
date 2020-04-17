@@ -10,7 +10,7 @@ const FourOhFour = ({ match, location }) => {
 
 	return (
 	<div className={net}>
-	  <body className="m-x">
+	  <section className="m-x">
 
 			<header className="p-y container-fixed">
 				<h1 className="headline-primary-1 m-y">Templates</h1>
@@ -35,7 +35,7 @@ const FourOhFour = ({ match, location }) => {
         <button className="button-md p-x p-y">Return to Home</button>
       </header>
 
-	  </body>
+	  </section>
 	</div>
 	);
 };

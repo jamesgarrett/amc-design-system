@@ -5,7 +5,6 @@
   import Resources from './pages/resources';
   import ResourceDetail from './pages/resourceDetail';
   import Templates from './pages/templates';
-  // import Switcher from './components/switcher';
   import Navigation from './components/navigation';
   import Footer from './components/footer';
   import HomePage from './templates/homePage';
@@ -30,6 +29,12 @@
       </div>
     </Router>
   );
+
+  const isItDark = () => {
+      if (this.state.isDark){
+        console.log('its dark')
+      }
+  }
 
   class App extends Component {
     constructor(props){

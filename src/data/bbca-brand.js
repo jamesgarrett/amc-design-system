@@ -42,6 +42,13 @@ const logos = [
     dark: true,
   },
   {
+    name: 'primary-light',
+    src: require('../img/logos/bbca/bbca.svg'),
+    alt: 'BBCA',
+    type: 'svg',
+    dark: false,
+  },
+  {
     name: 'bbca-sm',
     src: require('../img/logos/bbca/bbca-sm.png'),
     alt: 'BBCA Small',

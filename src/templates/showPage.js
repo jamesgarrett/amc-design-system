@@ -7,7 +7,7 @@ const NetworkPage = ({ match, location }) => {
 
 	return (
 	<div className={net}>
-	  <body className="m-x">
+	  <section className="m-x">
 
 			<header className="m-y">
 				<h1 className="headline-primary-1 m-y">Templates</h1>
@@ -16,7 +16,7 @@ const NetworkPage = ({ match, location }) => {
 
 			<GetShows />
 
-	  </body>
+	  </section>
 	</div>
 	);
 };

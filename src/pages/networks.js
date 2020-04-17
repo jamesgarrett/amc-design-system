@@ -10,7 +10,7 @@ return (
 	      <h4 className='headline-4 m-y col-8'>About the System</h4>
 	      <p className='body-lg description m-y col-8'>The goal of the type system is to define a repeatable set of elements that can be deployed rapidly with consistent results. We use a core set of styles, and a fixed, unit independent sizing scale to generate consistent, readable type pairings.</p>
 			</section>
-			<body className="m-y container-fixed">
+			<section className="m-y container-fixed">
 				<div className="row five-up m-b m-lg">
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/typography/amc'>
@@ -37,7 +37,7 @@ return (
 						</NavLink>
 					</div>
 				</div>
-				</body>
+				</section>
 	  </div>
 	);
 };

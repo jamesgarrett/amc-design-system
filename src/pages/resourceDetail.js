@@ -10,7 +10,7 @@ const ResourceDetail = ({ match, location }) => {
 	const { params: { network } } = match;
 
 	return (
-	<div className={network}>
+	<div className={(network)+" body"}>
 		<div className="m-x">
 		<section className="m-b tl container-fixed p-y">
 			<h1 className='headline-1 m-y'>Resources</h1>

@@ -10,7 +10,7 @@ return (
 	      <h4 className='headline-4 m-y col-8'>About the System</h4>
 	      <p className='body-lg description m-y col-8'>Our build system relies on a structure of shared and unique resources that both keep our network apps consistent, while accentuating the unique character that differentiate them.</p>
 			</section>
-			<body className="m-y container-fixed">
+			<section className="m-y container-fixed">
 				<div className="row five-up m-b m-lg">
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/resources/amc'>
@@ -37,7 +37,7 @@ return (
 						</NavLink>
 					</div>
 				</div>
-				</body>
+				</section>
 	  </div>
 	);
 };
