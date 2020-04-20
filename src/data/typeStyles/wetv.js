@@ -1,41 +1,41 @@
 const WEtvTypeStyles = [
   {
     "name": "display-primary-6",
-    "lineHeight": 54,
+    "lineHeight": 48,
     "scale": 9,
     "textTransform": "Uppercase",
     "font": {
-      "family": "Verlag",
-      "postscriptName": "Verlag-Light",
-      "size": 48,
-      "weight": "Black",
-      "stretch": "4"
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
+      "size": 60,
+      "weight": "Bold",
+      "stretch": "0"
     },
   },
   {
     "name": "display-primary-5",
-    "lineHeight": 44,
+    "lineHeight": 40,
     "scale": 7,
     "textTransform": "Uppercase",
     "font": {
-      "family": "Verlag",
-      "postscriptName": "Verlag-Light",
-      "size": 40,
-      "weight": "Black",
-      "stretch": "4"
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
+      "size": 48,
+      "weight": "Bold",
+      "stretch": "0"
     },
   },
   {
     "name": "display-primary-4",
-    "lineHeight": 36,
+    "lineHeight": 32,
     "scale": 5,
     "textTransform": "Uppercase",
     "font": {
-      "family": "Verlag",
-      "postscriptName": "Verlag-Light",
-      "size": 32,
-      "weight": "Black",
-      "stretch": "4"
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
+      "size": 40,
+      "weight": "Bold",
+      "stretch": "0"
     },
   },
   {
@@ -44,11 +44,11 @@ const WEtvTypeStyles = [
     "scale": 3,
     "textTransform": "Uppercase",
     "font": {
-      "family": "Verlag",
-      "postscriptName": "Verlag-Light",
-      "size": 24,
-      "weight": "Black",
-      "stretch": "4"
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
+      "size": 32,
+      "weight": "Bold",
+      "stretch": "0"
     },
   },
   {
@@ -57,11 +57,11 @@ const WEtvTypeStyles = [
     "scale": 2,
     "textTransform": "Uppercase",
     "font": {
-      "family": "Verlag",
-      "postscriptName": "Verlag-Light",
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
       "size": 20,
-      "weight": "Black",
-      "stretch": "4"
+      "weight": "Bold",
+      "stretch": "0"
     },
   },
   {
@@ -70,11 +70,11 @@ const WEtvTypeStyles = [
     "scale": 1,
     "textTransform": "Uppercase",
     "font": {
-      "family": "Verlag",
-      "postscriptName": "Verlag-Light",
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
       "size": 16,
-      "weight": "Black",
-      "stretch": "4"
+      "weight": "Bold",
+      "stretch": "0"
     },
   },
   {
@@ -83,11 +83,11 @@ const WEtvTypeStyles = [
     "scale": 1,
     "textTransform": "Uppercase",
     "font": {
-      "family": "Verlag",
-      "postscriptName": "Verlag-Light",
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
       "size": 14,
-      "weight": "Black",
-      "stretch": "4"
+      "weight": "Bold",
+      "stretch": "0"
     },
   },
   {

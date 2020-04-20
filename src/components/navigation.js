@@ -11,7 +11,7 @@ render(){
           <Link to='/' className="m-l"><img src={Logo} className='logo svg' alt='website logo' /></Link>
         <h5 className='headline-5--strong hidden-sm'>Design System</h5>
       </div>
-      <nav>
+      <nav className="m-r">
         <ul className="top-nav">
           <li><NavLink to='/about'>Guidelines</NavLink></li>
           <li><NavLink to='/typography'>Typography</NavLink></li>
