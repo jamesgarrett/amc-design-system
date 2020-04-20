@@ -36,6 +36,12 @@ return (
 						<div className="body-lg m-b tl">BBC America Typography</div>
 						</NavLink>
 					</div>
+					<div className="card m-b m-r m-sm">
+						<NavLink to='/typography/wetv'>
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/wetv.png')} />
+						<div className="body-lg m-b tl">WEtv Typography</div>
+						</NavLink>
+					</div>
 				</div>
 				</section>
 	  </div>

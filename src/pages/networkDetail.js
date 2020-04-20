@@ -4,6 +4,7 @@ import AmcType from '../networks/amc';
 import IfcType from '../networks/ifc';
 import SundanceType from '../networks/sundance';
 import BBCAType from '../networks/bbca';
+import WEtvType from '../networks/wetv';
 import Conversions from '../pages/conversions';
 
 const NetworkPage = ({ match, location }) => {
@@ -18,7 +19,9 @@ const NetworkPage = ({ match, location }) => {
 	  typeTable = <IfcType />;
 	} if ( network === 'bbca') {
 	  typeTable = <BBCAType />;
-	}
+	} if ( network === 'wetv') {
+	 typeTable = <WEtvType />;
+ }
 
 	var net = network;
 
