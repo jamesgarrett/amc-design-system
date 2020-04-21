@@ -2,7 +2,7 @@
 
 .wetv{
 	$font-primary: 'FuturaRoundCond-Bold', 'Helvetica Neue', sans-serif;
-	$font-secondary: 'AvenirLTStd-Medium', 'Ubuntu', sans-serif;
+	$font-secondary: 'Futura Round', 'Ubuntu', sans-serif;
   --primary-dark: #212844;
   --primary-light: #ffffff;
   --secondary-dark:rgba(0,0,0,0.6);
@@ -13,67 +13,54 @@
 	  font-family: $font-primary;
 	}
 
-	h1, h2, h3, h4, h5, h6, .display-primary, .display-primary-6, .display-primary-5, .display-primary-4, .display-primary-3, .display-primary-2, .display-primary-1, .display-primary-0{
+	h1, h2, h3, h4, h5, h6, .display-primary, .display-primary-6, .display-primary-5, .display-primary-4, .display-primary-3, .display-primary-2, .display-primary-1, .display-primary-0, .display-secondary, .display-secondary-6, .display-secondary-5, .display-secondary-4, .display-secondary-3, .display-secondary-2, .display-secondary-1, .display-secondary-0, 	.display-tertiary, .display-tertiary-1, .display-tertiary-2, .display-tertiary-3, .display-tertiary-4, .display-tertiary-5, .display-tertiary-6{
 	  font-family: $font-primary;
-	  font-weight: 400;
+	  font-weight: bold;
 	  text-transform: capitalize;
 	  letter-spacing: 0;
 	  line-height: 1.08;
 	}
 
-	h1, .display-primary-6, .display-tertiary-6 {font-size: var(--fs10);}
-	h2, .display-primary-5, .display-tertiary-5 {font-size: var(--fs09);}
-	h3, .display-primary-4, .display-tertiary-4 {font-size: var(--fs07);}
-	h4, .display-primary-3, .display-tertiary-3 {font-size: var(--fs05);}
-	h5, .display-primary-2, .display-tertiary-2 {font-size: var(--fs04);}
-	h6, .display-primary-1, .display-tertiary-1 {font-size: var(--fs02);}
-	.display-primary-0, .display-tertiary-0 {font-size: var(--fs01);}
+  .display-primary, .display-primary-6, .display-primary-5, .display-primary-4, .display-primary-3, .display-primary-2, .display-primary-1, .display-primary-0{
+    color: var(--brand-accent);
+  }
 
-	.display-secondary, .display-secondary-6, .display-secondary-5, .display-secondary-4, .display-secondary-3, .display-secondary-2, .display-secondary-1, .display-secondary-0, 	.display-tertiary, .display-tertiary-1, .display-tertiary-2, .display-tertiary-3, .display-tertiary-4, .display-tertiary-5, .display-tertiary-6{
+  .display-primary-6, .display-secondary-6, .display-tertiary-6 {font-size: var(--fs13);}
+  .display-primary-5, .display-secondary-5, .display-tertiary-5 {font-size: var(--fs10);}
+  .display-primary-4, .display-secondary-4, .display-tertiary-4 {font-size: var(--fs09);}
+  .display-primary-3, .display-secondary-3, .display-tertiary-3 {font-size: var(--fs07);}
+  .display-primary-2, .display-secondary-2, .display-tertiary-2 {font-size: var(--fs05);}
+  .display-primary-1, .display-secondary-1, .display-tertiary-1 {font-size: var(--fs04);}
+	.display-primary-0, .display-secondary, .display-tertiary-0 {font-size: var(--fs02);}
+
+	.label, .label-xl, .label-lg, .label-md, .label-sm, .label-xs, .label-primary, .label-primary-xl, .label-primary-lg, .label-primary-md, .label-primary-sm, .label-primary-xs{
 	  font-family: $font-primary;
-	  font-weight: 300;
-	  text-transform: capitalize;
-	  line-height: 1.08;
-	}
-
-	.display-secondary-6{font-size: var(--fs10);}
-	.display-secondary-5{font-size: var(--fs09);}
-	.display-secondary-4{font-size: var(--fs07);}
-	.display-secondary-3{font-size: var(--fs05);}
-	.display-secondary-2{font-size: var(--fs04);}
-	.display-secondary-1{font-size: var(--fs02);}
-	.display-secondary-0{font-size: var(--fs01);}
-
-	.label, .label-lg, .label-md, .label-sm, .label-xs, .label-primary, .label-primary-lg, .label-primary-md, .label-primary-sm, .label-primary-xs, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
-	  font-family: $font-primary;
-	  font-weight: 900;
+	  font-weight: bold;
 	  line-height: 1.5;
 	  text-transform: uppercase;
-	  letter-spacing: 1px;
 	}
 
-	.label-primary, .label-primary-lg, .label-primary-md, .label-primary-sm, .label-primary-xs{
-	  text-transform: uppercase;
+	.label-secondary, .label-secondary-xl, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
+    font-family: $font-secondary;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: capitalize;
 	}
 
-	.label-secondary, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
-	  text-transform: uppercase;
-	  font-weight: 300;
-	}
-
-	.button, .button-lg, .button-md, .button-sm, .button-xs{
+	.button, .button-xl, .button-lg, .button-md, .button-sm, .button-xs{
 		font-family: $font-primary;
 		text-transform: uppercase;
 		font-weight:900;
 		letter-spacing:1.5px;
 	}
 
-	.label-lg, .label-primary-lg, .label-secondary-lg, .button-lg {font-size: var(--fs04);}
-	.label-md, .label-primary-md, .label-secondary-md, .button-md {font-size: var(--fs02);}
-	.label-sm, .label-primary-sm, .label-secondary-sm, .button-sm {font-size: var(--fs01);}
-	.label-xs, .label-primary-xs, .label-secondary-xs, .button-xs {font-size: var(--fs00);}
+	.label-xl, .label-primary-xl, .label-secondary-xl, .button-xl {font-size: var(--fs07);}
+	.label-lg, .label-primary-lg, .label-secondary-lg, .button-lg {font-size: var(--fs05);}
+	.label-md, .label-primary-md, .label-secondary-md, .button-md {font-size: var(--fs04);}
+	.label-sm, .label-primary-sm, .label-secondary-sm, .button-sm {font-size: var(--fs02);}
+	.label-xs, .label-primary-xs, .label-secondary-xs, .button-xs {font-size: var(--fs01);}
 
-	body, p, .body, .body-xs, .body-sm, .body-md, .body-lg, .body-xl{
+	.body, .body-xs, .body-sm, .body-md, .body-lg, .body-xl{
 	  font-family: $font-secondary;
 	  font-weight: 300;
 	  font-style: normal;
@@ -81,14 +68,15 @@
 	  letter-spacing: normal;
 	}
 
-	.body-xl, .body-link-xl {font-size: var(--fs06);}
-	.body-lg, .body-link-lg {font-size: var(--fs04);}
-	.body-md, .body-link-md, p {font-size: var(--fs03);}
+	.body-xl, .body-link-xl {font-size: var(--fs07);}
+	.body-lg, .body-link-lg {font-size: var(--fs05);}
+	.body-md, .body-link-md {font-size: var(--fs04);}
 	.body-sm, .body-link-sm {font-size: var(--fs02);}
 	.body-xs, .body-link-xs {font-size: var(--fs01);}
 
 	.body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
     font-family: $font-secondary;
+		color: var(--brand-accent);
     font-weight: 300;
     font-style: normal;
     line-height: 1.43;

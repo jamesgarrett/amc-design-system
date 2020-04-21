@@ -11,6 +11,9 @@
 .side-nav{
 	display:flex;
 	flex-direction:row;
+	.nav-title{
+		margin-right:1rem;
+	}
 }
 
 .top-nav, .side-nav{
@@ -44,6 +47,8 @@
 
 	ul.side-nav{
 		display:grid;
+		overflow-x:scroll;
+		grid-template-columns: minmax(70px, 1fr);
 		.nav-title{
 			grid-row:1;
 			padding:1rem 0;
@@ -51,7 +56,5 @@
 		li{
 			grid-row:2;
 		}
-		width:100%;
-		overflow-x:scroll;
 	}
 }

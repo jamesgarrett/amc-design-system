@@ -91,6 +91,97 @@ const WEtvTypeStyles = [
     },
   },
   {
+    "name": "display-secondary-6",
+    "lineHeight": 48,
+    "scale": 13,
+    "textTransform": "Uppercase",
+    "font": {
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
+      "size": 60,
+      "weight": "Bold",
+      "stretch": "0"
+    },
+  },
+  {
+    "name": "display-secondary-5",
+    "lineHeight": 40,
+    "scale": 10,
+    "textTransform": "Uppercase",
+    "font": {
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
+      "size": 48,
+      "weight": "Bold",
+      "stretch": "0"
+    },
+  },
+  {
+    "name": "display-secondary-4",
+    "lineHeight": 32,
+    "scale": 9,
+    "textTransform": "Uppercase",
+    "font": {
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
+      "size": 40,
+      "weight": "Bold",
+      "stretch": "0"
+    },
+  },
+  {
+    "name": "display-secondary-3",
+    "lineHeight": 28,
+    "scale": 7,
+    "textTransform": "Uppercase",
+    "font": {
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
+      "size": 32,
+      "weight": "Bold",
+      "stretch": "0"
+    },
+  },
+  {
+    "name": "display-secondary-2",
+    "lineHeight": 20,
+    "scale": 5,
+    "textTransform": "Uppercase",
+    "font": {
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
+      "size": 24,
+      "weight": "Bold",
+      "stretch": "0"
+    },
+  },
+  {
+    "name": "display-secondary-1",
+    "lineHeight": 20,
+    "scale": 4,
+    "textTransform": "Uppercase",
+    "font": {
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
+      "size": 20,
+      "weight": "Bold",
+      "stretch": "0"
+    },
+  },
+  {
+    "name": "display-secondary-0",
+    "lineHeight": 16,
+    "scale": 2,
+    "textTransform": "Uppercase",
+    "font": {
+      "family": "Futura Round Condensed",
+      "postscriptName": "FuturaRoundCond-Bold",
+      "size": 16,
+      "weight": "Bold",
+      "stretch": "0"
+    },
+  },
+  {
     "name": "label-primary-xl",
     "lineHeight": 36,
     "scale": 7,
