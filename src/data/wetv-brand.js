@@ -42,13 +42,6 @@ const logos = [
     dark: true,
   },
   {
-    slug: 'primary-light',
-    src: require('../img/logos/wetv/wetv.svg'),
-    alt: 'WEtv Logo',
-    type: 'svg',
-    dark: false,
-  },
-  {
     slug: 'wetv-sm',
     src: require('../img/logos/wetv/wetv-sm.png'),
     alt: 'WEtv Small',
