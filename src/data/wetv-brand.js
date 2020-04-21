@@ -66,15 +66,15 @@ const logos = [
 
 const fonts = [
   {
-    slug: 'benton-sans',
-    name: 'Benton Sans',
-    img: require('../img/tiles/benton-sans.jpg'),
+    slug: 'futura-round-cond-bold',
+    name: 'Futura Round Condensed',
+    img: require('../img/tiles/futura-round-condensed.jpg'),
     download_link: 'https://amcnetworks.box.com/shared/static/jtzch5f0c7ytnsxjckcen6n85b6vh4yj.zip',
   },
   {
-    slug: 'benton-sans-extra-compressed',
-    name: 'Benton Sans Extra Compressed Regular',
-    img: require('../img/tiles/benton-sans-condensed.jpg'),
+    slug: 'futura-round',
+    name: 'Futura Round',
+    img: require('../img/tiles/futura-round.jpg'),
     download_link: 'https://amcnetworks.box.com/shared/static/6w3rzjlofln76e2cxku5bvctd86qq25l.zip',
   },
 ]
@@ -82,28 +82,28 @@ const fonts = [
 const placeholders = [
   {
     slug: 'ultrawide',
-    name: 'Sundance Ultra Wide',
-    src: require('../img/placeholders/sdtv-ultrawide.jpg'),
+    name: 'WEtv Ultra Wide',
+    src: require('../img/placeholders/wetv-ultrawide.jpg'),
   },
   {
     slug: 'wide',
-    name: 'Sundance Wide',
-    src: require('../img/placeholders/sdtv-wide.jpg'),
+    name: 'WEtv Wide',
+    src: require('../img/placeholders/wetv-wide.jpg'),
   },
   {
     slug: 'poster',
-    name: 'Sundance Poster',
-    src: require('../img/placeholders/sdtv-poster.jpg'),
+    name: 'WEtv Poster',
+    src: require('../img/placeholders/wetv-poster.jpg'),
   },
   {
     slug: 'square',
-    name: 'Sundance Square',
-    src: require('../img/placeholders/sdtv-square.jpg'),
+    name: 'WEtv Square',
+    src: require('../img/placeholders/wetv-square.jpg'),
   },
   {
     slug: 'background',
-    name: 'Sundance Background',
-    src: require('../img/placeholders/sdtv-background.jpg'),
+    name: 'WEtv Background',
+    src: require('../img/placeholders/wetv-background.jpg'),
   },
 ]
 
