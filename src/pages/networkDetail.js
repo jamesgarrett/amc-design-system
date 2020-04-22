@@ -26,7 +26,7 @@ const NetworkPage = ({ match, location }) => {
 	var net = network;
 
 	return (
-	<div className={net}>
+	<div className={(network)+" body"}>
 	  <div className="intro p-x">
 	    <header className="m-b tl container-fixed p-y">
 	      <h1 className='headline-1 m-y'>Typography</h1>
