@@ -1,29 +1,10 @@
 import React from 'react';
 import Sidenav from '../components/sidenav';
-import AmcType from '../networks/amc';
-import IfcType from '../networks/ifc';
-import SundanceType from '../networks/sundance';
-import BBCAType from '../networks/bbca';
-import WEtvType from '../networks/wetv';
+import TypeTable from '../components/typetable';
 import Conversions from '../pages/conversions';
 
 const NetworkPage = ({ match, location }) => {
 	const { params: { network } } = match;
-	var typeTable;
-
-	if ( network === 'amc'){
-	  typeTable = <AmcType />;
-	} if ( network === 'sundance') {
-	  typeTable = <SundanceType />;
-	} if ( network === 'ifc') {
-	  typeTable = <IfcType />;
-	} if ( network === 'bbca') {
-	  typeTable = <BBCAType />;
-	} if ( network === 'wetv') {
-	 typeTable = <WEtvType />;
- }
-
-	var net = network;
 
 	return (
 	<div className={(network)+" body"}>
@@ -35,7 +16,7 @@ const NetworkPage = ({ match, location }) => {
 	    </header>
 	  </div>
 				<Sidenav/>
-	      {typeTable}
+				<TypeTable network={network}></TypeTable>
 	      <Conversions />
 	</div>
 	);
