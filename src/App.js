@@ -30,12 +30,6 @@
     </Router>
   );
 
-  const isItDark = () => {
-      if (this.state.isDark){
-        console.log('its dark')
-      }
-  }
-
   class App extends Component {
     constructor(props){
         super(props);

@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import getBrand from '../components/getbrand.js'
+import getBrand from '../functions/getBrand.js'
 
 class Colors extends Component {
 	render(){

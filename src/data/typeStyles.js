@@ -5,7 +5,8 @@ import SundanceTypeStyles from '../data/typeStyles/sundance.js';
 import WEtvTypeStyles from '../data/typeStyles/wetv.js';
 
 let typeStyles = []
+let VanillaTypeStyles = []
 
-typeStyles = {amc: AmcTypeStyles, bbca: BBCATypeStyles, ifc: IfcTypeStyles, sundance: SundanceTypeStyles, wetv: WEtvTypeStyles}
+typeStyles = {vanilla: VanillaTypeStyles, amc: AmcTypeStyles, bbca: BBCATypeStyles, ifc: IfcTypeStyles, sundance: SundanceTypeStyles, wetv: WEtvTypeStyles}
 
 export default typeStyles
