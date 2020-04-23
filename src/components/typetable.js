@@ -11,9 +11,7 @@ class TypeTable extends Component {
 		 </>
 	 } else{
 			return <>
-				<h4 className="display-primary-4 m-t m-lg">Logos</h4>
-				<p className="body-md">A set of logos approved for use in AMC digital experiences.</p>
-        <ul className="typography col-12 p-y container-fixed">
+        <ul className="typography col-12 p-y m-x">
           <li className="row m-x">
             <span className="top-row label-secondary p-x p-y">Class Name</span>
             <span className="label-secondary p-x p-y">Font Family</span>
