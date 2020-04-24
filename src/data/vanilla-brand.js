@@ -116,28 +116,28 @@ const fonts = [
 const placeholders = [
   {
     slug: 'ultrawide',
-    name: 'Sundance Ultra Wide',
-    src: require('../img/placeholders/sdtv-ultrawide.jpg'),
+    name: 'Vanilla Ultra Wide',
+    src: require('../img/placeholders/vanilla-ultrawide.jpg'),
   },
   {
     slug: 'wide',
-    name: 'Sundance Wide',
-    src: require('../img/placeholders/sdtv-wide.jpg'),
+    name: 'Vanilla Wide',
+    src: require('../img/placeholders/vanilla-wide.jpg'),
   },
   {
     slug: 'poster',
-    name: 'Sundance Poster',
-    src: require('../img/placeholders/sdtv-poster.jpg'),
+    name: 'Vanilla Poster',
+    src: require('../img/placeholders/vanilla-poster.jpg'),
   },
   {
     slug: 'square',
-    name: 'Sundance Square',
-    src: require('../img/placeholders/sdtv-square.jpg'),
+    name: 'Vanilla Square',
+    src: require('../img/placeholders/vanilla-square.jpg'),
   },
   {
     slug: 'background',
-    name: 'Sundance Background',
-    src: require('../img/placeholders/sdtv-background.jpg'),
+    name: 'Vanilla Background',
+    src: require('../img/placeholders/vanilla-background.jpg'),
   },
 ]
 
