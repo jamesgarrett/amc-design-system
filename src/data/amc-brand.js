@@ -8,12 +8,6 @@ const name = [
 
 const colors = [
   {
-    slug: 'primary-brand',
-    name: 'Marigold',
-    hex: '#ffc600',
-    rgb: 'rgba(255,199,0,1)',
-  },
-  {
     slug: 'primary-dark',
     name: 'Black',
     hex: '#000000',
@@ -24,6 +18,12 @@ const colors = [
     name: 'Black 60',
     hex: '#000000',
     rgb: 'rgba(0,0,0,0.6)',
+  },
+  {
+    slug: 'primary-brand',
+    name: 'Marigold',
+    hex: '#ffc600',
+    rgb: 'rgba(255,199,0,1)',
   },
   {
     slug: 'accent-light',
