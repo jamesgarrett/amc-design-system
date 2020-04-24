@@ -35,6 +35,7 @@
         super(props);
         this.state = {
           isDark: true,
+          network: 'vanilla',
         }
     }
     toggleMode = () => {

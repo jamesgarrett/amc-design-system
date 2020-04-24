@@ -8,34 +8,34 @@ const name = [
 
 const colors = [
   {
-    slug: 'accent-color-1',
-    name: 'Orange Dusk',
-    hex: '#ed6300',
-    rgb: 'rgba(237,99,0,1)',
+    slug: 'primary-light',
+    name: 'Athens Gray',
+    hex: '#F5F5F6',
+    rgb: 'rgba(245,245,246,1)',
   },
   {
-    slug: 'primary-dark',
-    name: 'Black',
-    hex: '#000000',
-    rgb: 'rgba(0,0,0,1)',
+    slug: 'accent-color-2',
+    name: 'Pale Lavender',
+    hex: '#B9CCED',
+    rgb: 'rgba(185, 204, 237, 1)',
+  },
+  {
+    slug: 'accent-color-1',
+    name: 'Crocus Blue',
+    hex: '#529BD9',
+    rgb: 'rgba(82, 155, 217, 1)',
   },
   {
     slug: 'secondary-dark',
-    name: 'Dark Gray',
-    hex: '#1d1f21',
-    rgb: 'rgba(29,31,33,1)',
+    name: 'Regent Gray',
+    hex: '#7d8b99',
+    rgb: 'rgba(125,139,153,1)',
   },
   {
-    slug: 'tertiary-dark',
-    name: 'Black 60',
-    hex: '#000000',
-    rgb: 'rgba(0,0,0,.6)',
-  },
-  {
-    slug: 'primary-light',
-    name: 'White',
-    hex: '#FFFFFF',
-    rgb: 'rgba(255,255,255,1)',
+    slug: 'primary-dark',
+    name: 'Charade',
+    hex: '#2E2A3B',
+    rgb: 'rgba(46,42,59,1)',
   },
 ]
 
@@ -100,16 +100,10 @@ const logos = [
 
 const fonts = [
   {
-    slug: 'benton-sans',
-    name: 'Benton Sans',
-    img: require('../img/tiles/benton-sans.jpg'),
+    slug: 'sf-pro',
+    name: 'San Francisco Pro',
+    img: require('../img/tiles/sf-pro.jpg'),
     download_link: 'https://amcnetworks.box.com/shared/static/jtzch5f0c7ytnsxjckcen6n85b6vh4yj.zip',
-  },
-  {
-    slug: 'benton-sans-extra-compressed',
-    name: 'Benton Sans Extra Compressed Regular',
-    img: require('../img/tiles/benton-sans-condensed.jpg'),
-    download_link: 'https://amcnetworks.box.com/shared/static/6w3rzjlofln76e2cxku5bvctd86qq25l.zip',
   },
 ]
 
