@@ -7,7 +7,7 @@ const NetworkPage = ({ match, location }) => {
 	const { params: { network } } = match;
 
 	return (
-	<div className={(network)+" body"}>
+	<div className={(network)+" body"} style={{marginTop: 0}}>
 	  <div className="intro p-x">
 	    <header className="m-b tl container-fixed p-y">
 	      <h1 className='headline-1 m-y'>Typography</h1>
