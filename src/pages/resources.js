@@ -8,7 +8,7 @@ return (
 	    <section className="m-b tl container-fixed p-y">
 	      <h1 className='headline-1 m-y'>Resources</h1>
 	      <h4 className='headline-4 m-y col-8'>About the System</h4>
-	      <p className='body-lg description m-y col-8'>Our build system relies on a structure of shared and unique resources that both keep our network apps consistent, while accentuating the unique character that differentiate them.</p>
+	      <p className='body-lg description m-y col-8'>Our build system relies on a structure of shared and unique resources that both keep our network apps consistent, while accentuating the unique characters that differentiate them.</p>
 			</section>
 			<section className="m-y container-fixed">
 				<div className="row four-up m-b m-lg">
