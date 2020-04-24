@@ -7,8 +7,8 @@ class About extends React.Component {
 
         <>
 
-        <header className="header-text tc p-y p-xl">
-          <img alt="Vanilla" className="thumbnail" src={require('../img/logos/vanilla/vanilla-header.svg')} />
+        <header className="header-text tc p-a p-xl">
+          <img alt="Vanilla Design System by AMC Networks" className="intro-logo m-t" src={require('../img/logos/vanilla/vanilla-header.svg')} />
           <p className='body-lg m-y'>Vanilla is the AMC Networks design system. <br></br> It provides guidelines and resources for designers and developers.</p>
         </header>
 
