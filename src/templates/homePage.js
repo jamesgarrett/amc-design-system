@@ -1,5 +1,5 @@
 import React from 'react';
-import NetworkNav from '../components/networknav';
+import NetworkNav from '../components/templatenav';
 import Hero from '../components/hero';
 import Swimlane from '../components/swimlane';
 import SwimlaneTitle from '../components/swimlaneTitle';

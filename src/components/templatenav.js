@@ -9,7 +9,8 @@ class NetworkNav extends React.Component{
 	      <div>
               <ul className="side-nav p-x m-y">
 		            <li className="nav-title m-r"><span className="button-md">Networks</span></li>
-                <li><NavLink className="button-md" to='/templates/home/amc' >AMC</NavLink></li>
+								<li><NavLink className="button-md" to='/templates/home/vanilla' >Vanilla</NavLink></li>
+								<li><NavLink className="button-md" to='/templates/home/amc' >AMC</NavLink></li>
                 <li><NavLink className="button-md" to='/templates/home/sundance'>Sundance TV</NavLink></li>
 								<li><NavLink className="button-md" to='/templates/home/ifc'>IFC</NavLink></li>
 								<li><NavLink className="button-md" to='/templates/home/bbca'>BBC America</NavLink></li>
