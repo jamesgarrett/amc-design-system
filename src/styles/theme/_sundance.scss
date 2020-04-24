@@ -3,9 +3,9 @@
 	$font-secondary: benton-sans-extra-compressed, oswald, Helvetica, sans-serif;
 	--primary-dark:#1d1f21;
 	--primary-light:white;
-	--secondary-dark:#000000;
-	--tertiary-dark:rgba(0,0,0,.6);
-	--brand-accent: #e15d00;
+	--primary-brand: #e15d00;
+	--accent-dark:#000000;
+	--accent-light:rgba(255,255,255,.6);
 
 	body{
 	  font-family: $font-primary;
@@ -104,7 +104,7 @@
 	.body-xs, .body-link-xs {font-size: var(--fs00);}
 
 	.body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
-		color: var(--brand-accent);
+		color: var(--primary-brand);
 	}
 
 }

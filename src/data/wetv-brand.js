@@ -8,7 +8,7 @@ const name = [
 
 const colors = [
   {
-    slug: 'accent-color-1',
+    slug: 'primary-brand',
     name: 'Electric Yellow',
     hex: '#e2e71f',
     rgb: 'rgba(226,231,31,1)',

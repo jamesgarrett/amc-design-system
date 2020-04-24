@@ -1,15 +1,15 @@
 .vanilla{
   --primary-dark: #2E2A3B;
   --primary-light: #F5F5F6;
-  --brand-accent: #529BD9;
-  --secondary-dark: #1f1f1f; //#7d8b99
-  --secondary-light: #B9CCED;
+  --primary-brand: #529BD9;
+  --accent-dark: #1f1f1f; //#7d8b99
+  --accent-light: #B9CCED;
 
   &.dark header{
-    background-color: var(--secondary-dark);
+    background-color: var(--accent-dark);
   }
   &.light header{
-    background-color: var(--secondary-light);
+    background-color: var(--accent-light);
   }
 
 }

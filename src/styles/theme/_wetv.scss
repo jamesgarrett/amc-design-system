@@ -5,9 +5,9 @@
 	$font-secondary: 'Futura Round', 'Ubuntu', sans-serif;
   --primary-dark: #212844;
   --primary-light: #ffffff;
-  --secondary-dark:rgba(0,0,0,0.6);
-  --secondary-light: #67b2e8;
-  --brand-accent: #e2e71f;
+  --primary-brand: #e2e71f;
+  --accent-dark:rgba(0,0,0,0.6);
+  --accent-light: #67b2e8;
 
 	body{
 	  font-family: $font-primary;
@@ -22,7 +22,7 @@
 	}
 
   .display-primary, .display-primary-6, .display-primary-5, .display-primary-4, .display-primary-3, .display-primary-2, .display-primary-1, .display-primary-0{
-    color: var(--brand-accent);
+    color: var(--primary-brand);
   }
 
   .display-primary-6, .display-secondary-6, .display-tertiary-6 {font-size: var(--fs13);}
@@ -76,7 +76,7 @@
 
 	.body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
     font-family: $font-secondary;
-		color: var(--brand-accent);
+		color: var(--primary-brand);
     font-weight: 300;
     font-style: normal;
     line-height: 1.43;

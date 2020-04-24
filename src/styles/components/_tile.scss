@@ -1,13 +1,13 @@
 .tile{
   justify-items: center;
   &:hover{
-    background:#777;
+    background:var(--accent-dark);
   }
   &.dark{
     background: #efefef;
     color:black;
     &:hover{
-      background:#999;
+      background:var(--accent-light);
     }
   }
 }

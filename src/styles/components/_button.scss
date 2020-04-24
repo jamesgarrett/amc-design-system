@@ -10,7 +10,7 @@
 .button-primary{
 	border:2px solid;
 	transition: .5s ease-in-out;
-	background: var(--brand-accent);
+	background: var(--primary-brand);
 	&:hover{
 		transform:scale(1.25);
 		transition: .5s ease-in-out;

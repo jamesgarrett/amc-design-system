@@ -14,7 +14,7 @@ const colors = [
     rgb: 'rgba(185, 204, 237, 1)',
   },
   {
-    slug: 'brand-primary',
+    slug: 'primary-brand',
     name: 'Crocus Blue',
     hex: '#529BD9',
     rgb: 'rgba(82, 155, 217, 1)',

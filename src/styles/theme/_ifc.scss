@@ -4,11 +4,11 @@
 	$font-primary: 'GT America', avenir, Helvetica, sans-serif;
 	$font-secondary: 'Editor', 'Georgia', 'Times New Roman', serif;
   $font-tertiary: 'Editor Underline', 'Georgia', 'Times New Roman', serif;
-	--brand-accent: #e34530;
   --primary-dark: #333333;
   --primary-light:#e5deda;
-  --secondary-dark:rgba(0,0,0,0.6);
-  --tertiary-dark:rgba(0,0,0,.6);
+	--primary-brand: #e34530;
+  --accent-dark:rgba(0,0,0,0.6);
+  --accent-light:rgba(255,255,255,.6);
 
 	body{
 	  font-family: $font-primary;

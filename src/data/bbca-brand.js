@@ -8,7 +8,7 @@ const name = [
 
 const colors = [
   {
-    slug: 'accent-color-1',
+    slug: 'primary-brand',
     name: 'Battleship Grey',
     hex: '#6a8186',
     rgb: 'rgba(106,129,134,1)',
@@ -26,13 +26,13 @@ const colors = [
     rgb: 'rgba(239,239,239,1)',
   },
   {
-    slug: 'secondary-dark',
+    slug: 'accent-dark',
     name: 'Pale Midnight',
     hex: '#060606',
     rgb: 'rgba(0,0,0,0.6)',
   },
   {
-    slug: 'secondary-light',
+    slug: 'accent-light',
     name: 'Pale Grey',
     hex: '#d8d8d8',
     rgb: 'rgba(216,216,216,1)',

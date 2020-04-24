@@ -8,33 +8,33 @@ const name = [
 
 const colors = [
   {
-    slug: 'accent-color-1',
+    slug: 'primary-dark',
+    name: 'Outer Space',
+    hex: '#1d1f21',
+    rgb: 'rgba(29,31,33,1)',
+  },
+  {
+    slug: 'accent-light',
+    name: 'Sun Glow',
+    hex: '#FFCB2F',
+    rgb: 'rgba(255,203,47,1)',
+  },
+  {
+    slug: 'primary-brand',
     name: 'Orange Dusk',
     hex: '#ed6300',
     rgb: 'rgba(237,99,0,1)',
   },
   {
-    slug: 'primary-dark',
-    name: 'Black',
-    hex: '#000000',
-    rgb: 'rgba(0,0,0,1)',
-  },
-  {
-    slug: 'secondary-dark',
-    name: 'Dark Gray',
-    hex: '#1d1f21',
-    rgb: 'rgba(29,31,33,1)',
-  },
-  {
-    slug: 'tertiary-dark',
-    name: 'Black 60',
-    hex: '#000000',
-    rgb: 'rgba(0,0,0,.6)',
+    slug: 'accent-dark',
+    name: 'Cloudy Moonlight',
+    hex: '#848280',
+    rgb: 'rgba(132,130,128,1)',
   },
   {
     slug: 'primary-light',
-    name: 'White',
-    hex: '#FFFFFF',
+    name: 'Aqua Haze',
+    hex: '#F5F5F6',
     rgb: 'rgba(255,255,255,1)',
   },
 ]
