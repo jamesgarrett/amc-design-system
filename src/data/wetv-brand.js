@@ -8,34 +8,34 @@ const name = [
 
 const colors = [
   {
-    slug: 'primary-brand',
-    name: 'Electric Yellow',
-    hex: '#e2e71f',
-    rgb: 'rgba(226,231,31,1)',
-  },
-  {
     slug: 'primary-dark',
     name: 'Denim',
     hex: '#212844',
     rgb: 'rgba(33,40,68,1)',
   },
   {
-    slug: 'secondary-dark',
+    slug: 'accent-light',
     name: 'Sky Blue',
     hex: '#67b2e8',
     rgb: 'rgba(103,178,232,1)',
   },
   {
-    slug: 'primary-light',
-    name: 'White',
-    hex: '#FFFFFF',
-    rgb: 'rgba(255,255,255,1)',
+    slug: 'primary-brand',
+    name: 'Sunflower',
+    hex: '#e2e71f',
+    rgb: 'rgba(226,231,31,1)',
   },
   {
-    slug: 'tertiary-dark',
-    name: 'Black 60',
-    hex: '#000000',
-    rgb: 'rgba(0,0,0,.6)',
+    slug: 'accent-dark',
+    name: 'Cabaret',
+    hex: '#D6467F',
+    rgb: 'rgba(214,70,127,1)',
+  },
+  {
+    slug: 'primary-light',
+    name: 'Porcelain',
+    hex: '#E8ECED',
+    rgb: 'rgba(232,236,237,1)',
   },
 ]
 

@@ -35,7 +35,7 @@ const colors = [
     slug: 'primary-light',
     name: 'Aqua Haze',
     hex: '#F5F5F6',
-    rgb: 'rgba(255,255,255,1)',
+    rgb: 'rgba(245,245,246,1)',
   },
 ]
 

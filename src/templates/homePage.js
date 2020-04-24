@@ -10,14 +10,13 @@ const NetworkPage = ({ match, location }) => {
 	var net = network;
 
 	return (
-	<div className={net}>
-	  <section className="m-x">
-
-			<header className="p-y container-fixed">
+	<div className={(network)+" body"} style={{marginTop: 0}}>
+		<div className="intro">
+			<header className="tl p-a">
 				<h1 className="headline-primary-1 m-y">Templates</h1>
 				<h2 className="body-lg m-y">Template: Homepage</h2>
 			</header>
-
+		</div>
 			<NetworkNav />
 
 			<Hero />
@@ -27,8 +26,6 @@ const NetworkPage = ({ match, location }) => {
 			<Grid />
 
 	    <SwimlaneTitle />
-
-	  </section>
 	</div>
 	);
 };
