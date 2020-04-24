@@ -16,6 +16,9 @@ function getBrand(network){
 	if (network === 'bbca'){
 		let brand = brands.bbca
 		return brand }
+	if (network === 'vanilla'){
+		let brand = brands.vanilla
+		return brand }
 }
 
 export default getBrand

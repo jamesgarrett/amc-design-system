@@ -14,31 +14,31 @@ return (
 				<div className="row five-up m-b m-lg">
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/typography/amc'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/amc.png')} />
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/amc.jpg')} />
 						<div className="body-lg m-b tl">AMC Typography</div>
 						</NavLink>
 					</div>
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/typography/sundance'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/sundance.png')} />
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/sundance.jpg')} />
 						<div className="body-lg m-b tl">SundanceTV Typography</div>
 						</NavLink>
 					</div>
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/typography/ifc'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/ifc.png')} />
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/ifc.jpg')} />
 						<div className="body-lg m-b tl">IFC Typography</div>
 						</NavLink>
 					</div>
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/typography/bbca'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/bbca.png')} />
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/bbca.jpg')} />
 						<div className="body-lg m-b tl">BBC America Typography</div>
 						</NavLink>
 					</div>
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/typography/wetv'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/wetv.png')} />
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/wetv.jpg')} />
 						<div className="body-lg m-b tl">WEtv Typography</div>
 						</NavLink>
 					</div>

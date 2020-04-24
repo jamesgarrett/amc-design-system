@@ -1,5 +1,11 @@
 let AMCBrand = []
 
+const name = [
+  {
+    display: 'AMC',
+  }
+]
+
 const colors = [
   {
     slug: 'accent-color-1',
@@ -160,6 +166,6 @@ const icons = [
   { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
 ]
 
-AMCBrand = {colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
+AMCBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
 
 export default AMCBrand

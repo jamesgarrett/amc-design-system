@@ -11,34 +11,40 @@ return (
 	      <p className='body-lg description m-y col-8'>Our build system relies on a structure of shared and unique resources that both keep our network apps consistent, while accentuating the unique character that differentiate them.</p>
 			</section>
 			<section className="m-y container-fixed">
-				<div className="row five-up m-b m-lg">
+				<div className="row four-up m-b m-lg">
+					<div className="card m-b m-r m-sm">
+						<NavLink to='/resources/vanilla'>
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/vanilla.jpg')} />
+						<div className="body-lg m-b tl">Vanilla Resources</div>
+						</NavLink>
+					</div>
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/resources/amc'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/amc.png')} />
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/amc.jpg')} />
 						<div className="body-lg m-b tl">AMC Resources</div>
 						</NavLink>
 					</div>
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/resources/sundance'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/sundance.png')} />
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/sundance.jpg')} />
 						<div className="body-lg m-b tl">SundanceTV Resources</div>
 						</NavLink>
 					</div>
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/resources/ifc'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/ifc.png')} />
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/ifc.jpg')} />
 						<div className="body-lg m-b tl">IFC Resources</div>
 						</NavLink>
 					</div>
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/resources/bbca'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/bbca.png')} />
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/bbca.jpg')} />
 						<div className="body-lg m-b tl">BBC America Resources</div>
 						</NavLink>
 					</div>
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/resources/wetv'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/wetv.png')} />
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/wetv.jpg')} />
 						<div className="body-lg m-b tl">WEtv Resources</div>
 						</NavLink>
 					</div>

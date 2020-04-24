@@ -1,8 +1,8 @@
-let SundanceBrand = []
+let VanillaBrand = []
 
 const name = [
   {
-    display: 'Sundance TV',
+    display: 'Vanilla',
   }
 ]
 
@@ -42,57 +42,57 @@ const colors = [
 const logos = [
   {
     slug: 'primary-dark',
-    src: require('../img/logos/sundance/sundance-dark.svg'),
-    alt: 'Sundance TV Dark',
+    src: require('../img/logos/vanilla/vanilla-dark.svg'),
+    alt: 'Vanilla Dark',
     type: 'svg',
     dark: true,
   },
   {
     slug: 'primary-light',
-    src: require('../img/logos/sundance/sundance-light.svg'),
-    alt: 'Sundance TV Light',
+    src: require('../img/logos/vanilla/vanilla-light.svg'),
+    alt: 'Vanilla Light',
     type: 'svg',
     dark: false,
   },
   {
-    slug: 'sundance-dark-sm',
-    src: require('../img/logos/sundance/sundance-dark-sm.png'),
-    alt: 'Sundance TV Small Dark',
+    slug: 'vanilla-dark-sm',
+    src: require('../img/logos/vanilla/vanilla-dark-sm.png'),
+    alt: 'Vanilla Small Dark',
     type: 'png',
     dark: true,
   },
   {
-    slug: 'sundance-light-sm',
-    src: require('../img/logos/sundance/sundance-light-sm.png'),
-    alt: 'Sundance TV Small Light',
+    slug: 'vanilla-light-sm',
+    src: require('../img/logos/vanilla/vanilla-light-sm.png'),
+    alt: 'Vanilla Small Light',
     type: 'png',
     dark: false,
   },
   {
-    slug: 'sundance-dark-md',
-    src: require('../img/logos/sundance/sundance-dark-md.png'),
-    alt: 'Sundance TV Medium Dark',
+    slug: 'vanilla-dark-md',
+    src: require('../img/logos/vanilla/vanilla-dark-md.png'),
+    alt: 'Vanilla Medium Dark',
     type: 'svg',
     dark: true,
   },
   {
-    slug: 'sundance-light-md',
-    src: require('../img/logos/sundance/sundance-light-md.png'),
-    alt: 'Sundance TV Medium Light',
+    slug: 'vanilla-light-md',
+    src: require('../img/logos/vanilla/vanilla-light-md.png'),
+    alt: 'Vanilla Medium Light',
     type: 'svg',
     dark: false,
   },
   {
-    slug: 'sundance-dark-lg',
-    src: require('../img/logos/sundance/sundance-dark-lg.png'),
-    alt: 'Sundance TV Large Dark',
+    slug: 'vanilla-dark-lg',
+    src: require('../img/logos/vanilla/vanilla-dark-lg.png'),
+    alt: 'Vanilla Large Dark',
     type: 'png',
     dark: true,
   },
   {
-    slug: 'sundance-light-lg',
-    src: require('../img/logos/sundance/sundance-light-lg.png'),
-    alt: 'Sundance TV Large Light',
+    slug: 'vanilla-light-lg',
+    src: require('../img/logos/vanilla/vanilla-light-lg.png'),
+    alt: 'Vanilla Large Light',
     type: 'png',
     dark: false,
   },
@@ -172,6 +172,6 @@ const icons = [
   { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
 ]
 
-SundanceBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
+VanillaBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
 
-export default SundanceBrand
+export default VanillaBrand

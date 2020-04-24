@@ -8,6 +8,7 @@ class ResourceNav extends React.Component{
 	      <div>
 					<ul className="side-nav p-x m-y">
 						<li className="nav-title m-r"><span className="button-md">Networks</span></li>
+						<li><NavLink className="button-md" to='/resources/vanilla'>Vanilla</NavLink></li>
 						<li><NavLink className="button-md" to='/resources/amc' >AMC</NavLink></li>
 						<li><NavLink className="button-md" to='/resources/sundance'>Sundance TV</NavLink></li>
 						<li><NavLink className="button-md" to='/resources/ifc'>IFC</NavLink></li>

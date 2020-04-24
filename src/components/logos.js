@@ -12,7 +12,7 @@ class Logos extends Component {
 	 } else{
 			return <>
 				<h4 className="display-primary-4 m-t m-lg">Logos</h4>
-				<p className="body-md">A set of logos approved for use in AMC digital experiences.</p>
+				<p className="body-md">A set of logos approved for use in {this.props.network} digital experiences.</p>
 	      <ul className="logos row five-up">
 				{brand.logos.map(logo =>
 					<li key={logo.src} className="light tile p-y p-md">

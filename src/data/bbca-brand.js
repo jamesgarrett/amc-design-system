@@ -1,5 +1,11 @@
 let BBCABrand = []
 
+const name = [
+  {
+    display: 'BBC America',
+  }
+]
+
 const colors = [
   {
     slug: 'accent-color-1',
@@ -138,6 +144,6 @@ const icons = [
   { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
 ]
 
-BBCABrand = {colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
+BBCABrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
 
 export default BBCABrand;

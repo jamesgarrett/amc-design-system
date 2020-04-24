@@ -14,14 +14,8 @@ return (
 				<div className="row four-up m-b m-lg">
 					<div className="card m-b m-r m-sm">
 						<NavLink to='/templates/home/amc'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/amc.png')} />
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/amc.jpg')} />
 						<div className="body-lg m-b tl">Homepage</div>
-						</NavLink>
-					</div>
-					<div className="card m-b m-r m-sm">
-						<NavLink to='/templates/404/amc'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/sundance.png')} />
-						<div className="body-lg m-b tl">404 Page</div>
 						</NavLink>
 					</div>
 				</div>

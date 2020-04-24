@@ -12,8 +12,8 @@ class Logos extends Component {
 		} else {
 			return <section className="p-y">
 				<h4 className="display-primary-4 m-t m-lg">Fonts</h4>
-				<p className="body-md">A set of webfonts approved for use in AMC digital experiences.</p>
-				<ul className="row four-up">
+				<p className="body-md">A set of webfonts approved for use in {this.props.network} digital experiences.</p>
+				<ul className="row three-up m-y">
 				{brand.fonts.map(font =>
 					<li key={font.slug} className="m-b">
 						<a href={font.download_link} target="_blank" rel="noopener noreferrer" download>
