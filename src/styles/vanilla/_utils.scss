@@ -122,15 +122,15 @@ icon sizing
 	m-xl / p-xl = used in conjunction with a location, specifies a margin of 4rem
 */
 
-.i-xs {width: var(--fs01);}
+.i-xs, img.i-xs, .row img.i-xs {width: var(--fs01);}
 
-.i-sm {width: var(--fs02);}
+.i-sm, img.i-sm, .row img.i-sm {width: var(--fs02);}
 
-.i-md {width: var(--fs04);}
+.i-md, img.i-md, .row img.i-md {width: var(--fs04);}
 
-.i-lg {width: var(--fs06);}
+.i-lg, img.i-lg, .row img.i-lg {width: var(--fs06);}
 
-.i-xl {width: var(--fs07);}
+.i-xl, img.i-xl, .row img.i-xl {width: var(--fs07);}
 
 
 /*
