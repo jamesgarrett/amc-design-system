@@ -5,6 +5,7 @@ import Logos from '../components/logos.js'
 import Fonts from '../components/fonts.js'
 import Placeholders from '../components/placeholders.js'
 import Icons from '../components/icons.js'
+import Downloads from '../components/downloads.js'
 
 const ResourceDetail = ({ match, location }) => {
 	const { params: { network } } = match;
@@ -23,6 +24,7 @@ const ResourceDetail = ({ match, location }) => {
 			<Fonts network={network} />
 			<Placeholders network={network} />
 			<Icons network={network} />
+			<Downloads network={network} />
 		</div>
 	</div>
 	);

@@ -166,6 +166,33 @@ const icons = [
   { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
 ]
 
-AMCBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
+const downloads = [
+  {
+    slug: 'icons',
+    name: 'Icons',
+    desc: 'All of the vanilla brand icons in SVG format.',
+    src: 'https://amcnetworks.box.com/shared/static/9o7tr1er3l8iwmx690lzzl1q4sr4yn63.zip'
+  },
+  {
+    slug: 'placeholders',
+    name: 'Placeholder Images',
+    desc: 'All of the placeholder images needed for the AMC network configuration.',
+    src: 'https://amcnetworks.box.com/shared/static/paltjb8b1531vm1tx7a9cwc6s9yvj8kj.zip'
+  },
+  {
+    slug: 'logos',
+    name: 'Logos',
+    desc: 'Approved logos for AMC.',
+    src: 'https://amcnetworks.box.com/shared/static/fshn0tanlqhcxp1fs5ix5vf8wtzw80np.zip'
+  },
+  {
+    slug: 'fonts',
+    name: 'Fonts',
+    desc: 'Downloads for the fonts used on AMC. *Note: An amcnetworks email address is required for download.',
+    src: 'https://amcnetworks.box.com/shared/static/ww3fq7vr5ozr0iqo26iav3wxaam126jp.zip'
+  }
+]
+
+AMCBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons, downloads: downloads}
 
 export default AMCBrand

@@ -172,6 +172,33 @@ const icons = [
   { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
 ]
 
-SundanceBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
+const downloads = [
+  {
+    slug: 'icons',
+    name: 'Icons',
+    desc: 'All of the Sundance TV brand icons in SVG format.',
+    src: 'https://amcnetworks.box.com/shared/static/9o7tr1er3l8iwmx690lzzl1q4sr4yn63.zip'
+  },
+  {
+    slug: 'placeholders',
+    name: 'Placeholder Images',
+    desc: 'All of the placeholder images needed for the Sundance TV network configuration.',
+    src: 'https://amcnetworks.box.com/shared/static/ekx5grwcnp7e26z450eef6opt3tphef2.zip'
+  },
+  {
+    slug: 'logos',
+    name: 'Logos',
+    desc: 'Approved logos for Sundance TV.',
+    src: 'https://amcnetworks.box.com/shared/static/gqyhcjkwdkioqiuby6mcs6y76yadeyxu.zip'
+  },
+  {
+    slug: 'fonts',
+    name: 'Fonts',
+    desc: 'Downloads for the fonts used on Sundance TV.',
+    src: 'https://amcnetworks.box.com/shared/static/lc883jnuxrn24wirhuz4u2a8wbyeu89i.zip'
+  },
+]
+
+SundanceBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons, downloads: downloads}
 
 export default SundanceBrand

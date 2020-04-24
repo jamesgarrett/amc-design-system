@@ -152,6 +152,33 @@ const icons = [
   { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
 ]
 
-IFCBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
+const downloads = [
+  {
+    slug: 'icons',
+    name: 'Icons',
+    desc: 'All of the vanilla brand icons in SVG format.',
+    src: 'https://amcnetworks.box.com/shared/static/9o7tr1er3l8iwmx690lzzl1q4sr4yn63.zip'
+  },
+  {
+    slug: 'placeholders',
+    name: 'Placeholder Images',
+    desc: 'All of the placeholder images needed for the IFC network configuration.',
+    src: 'https://amcnetworks.box.com/shared/static/q4836np2s6e8aia1d84e5x6c4d02ab8n.zip'
+  },
+  {
+    slug: 'logos',
+    name: 'Logos',
+    desc: 'Approved logos for IFC.',
+    src: 'https://amcnetworks.box.com/shared/static/5ab2bwh75at5yi5v96r7vza1kd2elx9x.zip'
+  },
+  {
+    slug: 'fonts',
+    name: 'Fonts',
+    desc: 'Downloads for the fonts used on IFC. *Note: An amcnetworks email address is required for download.',
+    src: 'https://amcnetworks.box.com/shared/static/0szt8lpa64kpf1bpczztgk2i138of9hi.zip'
+  }
+]
+
+IFCBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons, downloads: downloads}
 
 export default IFCBrand

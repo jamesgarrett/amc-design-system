@@ -144,6 +144,21 @@ const icons = [
   { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
 ]
 
-WEtvBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
+const downloads = [
+  {
+    slug: 'icons',
+    name: 'Icons',
+    desc: 'All of the WEtv brand icons in SVG format.',
+    src: 'https://amcnetworks.box.com/shared/static/9o7tr1er3l8iwmx690lzzl1q4sr4yn63.zip'
+  },
+  {
+    slug: 'placeholders',
+    name: 'Placeholder Images',
+    desc: 'All of the placeholder images needed for the WEtv network configuration.',
+    src: 'https://amcnetworks.box.com/shared/static/gpg743ub05ikxawijast17w89kpdzbc5.zip'
+  }
+]
+
+WEtvBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons, downloads: downloads}
 
 export default WEtvBrand;

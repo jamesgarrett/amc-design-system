@@ -1,11 +1,5 @@
 let VanillaBrand = []
 
-const name = [
-  {
-    display: 'Vanilla',
-  }
-]
-
 const colors = [
   {
     slug: 'primary-light',
@@ -166,6 +160,21 @@ const icons = [
   { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
 ]
 
-VanillaBrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
+const downloads = [
+  {
+    slug: 'icons',
+    name: 'Icons',
+    desc: 'All of the vanilla brand icons in SVG format.',
+    src: 'https://amcnetworks.box.com/shared/static/9o7tr1er3l8iwmx690lzzl1q4sr4yn63.zip'
+  },
+  {
+    slug: 'placeholders',
+    name: 'Placeholder Images',
+    desc: 'All of the placeholder images needed for the vanilla network configuration.',
+    src: 'https://amcnetworks.box.com/shared/static/a2titt6rxwi8mn9nk2m1butyi68cqijz.zip'
+  }
+]
+
+VanillaBrand = {colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons, downloads: downloads}
 
 export default VanillaBrand
