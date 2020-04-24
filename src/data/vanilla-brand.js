@@ -14,19 +14,19 @@ const colors = [
     rgb: 'rgba(245,245,246,1)',
   },
   {
-    slug: 'accent-color-2',
+    slug: 'accent-light',
     name: 'Pale Lavender',
     hex: '#B9CCED',
     rgb: 'rgba(185, 204, 237, 1)',
   },
   {
-    slug: 'accent-color-1',
+    slug: 'brand-primary',
     name: 'Crocus Blue',
     hex: '#529BD9',
     rgb: 'rgba(82, 155, 217, 1)',
   },
   {
-    slug: 'secondary-dark',
+    slug: 'accent-dark',
     name: 'Regent Gray',
     hex: '#7d8b99',
     rgb: 'rgba(125,139,153,1)',

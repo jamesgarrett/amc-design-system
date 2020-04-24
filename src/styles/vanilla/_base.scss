@@ -24,6 +24,7 @@ a{
   grid-template-columns: 30% 70%;
   position:fixed;
   top:0;
+  height:4rem;
   width:100%;
   z-index:99999;
   nav{
@@ -35,7 +36,7 @@ a{
   background:var(--primary-dark);
   flex: 1 0 auto;
   min-height:100vh;
-  margin-top:2rem;
+  margin-top:4rem;
 }
 
 footer{
@@ -71,8 +72,8 @@ div#app-wrap {
 /* content */
 
 .logo{
-  width: 4rem;
-  height: 4rem;
+  width: 6rem;
+  height: 3rem;
 }
 
 .Loader{

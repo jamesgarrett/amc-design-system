@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
-import Logo from '../img/logos/amc/amc-light.svg';
+import Logo from '../img/logos/vanilla/vanilla-light.svg';
 
 class Navigation extends React.Component{
 render(){
@@ -8,7 +8,7 @@ render(){
 	return(
     <div className='header'>
       <div className='lockup'>
-          <Link to='/' className="m-l"><img src={Logo} className='logo svg' alt='website logo' /></Link>
+          <Link to='/' className="m-l p-t p-xs"><img src={Logo} className='logo svg' alt='website logo' /></Link>
         <h5 className='headline-5--strong hidden-sm'>Design System</h5>
       </div>
       <nav className="m-r">

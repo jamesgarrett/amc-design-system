@@ -4,16 +4,24 @@ import { NavLink } from 'react-router-dom';
 class About extends React.Component {
     render(){
       return (
-        <div className="getting-started m-x">
-        	<header className="header-text tl container-fixed p-y">
-		        <h1 className='headline-1 m-y'>Guidelines</h1>
-  			    <p className='body-lg m-y'>A set of guidelines for using the design system to create digital experiences.</p>
-  	    	</header>
-          <div className="p-y container-fixed">
+
+        <>
+
+        <header className="header-text tc p-y p-xl">
+          <img alt="Vanilla" className="thumbnail" src={require('../img/logos/vanilla/vanilla-header.svg')} />
+          <p className='body-lg m-y'>Vanilla is the AMC Networks design system. <br></br> It provides guidelines and resources for designers and developers.</p>
+        </header>
+
+        <div className="getting-started p-x">
+
+          <div className="p-y">
+            <h1 className='headline-1 m-y'>Guidelines</h1>
+            <p className='body-lg m-y'>A set of guidelines for using the design system to create digital experiences.</p>
+
             <div className="row three-up m-b m-lg">
               <div className="card m-b m-sm m-r">
                 <NavLink to='/resources'>
-                <img alt="Logos" className="thumbnail" src={require('../img/tiles/logos.png')} />
+                <img alt="Brand Resources" className="thumbnail" src={require('../img/tiles/logos.png')} />
                 </NavLink>
               </div>
               <div className="card m-b m-sm m-r">
@@ -71,6 +79,8 @@ class About extends React.Component {
 
           </div>
 	    </div>
+
+      </>
           );
     }
 }
