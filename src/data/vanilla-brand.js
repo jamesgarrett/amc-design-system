@@ -172,6 +172,12 @@ const downloads = [
     name: 'Placeholder Images',
     desc: 'All of the placeholder images needed for the vanilla network configuration.',
     src: 'https://amcnetworks.box.com/shared/static/a2titt6rxwi8mn9nk2m1butyi68cqijz.zip'
+  },
+  {
+    slug: 'logos',
+    name: 'Logos',
+    desc: 'Approved logos for Vanilla',
+    src: 'https://amcnetworks.box.com/shared/static/y7nneeuvg1kb4fb1ucc9k5noabmoeuh3.zip'
   }
 ]
 
