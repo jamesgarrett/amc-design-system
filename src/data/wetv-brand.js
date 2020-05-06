@@ -156,6 +156,12 @@ const downloads = [
     name: 'Placeholder Images',
     desc: 'All of the placeholder images needed for the WEtv network configuration.',
     src: 'https://amcnetworks.box.com/shared/static/gpg743ub05ikxawijast17w89kpdzbc5.zip'
+  },
+  {
+    slug: 'logos',
+    name: 'Logos',
+    desc: 'Approved logos for WEtv.',
+    src: 'https://amcnetworks.box.com/shared/static/cm1615ws30u1hf8loqx6sl7gnk7udbip.zip'
   }
 ]
 

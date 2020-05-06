@@ -144,6 +144,33 @@ const icons = [
   { slug: 'youtube', src: require('../img/icons/youtube.svg'), alt: 'Youtube' }
 ]
 
-BBCABrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons}
+const downloads = [
+  {
+    slug: 'placeholders',
+    name: 'Placeholder Images',
+    desc: 'All of the placeholder images needed for the BBC America network configuration.',
+    src: 'https://amcnetworks.box.com/shared/static/mtvt1yarlivclqgs6ky670dsmjbob1id.zip'
+  },
+  {
+    slug: 'icons',
+    name: 'Icons',
+    desc: 'All of the WEtv brand icons in SVG format.',
+    src: 'https://amcnetworks.box.com/shared/static/9o7tr1er3l8iwmx690lzzl1q4sr4yn63.zip'
+  },
+  {
+    slug: 'logos',
+    name: 'Logos',
+    desc: 'Approved logos for BBC America.',
+    src: 'https://amcnetworks.box.com/shared/static/gol6y1tv6joxk9q9n5ejwzjz5no92sbu.zip'
+  },
+  {
+    slug: 'fonts',
+    name: 'Fonts',
+    desc: 'Downloads for the fonts used on BBC America.',
+    src: 'https://amcnetworks.box.com/shared/static/3h34pm40dks5srg750hgp94q73es3466.zip'
+  },
+]
+
+BBCABrand = {name: name, colors: colors, logos: logos, fonts: fonts, placeholders: placeholders, icons: icons, downloads: downloads}
 
 export default BBCABrand;

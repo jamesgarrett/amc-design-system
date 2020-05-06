@@ -160,12 +160,6 @@ const icons = [
 
 const downloads = [
   {
-    slug: 'icons',
-    name: 'Icons',
-    desc: 'All of the vanilla brand icons in SVG format.',
-    src: 'https://amcnetworks.box.com/shared/static/9o7tr1er3l8iwmx690lzzl1q4sr4yn63.zip'
-  },
-  {
     slug: 'placeholders',
     name: 'Placeholder Images',
     desc: 'All of the placeholder images needed for the IFC network configuration.',
