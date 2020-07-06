@@ -37,6 +37,12 @@ return (
 						</NavLink>
 					</div>
 					<div className="card m-b m-r m-sm">
+						<NavLink to='/typography/twd'>
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/bbca.jpg')} />
+						<div className="body-lg m-b tl">TWD Typography</div>
+						</NavLink>
+					</div>
+					<div className="card m-b m-r m-sm">
 						<NavLink to='/typography/wetv'>
 						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/wetv.jpg')} />
 						<div className="body-lg m-b tl">WEtv Typography</div>

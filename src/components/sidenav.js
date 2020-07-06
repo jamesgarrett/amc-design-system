@@ -13,6 +13,8 @@ class Sidenav extends React.Component{
 						<li><NavLink className="button-md" to='/typography/ifc'>IFC</NavLink></li>
 						<li><NavLink className="button-md" to='/typography/bbca'>BBC America</NavLink></li>
 						<li><NavLink className="button-md" to='/typography/wetv'>WEtv</NavLink></li>
+						<li className="nav-title m-r"><span className="button-md m-l">Universes</span></li>
+						<li><NavLink className="button-md" to='/typography/twd'>TWD</NavLink></li>
 					</ul>
           </div>
 

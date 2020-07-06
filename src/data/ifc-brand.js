@@ -16,7 +16,7 @@ const colors = [
   {
     slug: 'accent-dark',
     name: 'Blue',
-    hex: '#000000',
+    hex: '#173686',
     rgb: 'rgba(23,54,134,1)',
   },
   {

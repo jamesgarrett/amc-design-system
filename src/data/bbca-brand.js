@@ -21,9 +21,9 @@ const colors = [
   },
   {
     slug: 'primary-light',
-    name: 'Off White',
-    hex: '#efefef',
-    rgb: 'rgba(239,239,239,1)',
+    name: 'White',
+    hex: '#FFFFFF',
+    rgb: 'rgba(255,255,255,1)',
   },
   {
     slug: 'accent-dark',

@@ -27,15 +27,15 @@ const colors = [
   },
   {
     slug: 'accent-dark',
-    name: 'Cabaret',
-    hex: '#D6467F',
-    rgb: 'rgba(214,70,127,1)',
+    name: 'Black 60',
+    hex: '#000000',
+    rgb: 'rgba(0,0,0,.6)',
   },
   {
     slug: 'primary-light',
-    name: 'Porcelain',
-    hex: '#E8ECED',
-    rgb: 'rgba(232,236,237,1)',
+    name: 'White',
+    hex: '#FFFFFF',
+    rgb: 'rgba(255,255,255,1)',
   },
 ]
 

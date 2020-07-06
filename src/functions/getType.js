@@ -16,6 +16,9 @@ function getType(network){
 	if (network === 'bbca'){
 		let type = typeStyles.bbca
 		return type }
+	if (network === 'twd'){
+		let type = typeStyles.twd
+		return type }
   if (network === 'Vanilla'){
     let type = typeStyles.vanilla
     return type }
