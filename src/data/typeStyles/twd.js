@@ -9,7 +9,7 @@ const TwdTypeStyles = [
       "postscriptName": "Alternate Gothic W05 No_3",
       "size": 60,
       "weight": "No3",
-      "stretch": "normal"
+      "stretch": "2"
     }
   },
   {
@@ -22,7 +22,7 @@ const TwdTypeStyles = [
       "postscriptName": "Alternate Gothic W05 No_3",
       "size": 48,
       "weight": "No3",
-      "stretch": "normal"
+      "stretch": "1.5"
     }
   },
   {
@@ -35,7 +35,7 @@ const TwdTypeStyles = [
       "postscriptName": "Alternate Gothic W05 No_3",
       "size": 40,
       "weight": "No3",
-      "stretch": "normal"
+      "stretch": "1.25"
     }
   },
   {
@@ -48,7 +48,7 @@ const TwdTypeStyles = [
       "postscriptName": "Alternate Gothic W05 No_3",
       "size": 2,
       "weight": "No3",
-      "stretch": "normal"
+      "stretch": "1"
     }
   },
   {
@@ -61,7 +61,7 @@ const TwdTypeStyles = [
       "postscriptName": "Alternate Gothic W05 No_3",
       "size": 24,
       "weight": "No3",
-      "stretch": "normal"
+      "stretch": ".75"
     }
   },
   {
@@ -74,7 +74,7 @@ const TwdTypeStyles = [
       "postscriptName": "Alternate Gothic W05 No_3",
       "size": 20,
       "weight": "No3",
-      "stretch": "normal"
+      "stretch": ".5"
     }
   },
   {
@@ -87,7 +87,7 @@ const TwdTypeStyles = [
       "postscriptName": "Alternate Gothic W05 No_3",
       "size": 16,
       "weight": "No3",
-      "stretch": "normal"
+      "stretch": ".25"
     }
   },
   {

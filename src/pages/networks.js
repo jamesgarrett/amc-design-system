@@ -6,8 +6,8 @@ const NetworksPage = () => {
 return (
 	  <div className="intro p-x">
 	    <section className="m-b tl container-fixed p-y">
-	      <h1 className='headline-1 m-y'>Typography</h1>
-	      <h4 className='headline-4 m-y col-8'>About the System</h4>
+	      <h1 className='display-primary-1 m-y'>Typography</h1>
+	      <h4 className='display-secondary-4 m-y col-8'>About the System</h4>
 	      <p className='body-lg description m-y col-8'>The goal of the type system is to define a repeatable set of elements that can be deployed rapidly with consistent results. We use a core set of styles, and a fixed, unit independent sizing scale to generate consistent, readable type pairings.</p>
 			</section>
 			<section className="m-y container-fixed">
@@ -37,15 +37,15 @@ return (
 						</NavLink>
 					</div>
 					<div className="card m-b m-r m-sm">
-						<NavLink to='/typography/twd'>
-						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/bbca.jpg')} />
-						<div className="body-lg m-b tl">TWD Typography</div>
-						</NavLink>
-					</div>
-					<div className="card m-b m-r m-sm">
 						<NavLink to='/typography/wetv'>
 						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/wetv.jpg')} />
 						<div className="body-lg m-b tl">WEtv Typography</div>
+						</NavLink>
+					</div>
+					<div className="card m-b m-r m-sm">
+						<NavLink to='/typography/twd'>
+						<img alt={alt_text} className="thumbnail" src={require('../img/tiles/twdu.jpg')} />
+						<div className="body-lg m-b tl">TWD Typography</div>
 						</NavLink>
 					</div>
 				</div>

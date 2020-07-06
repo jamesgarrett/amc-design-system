@@ -14,64 +14,51 @@
     line-height: 1.08;
   }
 
-   .display-secondary, .display-secondary-6, .display-secondary-5, .display-secondary-4, .display-secondary-3, .display-secondary-2, .display-secondary-1, .display-secondary-0, .tertiary, .tertiary-6, .tertiary-5, .tertiary-4, .tertiary-3, .tertiary-2, .tertiary-1, .tertiary-0{
-     font-family: $font-secondary;
-     font-weight: 300;
-     text-transform: capitalize;
-     letter-spacing: 0;
-     line-height: 1.08;
-   }
+  h1, .display-primary-6{font-size: var(--fs13);letter-spacing: 2px;}
+  h2, .display-primary-5{font-size: var(--fs11);letter-spacing: 1.5px;}
+  h3, .display-primary-4{font-size: var(--fs09);letter-spacing: 1.25px;}
+  h4, .display-primary-3{font-size: var(--fs07);letter-spacing: 1px;}
+  h5, .display-primary-2{font-size: var(--fs05);letter-spacing: .75px;}
+  h6, .display-primary-1{font-size: var(--fs04);letter-spacing: .5px;}
+  .display-primary-0{font-size: var(--fs02);letter-spacing: .25px;}
 
-   h1, .display-primary-6{font-size: var(--fs13);letter-spacing: 2px;}
-   h2, .display-primary-5{font-size: var(--fs11);letter-spacing: 1.5px;}
-   h3, .display-primary-4{font-size: var(--fs09);letter-spacing: 1.25px;}
-   h4, .display-primary-3{font-size: var(--fs07);letter-spacing: 1px;}
-   h5, .display-primary-2{font-size: var(--fs05);letter-spacing: .75px;}
-   h6, .display-primary-1{font-size: var(--fs04);letter-spacing: .5px;}
-   .display-primary-0{font-size: var(--fs02);letter-spacing: .25px;}
+  .display-secondary, .display-secondary-6, .display-secondary-5, .display-secondary-4, .display-secondary-3, .display-secondary-2, .display-secondary-1, .display-secondary-0, .display-tertiary, .display-tertiary-6, .display-tertiary-5, .display-tertiary-4, .display-tertiary-3, .display-tertiary-2, .display-tertiary-1, .display-tertiary-0{
+      font-family: $font-secondary;
+      font-weight: 300;
+      text-transform: capitalize;
+      letter-spacing: 0;
+      line-height: 1.08;
+  }
 
-   .display-secondary-6{font-size: var(--fs10);}
-   .display-secondary-5{font-size: var(--fs09);}
-   .display-secondary-4{font-size: var(--fs07);}
-   .display-secondary-3{font-size: var(--fs05);}
-   .display-secondary-2{font-size: var(--fs04);}
-   .display-secondary-1{font-size: var(--fs02);}
-   .display-secondary-0{font-size: var(--fs01);}
+  .display-secondary-6, .display-tertiary-6{font-size: var(--fs10);}
+  .display-secondary-5, .display-tertiary-5{font-size: var(--fs09);}
+  .display-secondary-4, .display-tertiary-4{font-size: var(--fs07);}
+  .display-secondary-3, .display-tertiary-3{font-size: var(--fs05);}
+  .display-secondary-2, .display-tertiary-2{font-size: var(--fs04);}
+  .display-secondary-1, .display-tertiary-1{font-size: var(--fs02);}
+  .display-secondary-0, .display-tertiary-0{font-size: var(--fs01);}
 
   .label-primary-xl, .label-primary-lg, .label-primary-md, .label-primary-sm, .label-primary-xs{
     font-family: $font-primary;
     line-height: 1.08;
     text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.5px;
   }
+
+  .label-primary-xl{font-size: var(--fs07);}
+  .label-primary-lg{font-size: var(--fs05);}
+  .label-primary-md{font-size: var(--fs04);}
+  .label-primary-sm{font-size: var(--fs02);}
+  .label-primary-xs{font-size: var(--fs01);}
 
   .label-secondary-xl, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
     font-family: $font-secondary;
     line-height: 1.08;
     text-transform: uppercase;
-  }
-
-  .label-primary, .label-primary-lg, .label-primary-md, .label-primary-sm, .label-primary-xs{
-    font-weight: 700;
-    letter-spacing: 1.5px;
-  }
-
-  .label-secondary, .label-secondary-lg, .label-secondary-md, .label-secondary-sm, .label-secondary-xs{
     font-weight: 400;
     letter-spacing: 1px;
   }
-
-  .button, .button-lg, .button-md, .button-sm, .button-xs{
-    font-family: $font-primary;
-    text-transform: uppercase;
-    font-weight:700;
-    letter-spacing:1.5px;
-  }
-
-  .label-primary-xl, .button-xl{font-size: var(--fs07);}
-  .label-primary-lg, .button-lg{font-size: var(--fs05);}
-  .label-primary-md, .button-md{font-size: var(--fs04);}
-  .label-primary-sm, .button-sm{font-size: var(--fs02);}
-  .label-primary-xs, .button-xs{font-size: var(--fs01);}
 
   .label-secondary-xl{font-size: var(--fs05);}
   .label-secondary-lg{font-size: var(--fs04);}
@@ -86,6 +73,12 @@
     font-weight:700;
     letter-spacing:1.5px;
   }
+
+  .button-xl{font-size: var(--fs07);}
+  .button-lg{font-size: var(--fs05);}
+  .button-md{font-size: var(--fs04);}
+  .button-sm{font-size: var(--fs02);}
+  .button-xs{font-size: var(--fs01);}
 
   body, p, .body, .body-xs, .body-sm, .body-md, .body-lg, .body-xl{
     font-family: $font-secondary;
@@ -108,8 +101,10 @@
   .body-link, .body-link-xl, .body-link-lg, .body-link-md, .body-link-sm, .body-link-xs{
     font-weight:700;
     cursor: pointer;
+    opacity:1;
+    color: var(--primary-brand);
     &:hover{
-      opacity:1;
+      opacity:.5;
     }
   }
 }
