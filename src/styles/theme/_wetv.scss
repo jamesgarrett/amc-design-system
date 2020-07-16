@@ -16,7 +16,7 @@
 	h1, h2, h3, h4, h5, h6, .display-primary, .display-primary-6, .display-primary-5, .display-primary-4, .display-primary-3, .display-primary-2, .display-primary-1, .display-primary-0, .display-secondary, .display-secondary-6, .display-secondary-5, .display-secondary-4, .display-secondary-3, .display-secondary-2, .display-secondary-1, .display-secondary-0, 	.display-tertiary, .display-tertiary-1, .display-tertiary-2, .display-tertiary-3, .display-tertiary-4, .display-tertiary-5, .display-tertiary-6{
 	  font-family: $font-primary;
 	  font-weight: bold;
-	  text-transform: capitalize;
+	  text-transform: uppercase;
 	  letter-spacing: 0;
 	  line-height: 1.08;
 	}
