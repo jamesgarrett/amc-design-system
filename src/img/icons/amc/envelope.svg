@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>envelope</title>
+    <g id="envelope" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+        <path d="M0,51 L64,51 L64,13 L0,13 L0,51 Z M8,17 L56,17 L32,31 L8,17 Z M4.03564453,19.7585449 L32.1933333,37.0535271 L59.9777832,19.7585449 L59.9777832,47 L4.03564453,47 L4.03564453,19.7585449 Z" id="Fill-1" fill="#FFFFFF"></path>
+    </g>
+</svg>

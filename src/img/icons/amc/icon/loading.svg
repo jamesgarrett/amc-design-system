@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/loading</title>
+    <g id="Video-Player" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop/video-player--loading" transform="translate(-680.000000, -364.000000)" fill="#FFFFFF">
+            <g id="player" transform="translate(0.000000, -0.000000)">
+                <g id="icon/loading" transform="translate(680.000000, 364.000000)">
+                    <path d="M40,70 C56.5685425,70 70,56.5685425 70,40 C70,23.4314575 56.5685425,10 40,10 L40,0 L40,0 C62.09139,0 80,17.90861 80,40 C80,62.09139 62.09139,80 40,80 C17.90861,80 0,62.09139 0,40 L10,40 L10,40 C10,56.5685425 23.4314575,70 40,70 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

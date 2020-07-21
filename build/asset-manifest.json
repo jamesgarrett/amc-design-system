@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4e7599e.chunk.css",
-    "main.js": "/static/js/main.47e34f5a.chunk.js",
-    "main.js.map": "/static/js/main.47e34f5a.chunk.js.map",
+    "main.css": "/static/css/main.18e1ff30.chunk.css",
+    "main.js": "/static/js/main.00b247f6.chunk.js",
+    "main.js.map": "/static/js/main.00b247f6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6083dc78.js",
     "runtime-main.js.map": "/static/js/runtime-main.6083dc78.js.map",
-    "static/js/2.509ba031.chunk.js": "/static/js/2.509ba031.chunk.js",
-    "static/js/2.509ba031.chunk.js.map": "/static/js/2.509ba031.chunk.js.map",
+    "static/js/2.ad62ba38.chunk.js": "/static/js/2.ad62ba38.chunk.js",
+    "static/js/2.ad62ba38.chunk.js.map": "/static/js/2.ad62ba38.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f9e353eb2e8e34dbb13762473806ecfb.js": "/precache-manifest.f9e353eb2e8e34dbb13762473806ecfb.js",
+    "precache-manifest.35b45007fa3f22e5438ea5c6207e41f4.js": "/precache-manifest.35b45007fa3f22e5438ea5c6207e41f4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b4e7599e.chunk.css.map": "/static/css/main.b4e7599e.chunk.css.map",
-    "static/js/2.509ba031.chunk.js.LICENSE.txt": "/static/js/2.509ba031.chunk.js.LICENSE.txt",
+    "static/css/main.18e1ff30.chunk.css.map": "/static/css/main.18e1ff30.chunk.css.map",
+    "static/js/2.ad62ba38.chunk.js.LICENSE.txt": "/static/js/2.ad62ba38.chunk.js.LICENSE.txt",
     "static/media/10-second-forward.svg": "/static/media/10-second-forward.9db5d939.svg",
     "static/media/10-second-rewind.svg": "/static/media/10-second-rewind.7ad8225a.svg",
     "static/media/15-second-forward.svg": "/static/media/15-second-forward.0404356f.svg",
@@ -101,6 +101,7 @@
     "static/media/sundance-light.svg": "/static/media/sundance-light.73f26776.svg",
     "static/media/sundance.jpg": "/static/media/sundance.ec28734a.jpg",
     "static/media/tumblr.svg": "/static/media/tumblr.c2370e7d.svg",
+    "static/media/twdu.jpg": "/static/media/twdu.e67583a2.jpg",
     "static/media/typography.png": "/static/media/typography.50cd4b12.png",
     "static/media/vanilla-background.jpg": "/static/media/vanilla-background.652f777f.jpg",
     "static/media/vanilla-dark.svg": "/static/media/vanilla-dark.77decd8a.svg",
@@ -128,8 +129,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6083dc78.js",
-    "static/js/2.509ba031.chunk.js",
-    "static/css/main.b4e7599e.chunk.css",
-    "static/js/main.47e34f5a.chunk.js"
+    "static/js/2.ad62ba38.chunk.js",
+    "static/css/main.18e1ff30.chunk.css",
+    "static/js/main.00b247f6.chunk.js"
   ]
 }
