@@ -24,9 +24,9 @@ class TypeTable extends Component {
           </li>
           {typeStyles.map(typeStyle =>
             <li key={typeStyle.name} className="row m-x">
-              <span className={`top-row ${typeStyle.name} p-x p-y`}>{typeStyle.name}</span>
+              <span className={`top-row ${typeStyle.name} p-x p-y`} style={{fontFamily: `${typeStyle.font.postscriptName}`, lineHeight: `${typeStyle.lineHeight}px`, color: `${typeStyle.color.hex}`, fontSize: `${typeStyle.font.size}px` }}>{typeStyle.name}</span>
               <span className="body-sm p-x p-y">{typeStyle.font.family}</span>
-              <span className="body-sm p-x p-y">{typeStyle.scale}</span>
+              <span className="body-sm p-x p-y">{typeStyle.font.size}</span>
               <span className="body-sm p-x p-y">{typeStyle.textTransform}</span>
               <span className="body-sm p-x p-y">{typeStyle.lineHeight}</span>
               <span className="body-sm p-x p-y">{typeStyle.font.weight}</span>

@@ -1,5 +1,50 @@
 const AmcTypeStyles = [
   {
+    "name": "display-primary-9",
+    "letterSpacing": 0,
+    "lineHeight": 100,
+    "font": {
+      "postscriptName": "Unitext-Light",
+      "family": "Unitext",
+      "size": 96,
+      "weight": "light",
+      "stretch": "normal"
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
+  },
+  {
+    "name": "display-primary-8",
+    "letterSpacing": 0,
+    "lineHeight": 76,
+    "font": {
+      "postscriptName": "Unitext-Light",
+      "family": "Unitext",
+      "size": 72,
+      "weight": "light",
+      "stretch": "normal"
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
+  },
+  {
+    "name": "display-primary-7",
+    "letterSpacing": 0,
+    "lineHeight": 64,
+    "font": {
+      "postscriptName": "Unitext-Light",
+      "family": "Unitext",
+      "size": 60,
+      "weight": "light",
+      "stretch": "normal"
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
+  },
+  {
     "name": "display-primary-6",
     "lineHeight": 52,
     "textTransform": "Capitalize",
@@ -10,7 +55,10 @@ const AmcTypeStyles = [
       "size": 48,
       "weight": "200",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "display-primary-5",
@@ -23,7 +71,10 @@ const AmcTypeStyles = [
       "size": 40,
       "weight": "200",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "display-primary-4",
@@ -36,7 +87,10 @@ const AmcTypeStyles = [
       "size": 32,
       "weight": "300",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "display-primary-3",
@@ -49,7 +103,10 @@ const AmcTypeStyles = [
       "size": 24,
       "weight": "300",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "display-primary-2",
@@ -62,7 +119,10 @@ const AmcTypeStyles = [
       "size": 20,
       "weight": "300",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "display-primary-1",
@@ -75,7 +135,10 @@ const AmcTypeStyles = [
       "size": 16,
       "weight": "300",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "display-primary-0",
@@ -88,7 +151,42 @@ const AmcTypeStyles = [
       "size": 14,
       "weight": "300",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
+  },
+  {
+    "name": "display-secondary-6",
+    "lineHeight": "",
+    "textTransform": "",
+    "scale": "",
+    "font": {
+      "family": "Mapped to display-primary",
+      "postscriptName": "",
+      "size": "",
+      "weight": "",
+      "stretch": ""
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
+  },
+  {
+    "name": "display-tertiary-6",
+    "lineHeight": "",
+    "textTransform": "",
+    "scale": "",
+    "font": {
+      "family": "Mapped to display-primary",
+      "postscriptName": "",
+      "size": "",
+      "weight": "",
+      "stretch": ""
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "label-primary-lg",
@@ -101,7 +199,10 @@ const AmcTypeStyles = [
       "size": 20,
       "weight": "600",
       "stretch": "1.5"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "label-primary-md",
@@ -114,7 +215,10 @@ const AmcTypeStyles = [
       "size": 16,
       "weight": "600",
       "stretch": "1.5"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "label-primary-sm",
@@ -127,7 +231,10 @@ const AmcTypeStyles = [
       "size": 14,
       "weight": "600",
       "stretch": "1.5"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "label-primary-xs",
@@ -140,7 +247,10 @@ const AmcTypeStyles = [
       "size": 12,
       "weight": "600",
       "stretch": "1.5"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "label-secondary-lg",
@@ -153,7 +263,10 @@ const AmcTypeStyles = [
       "size": 20,
       "weight": "400",
       "stretch": "1"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "label-secondary-md",
@@ -166,7 +279,10 @@ const AmcTypeStyles = [
       "size": 16,
       "weight": "400",
       "stretch": "1"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "label-secondary-sm",
@@ -179,7 +295,10 @@ const AmcTypeStyles = [
       "size": 14,
       "weight": "400",
       "stretch": "1"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "label-secondary-xs",
@@ -192,7 +311,10 @@ const AmcTypeStyles = [
       "size": 12,
       "weight": "400",
       "stretch": "1"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "button-lg",
@@ -205,7 +327,10 @@ const AmcTypeStyles = [
       "size": 20,
       "weight": "600",
       "stretch": "1"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "button-md",
@@ -218,7 +343,10 @@ const AmcTypeStyles = [
       "size": 16,
       "weight": "600",
       "stretch": "1"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "button-sm",
@@ -231,7 +359,10 @@ const AmcTypeStyles = [
       "size": 14,
       "weight": "600",
       "stretch": "1"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "button-xs",
@@ -244,7 +375,10 @@ const AmcTypeStyles = [
       "size": 12,
       "weight": "600",
       "stretch": "1"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "body-xl",
@@ -257,7 +391,10 @@ const AmcTypeStyles = [
       "size": 24,
       "weight": "300",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "body-lg",
@@ -270,7 +407,10 @@ const AmcTypeStyles = [
       "size": 20,
       "weight": "300",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "body-md",
@@ -283,7 +423,10 @@ const AmcTypeStyles = [
       "size": 16,
       "weight": "300",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "body-sm",
@@ -296,7 +439,10 @@ const AmcTypeStyles = [
       "size": 14,
       "weight": "400",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "body-xs",
@@ -309,7 +455,10 @@ const AmcTypeStyles = [
       "size": 12,
       "weight": "400",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "body-link-xl",
@@ -322,7 +471,10 @@ const AmcTypeStyles = [
       "size": 24,
       "weight": "600",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "body-link-lg",
@@ -335,7 +487,10 @@ const AmcTypeStyles = [
       "size": 20,
       "weight": "600",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "body-link-md",
@@ -348,7 +503,10 @@ const AmcTypeStyles = [
       "size": 16,
       "weight": "600",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "body-link-sm",
@@ -361,7 +519,10 @@ const AmcTypeStyles = [
       "size": 14,
       "weight": "600",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   },
   {
     "name": "body-link-xs",
@@ -374,7 +535,10 @@ const AmcTypeStyles = [
       "size": 12,
       "weight": "600",
       "stretch": "normal"
-    }
+    },
+    "color": {
+      "hex": "#ffffff",
+    },
   }
 ]
 
