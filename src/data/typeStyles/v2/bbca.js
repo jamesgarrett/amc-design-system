@@ -1,6 +1,6 @@
 const BBCATypeStyles = [
   {
-    "name": "bbca/display-secondary-6/light/right",
+    "name": "bbca/display-secondary-6/light",
     "letterSpacing": 0,
     "lineHeight": 76,
     "font": {
@@ -15,7 +15,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-5/light/right",
+    "name": "bbca/display-secondary-5/light",
     "letterSpacing": 0,
     "lineHeight": 64,
     "font": {
@@ -30,7 +30,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-4/light/right",
+    "name": "bbca/display-secondary-4/light",
     "letterSpacing": 0,
     "lineHeight": 42,
     "font": {
@@ -45,7 +45,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-6/light/right",
+    "name": "bbca/display-primary-6/light",
     "letterSpacing": 4,
     "lineHeight": 52,
     "font": {
@@ -60,7 +60,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-5/light/right",
+    "name": "bbca/display-primary-5/light",
     "letterSpacing": 4,
     "lineHeight": 44,
     "font": {
@@ -75,7 +75,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-2xl/light_60%/left",
+    "name": "bbca/button-2xl/light_60%",
     "letterSpacing": 1,
     "lineHeight": 32,
     "font": {
@@ -90,7 +90,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-4/accent/right",
+    "name": "bbca/body-link-4/accent",
     "letterSpacing": 0,
     "lineHeight": 40,
     "font": {
@@ -105,7 +105,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-4/light_60%/right",
+    "name": "bbca/body-4/light_60%",
     "letterSpacing": 0,
     "lineHeight": 40,
     "font": {
@@ -120,7 +120,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-4/light/right",
+    "name": "bbca/display-primary-4/light",
     "letterSpacing": 4,
     "lineHeight": 36,
     "font": {
@@ -135,7 +135,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-xl/light_60%/left",
+    "name": "bbca/button-xl/light_60%",
     "letterSpacing": 1,
     "lineHeight": 24,
     "font": {
@@ -150,7 +150,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-xl/dark/left",
+    "name": "bbca/button-xl/dark",
     "letterSpacing": 1,
     "lineHeight": 24,
     "font": {
@@ -165,7 +165,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-xl/light/right",
+    "name": "bbca/label-primary-xl/light",
     "letterSpacing": 2,
     "lineHeight": 28,
     "font": {
@@ -180,7 +180,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-xl/accent/left",
+    "name": "bbca/label-primary-xl/accent",
     "letterSpacing": 2,
     "lineHeight": 28,
     "font": {
@@ -195,7 +195,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-xl/light/right",
+    "name": "bbca/label-secondary-xl/light",
     "letterSpacing": 2,
     "lineHeight": 24,
     "font": {
@@ -210,7 +210,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-3/light/right",
+    "name": "bbca/display-secondary-3/light",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -225,7 +225,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-3/accent/right",
+    "name": "bbca/body-link-3/accent",
     "letterSpacing": 0,
     "lineHeight": 32,
     "font": {
@@ -240,7 +240,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-3/light/right",
+    "name": "bbca/body-3/light",
     "letterSpacing": 0,
     "lineHeight": 32,
     "font": {
@@ -255,7 +255,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-3/light/right",
+    "name": "bbca/display-primary-3/light",
     "letterSpacing": 4,
     "lineHeight": 28,
     "font": {
@@ -270,7 +270,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-3/accent/left",
+    "name": "bbca/display-primary-3/accent",
     "letterSpacing": 4,
     "lineHeight": 28,
     "font": {
@@ -285,7 +285,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-lg/light/right",
+    "name": "bbca/button-lg/light",
     "letterSpacing": 1,
     "lineHeight": 20,
     "font": {
@@ -300,7 +300,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-lg/light/right",
+    "name": "bbca/label-primary-lg/light",
     "letterSpacing": 2,
     "lineHeight": 24,
     "font": {
@@ -315,7 +315,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-lg/accent/left",
+    "name": "bbca/label-primary-lg/accent",
     "letterSpacing": 2,
     "lineHeight": 24,
     "font": {
@@ -330,7 +330,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-lg/light/right",
+    "name": "bbca/label-secondary-lg/light",
     "letterSpacing": 2,
     "lineHeight": 20,
     "font": {
@@ -345,7 +345,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-2/light/right",
+    "name": "bbca/display-secondary-2/light",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -360,7 +360,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-2/accent/right",
+    "name": "bbca/body-link-2/accent",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -375,7 +375,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-2/light_60%/left",
+    "name": "bbca/body-2/light_60%",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -390,7 +390,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-2/light/right",
+    "name": "bbca/display-primary-2/light",
     "letterSpacing": 4,
     "lineHeight": 24,
     "font": {
@@ -405,7 +405,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-2/accent/left",
+    "name": "bbca/display-primary-2/accent",
     "letterSpacing": 4,
     "lineHeight": 24,
     "font": {
@@ -420,7 +420,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-md/light/right",
+    "name": "bbca/button-md/light",
     "letterSpacing": 1,
     "lineHeight": 20,
     "font": {
@@ -435,7 +435,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-md/light/left",
+    "name": "bbca/button-md/light",
     "letterSpacing": 1,
     "lineHeight": 16,
     "font": {
@@ -450,7 +450,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-md/dark/left",
+    "name": "bbca/button-md/dark",
     "letterSpacing": 1,
     "lineHeight": 16,
     "font": {
@@ -465,7 +465,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-md/light/right",
+    "name": "bbca/label-primary-md/light",
     "letterSpacing": 2,
     "lineHeight": 20,
     "font": {
@@ -480,7 +480,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-md/dark/left",
+    "name": "bbca/label-primary-md/dark",
     "letterSpacing": 2,
     "lineHeight": 20,
     "font": {
@@ -495,7 +495,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-md/light/right",
+    "name": "bbca/label-secondary-md/light",
     "letterSpacing": 2,
     "lineHeight": 20,
     "font": {
@@ -510,7 +510,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-1/light/right",
+    "name": "bbca/display-secondary-1/light",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -525,7 +525,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-1/accent/right",
+    "name": "bbca/body-link-1/accent",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -540,7 +540,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-1/light/right",
+    "name": "bbca/body-1/light",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -555,7 +555,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-1/light/right",
+    "name": "bbca/display-primary-1/light",
     "letterSpacing": 4,
     "lineHeight": 20,
     "font": {
@@ -570,7 +570,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-0/accent/left",
+    "name": "bbca/display-primary-0/accent",
     "letterSpacing": 4,
     "lineHeight": 20,
     "font": {
@@ -585,7 +585,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-sm/light/right",
+    "name": "bbca/button-sm/light",
     "letterSpacing": 1,
     "lineHeight": 16,
     "font": {
@@ -600,7 +600,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-sm/light/right",
+    "name": "bbca/label-primary-sm/light",
     "letterSpacing": 2,
     "lineHeight": 16,
     "font": {
@@ -615,7 +615,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-sm/light/right",
+    "name": "bbca/label-secondary-sm/light",
     "letterSpacing": 2,
     "lineHeight": 16,
     "font": {
@@ -630,7 +630,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-0/light/right",
+    "name": "bbca/display-secondary-0/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -645,7 +645,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-0/accent/right",
+    "name": "bbca/body-link-0/accent",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -660,7 +660,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-0/light_60%/left",
+    "name": "bbca/body-0/light_60%",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -675,7 +675,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-0/light/right",
+    "name": "bbca/display-primary-0/light",
     "letterSpacing": 4,
     "lineHeight": 16,
     "font": {
@@ -690,7 +690,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-xs/light/right",
+    "name": "bbca/button-xs/light",
     "letterSpacing": 1,
     "lineHeight": 12,
     "font": {
@@ -705,7 +705,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-xs/light/right",
+    "name": "bbca/label-primary-xs/light",
     "letterSpacing": 2,
     "lineHeight": 16,
     "font": {
@@ -720,7 +720,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-xs/light/right",
+    "name": "bbca/label-secondary-xs/light",
     "letterSpacing": 2,
     "lineHeight": 16,
     "font": {
@@ -735,7 +735,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-00/accent/right",
+    "name": "bbca/body-link-00/accent",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -750,7 +750,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-00/light/right",
+    "name": "bbca/body-00/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {

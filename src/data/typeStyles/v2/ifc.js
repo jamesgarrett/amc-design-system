@@ -1,6 +1,6 @@
 const IfcTypeStyles = [
 {
-  "name": "ifc/display-primary-6/light/right",
+  "name": "ifc/display-primary-6/light",
   "letterSpacing": 0,
   "lineHeight": 64,
   "font": {
@@ -15,7 +15,7 @@ const IfcTypeStyles = [
   }
 },
 {
-  "name": "ifc/display-secondary-6/light/right",
+  "name": "ifc/display-secondary-6/light",
   "letterSpacing": 0,
   "lineHeight": 68,
   "font": {
@@ -30,7 +30,7 @@ const IfcTypeStyles = [
   }
 },
 {
-  "name": "ifc/display-primary-5/light/right",
+  "name": "ifc/display-primary-5/light",
   "letterSpacing": 0,
   "lineHeight": 52,
   "font": {
@@ -45,7 +45,7 @@ const IfcTypeStyles = [
   }
 },
 {
-  "name": "ifc/display-secondary-5/light/right",
+  "name": "ifc/display-secondary-5/light",
   "letterSpacing": 0,
   "lineHeight": 52,
   "font": {
@@ -60,7 +60,7 @@ const IfcTypeStyles = [
   }
 },
 {
-  "name": "ifc/display-primary-4/light/right",
+  "name": "ifc/display-primary-4/light",
   "letterSpacing": 0,
   "lineHeight": 40,
   "font": {
@@ -75,7 +75,7 @@ const IfcTypeStyles = [
   }
 },
 {
-  "name": "ifc/display-primary-4/light/left",
+  "name": "ifc/display-primary-4/light",
   "letterSpacing": 0,
   "lineHeight": 48,
   "font": {
@@ -90,7 +90,7 @@ const IfcTypeStyles = [
   }
 },
 {
-  "name": "ifc/display-secondary-4/light/right",
+  "name": "ifc/display-secondary-4/light",
   "letterSpacing": 0,
   "lineHeight": 44,
   "font": {
@@ -105,7 +105,7 @@ const IfcTypeStyles = [
   }
 },
 {
-  "name": "ifc/label-primary-xl/light/right",
+  "name": "ifc/label-primary-xl/light",
   "letterSpacing": 0,
   "lineHeight": 36,
   "font": {
@@ -120,7 +120,7 @@ const IfcTypeStyles = [
   }
 },
 {
-  "name": "ifc/label-primary-xl/light/left",
+  "name": "ifc/label-primary-xl/light",
   "letterSpacing": 0,
   "lineHeight": 36,
   "font": {
@@ -135,7 +135,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/label-primary-xl/light/center_middle",
+    "name": "ifc/label-primary-xl/light",
     "letterSpacing": 0,
     "lineHeight": 36,
     "font": {
@@ -150,7 +150,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/label-primary-xl/accent/left",
+    "name": "ifc/label-primary-xl/accent",
     "letterSpacing": 0,
     "lineHeight": 36,
     "font": {
@@ -165,7 +165,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/button-2xl/light/right",
+    "name": "ifc/button-2xl/light",
     "letterSpacing": 0,
     "lineHeight": 32,
     "font": {
@@ -180,7 +180,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/body-3/light/right",
+    "name": "ifc/body-3/light",
     "letterSpacing": 0,
     "lineHeight": 36,
     "font": {
@@ -195,7 +195,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/body-3/accent/left",
+    "name": "ifc/body-3/accent",
     "letterSpacing": 0,
     "lineHeight": 36,
     "font": {
@@ -210,7 +210,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/display-secondary-3/light_60%/right",
+    "name": "ifc/display-secondary-3/light_60%",
     "letterSpacing": 0,
     "lineHeight": 36,
     "font": {
@@ -225,7 +225,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/display-secondary-3/accent/right",
+    "name": "ifc/display-secondary-3/accent",
     "letterSpacing": 0,
     "lineHeight": 36,
     "font": {
@@ -240,7 +240,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/label-primary-lg/light/right",
+    "name": "ifc/label-primary-lg/light",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -255,7 +255,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/label-primary-lg/accent/left",
+    "name": "ifc/label-primary-lg/accent",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -270,7 +270,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/button-xl/light_60%/left",
+    "name": "ifc/button-xl/light_60%",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -285,7 +285,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/button-xl/light/right",
+    "name": "ifc/button-xl/light",
     "letterSpacing": 0,
     "lineHeight": 32,
     "font": {
@@ -300,7 +300,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/button-xl/accent/right",
+    "name": "ifc/button-xl/accent",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -315,7 +315,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/body-2/light/right",
+    "name": "ifc/body-2/light",
     "letterSpacing": 0,
     "lineHeight": 32,
     "font": {
@@ -330,7 +330,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/label-secondary-lg/light/right",
+    "name": "ifc/label-secondary-lg/light",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -345,7 +345,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/display-secondary-2/light/right",
+    "name": "ifc/display-secondary-2/light",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -360,7 +360,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/label-primary-md/light/right",
+    "name": "ifc/label-primary-md/light",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -375,7 +375,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/button-md/light/right",
+    "name": "ifc/button-md/light",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -390,7 +390,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/body-link-1/accent/right",
+    "name": "ifc/body-link-1/accent",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -405,7 +405,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/body-1/light/right",
+    "name": "ifc/body-1/light",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -420,7 +420,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/label-secondary-md/light/right",
+    "name": "ifc/label-secondary-md/light",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -435,7 +435,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/display-secondary-1/light_60%/left",
+    "name": "ifc/display-secondary-1/light_60%",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -450,7 +450,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/label-primary-sm/light/right",
+    "name": "ifc/label-primary-sm/light",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -465,7 +465,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/body-link-0/accent/right",
+    "name": "ifc/body-link-0/accent",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -480,7 +480,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/body-0/light_60%/left",
+    "name": "ifc/body-0/light_60%",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -495,7 +495,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/label-secondary-sm/light/right",
+    "name": "ifc/label-secondary-sm/light",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -510,7 +510,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/display-secondary-0/light/right",
+    "name": "ifc/display-secondary-0/light",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -525,7 +525,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/label-primary-xs/light/right",
+    "name": "ifc/label-primary-xs/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -540,7 +540,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/button-sm/light/right",
+    "name": "ifc/button-sm/light",
     "letterSpacing": 0,
     "lineHeight": 14,
     "font": {
@@ -555,7 +555,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/body-link-00/accent/right",
+    "name": "ifc/body-link-00/accent",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -570,7 +570,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/body-00/light/right",
+    "name": "ifc/body-00/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -585,7 +585,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/body-00/light/left",
+    "name": "ifc/body-00/light",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -600,7 +600,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/label-secondary-xs/light/right",
+    "name": "ifc/label-secondary-xs/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -615,7 +615,7 @@ const IfcTypeStyles = [
     }
   },
   {
-    "name": "ifc/button-xs/light/right",
+    "name": "ifc/button-xs/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {

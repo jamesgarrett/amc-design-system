@@ -1,6 +1,6 @@
 const AmcTypeStyles = [
   {
-    "name": "amc/display-secondary-9/light/right",
+    "name": "amc/display-secondary-9/light",
     "letterSpacing": 0,
     "lineHeight": 100,
     "font": {
@@ -15,7 +15,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/display-secondary-8/light/right",
+    "name": "amc/display-secondary-8/light",
     "letterSpacing": 0,
     "lineHeight": 76,
     "font": {
@@ -30,7 +30,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/display-secondary-7/light/right",
+    "name": "amc/display-secondary-7/light",
     "letterSpacing": 0,
     "lineHeight": 64,
     "font": {
@@ -45,7 +45,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-primary-4xl/light/right",
+    "name": "amc/label-primary-4xl/light",
     "letterSpacing": 1,
     "lineHeight": 52,
     "font": {
@@ -60,7 +60,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/display-secondary-6/light/right",
+    "name": "amc/display-secondary-6/light",
     "letterSpacing": 0,
     "lineHeight": 52,
     "font": {
@@ -75,7 +75,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-primary-3xl/light/right",
+    "name": "amc/label-primary-3xl/light",
     "letterSpacing": 1,
     "lineHeight": 44,
     "font": {
@@ -90,7 +90,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/display-secondary-5/light/right",
+    "name": "amc/display-secondary-5/light",
     "letterSpacing": 0,
     "lineHeight": 44,
     "font": {
@@ -105,7 +105,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-primary-2xl/light/right",
+    "name": "amc/label-primary-2xl/light",
     "letterSpacing": 1,
     "lineHeight": 36,
     "font": {
@@ -120,7 +120,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-2xl/light_60%/left",
+    "name": "amc/button-2xl/light_60%",
     "letterSpacing": 0,
     "lineHeight": 32,
     "font": {
@@ -135,7 +135,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-link-4/light/right",
+    "name": "amc/body-link-4/light",
     "letterSpacing": 0,
     "lineHeight": 40,
     "font": {
@@ -150,7 +150,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-secondary-2xl/light_60%/left",
+    "name": "amc/label-secondary-2xl/light_60%",
     "letterSpacing": 1,
     "lineHeight": 32,
     "font": {
@@ -165,7 +165,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/display-secondary-4/light_60%/left",
+    "name": "amc/display-secondary-4/light_60%",
     "letterSpacing": 0,
     "lineHeight": 36,
     "font": {
@@ -180,7 +180,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-4/light_60%/right",
+    "name": "amc/body-4/light_60%",
     "letterSpacing": 0,
     "lineHeight": 40,
     "font": {
@@ -195,7 +195,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-primary-xl/light/right",
+    "name": "amc/label-primary-xl/light",
     "letterSpacing": 1,
     "lineHeight": 28,
     "font": {
@@ -210,7 +210,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-xl/light_60%/right",
+    "name": "amc/button-xl/light_60%",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -225,7 +225,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-xl/dark/left",
+    "name": "amc/button-xl/dark",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -243,7 +243,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-xl/accent/left-middle",
+    "name": "amc/button-xl/accent",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -261,7 +261,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-link-3/light/right",
+    "name": "amc/body-link-3/light",
     "letterSpacing": 0,
     "lineHeight": 32,
     "font": {
@@ -276,7 +276,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-secondary-xl/light_60%/right",
+    "name": "amc/label-secondary-xl/light_60%",
     "letterSpacing": 1,
     "lineHeight": 24,
     "font": {
@@ -291,7 +291,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/display-secondary-3/light/right",
+    "name": "amc/display-secondary-3/light",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -306,7 +306,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-3/light/right",
+    "name": "amc/body-3/light",
     "letterSpacing": 0,
     "lineHeight": 32,
     "font": {
@@ -321,7 +321,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-primary-lg/light/right",
+    "name": "amc/label-primary-lg/light",
     "letterSpacing": 1,
     "lineHeight": 24,
     "font": {
@@ -336,7 +336,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-lg/light/right",
+    "name": "amc/button-lg/light",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -351,7 +351,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-lg/accent/left",
+    "name": "amc/button-lg/accent",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -369,7 +369,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-link-2/light/right",
+    "name": "amc/body-link-2/light",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -384,7 +384,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-secondary-lg/light/right",
+    "name": "amc/label-secondary-lg/light",
     "letterSpacing": 1,
     "lineHeight": 20,
     "font": {
@@ -399,7 +399,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/display-secondary-2/light/right",
+    "name": "amc/display-secondary-2/light",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -414,7 +414,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-2/light_60%/left",
+    "name": "amc/body-2/light_60%",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -429,7 +429,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-primary-md/light/right",
+    "name": "amc/label-primary-md/light",
     "letterSpacing": 1,
     "lineHeight": 20,
     "font": {
@@ -444,7 +444,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-primary-md/dark/left",
+    "name": "amc/label-primary-md/dark",
     "letterSpacing": 1,
     "lineHeight": 20,
     "font": {
@@ -462,7 +462,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-md/light/right",
+    "name": "amc/button-md/light",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -477,7 +477,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-md/light/left",
+    "name": "amc/button-md/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -492,7 +492,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-md/dark/left",
+    "name": "amc/button-md/dark",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -510,7 +510,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-link-1/light/right",
+    "name": "amc/body-link-1/light",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -525,7 +525,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-secondary-md/light/right",
+    "name": "amc/label-secondary-md/light",
     "letterSpacing": 1,
     "lineHeight": 20,
     "font": {
@@ -540,7 +540,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/display-secondary-1/light/right",
+    "name": "amc/display-secondary-1/light",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -555,7 +555,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-1/light/right",
+    "name": "amc/body-1/light",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -570,7 +570,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-primary-sm/light/right",
+    "name": "amc/label-primary-sm/light",
     "letterSpacing": 1,
     "lineHeight": 16,
     "font": {
@@ -585,7 +585,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-sm/light/right",
+    "name": "amc/button-sm/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -600,7 +600,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-link-0/light/right",
+    "name": "amc/body-link-0/light",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -615,7 +615,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-secondary-sm/light/right",
+    "name": "amc/label-secondary-sm/light",
     "letterSpacing": 1,
     "lineHeight": 16,
     "font": {
@@ -630,7 +630,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-0/light_60%/left",
+    "name": "amc/body-0/light_60%",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -645,7 +645,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/display-secondary-0/light/right",
+    "name": "amc/display-secondary-0/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -660,7 +660,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-primary-xs/light/right",
+    "name": "amc/label-primary-xs/light",
     "letterSpacing": 1,
     "lineHeight": 16,
     "font": {
@@ -675,7 +675,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-xs/light/right",
+    "name": "amc/button-xs/light",
     "letterSpacing": 0,
     "lineHeight": 12,
     "font": {
@@ -690,7 +690,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/button-xs/accent/left",
+    "name": "amc/button-xs/accent",
     "letterSpacing": 0,
     "lineHeight": 12,
     "font": {
@@ -708,7 +708,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-link-00/light/right",
+    "name": "amc/body-link-00/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -723,7 +723,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/label-secondary-xs/light/right",
+    "name": "amc/label-secondary-xs/light",
     "letterSpacing": 1,
     "lineHeight": 16,
     "font": {
@@ -738,7 +738,7 @@ const AmcTypeStyles = [
     }
   },
   {
-    "name": "amc/body-00/light/right",
+    "name": "amc/body-00/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
