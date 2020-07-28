@@ -1,6 +1,6 @@
 const BBCATypeStyles = [
   {
-    "name": "bbca/display-secondary-6/light/right",
+    "name": "bbca/display-secondary-6/light",
     "letterSpacing": 0,
     "lineHeight": 76,
     "font": {
@@ -15,52 +15,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-6/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 76,
-    "font": {
-      "postscriptName": "StymieCom-BoldCondensed",
-      "family": "StymieCom",
-      "size": 72,
-      "weight": "bold",
-      "stretch": "condensed"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-6/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 76,
-    "font": {
-      "postscriptName": "StymieCom-BoldCondensed",
-      "family": "StymieCom",
-      "size": 72,
-      "weight": "bold",
-      "stretch": "condensed"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-6/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 76,
-    "font": {
-      "postscriptName": "StymieCom-BoldCondensed",
-      "family": "StymieCom",
-      "size": 72,
-      "weight": "bold",
-      "stretch": "condensed"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-5/light/right",
+    "name": "bbca/display-secondary-5/light",
     "letterSpacing": 0,
     "lineHeight": 64,
     "font": {
@@ -75,37 +30,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-5/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 64,
-    "font": {
-      "postscriptName": "StymieCom-BoldCondensed",
-      "family": "StymieCom",
-      "size": 60,
-      "weight": "bold",
-      "stretch": "condensed"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-5/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 64,
-    "font": {
-      "postscriptName": "StymieCom-BoldCondensed",
-      "family": "StymieCom",
-      "size": 60,
-      "weight": "bold",
-      "stretch": "condensed"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-4/light/right",
+    "name": "bbca/display-secondary-4/light",
     "letterSpacing": 0,
     "lineHeight": 42,
     "font": {
@@ -120,52 +45,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-4/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 42,
-    "font": {
-      "postscriptName": "StymieCom-BoldCondensed",
-      "family": "StymieCom",
-      "size": 48,
-      "weight": "bold",
-      "stretch": "condensed"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-4/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 42,
-    "font": {
-      "postscriptName": "StymieCom-BoldCondensed",
-      "family": "StymieCom",
-      "size": 48,
-      "weight": "bold",
-      "stretch": "condensed"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-4/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 42,
-    "font": {
-      "postscriptName": "StymieCom-BoldCondensed",
-      "family": "StymieCom",
-      "size": 48,
-      "weight": "bold",
-      "stretch": "condensed"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-6/light/right",
+    "name": "bbca/display-primary-6/light",
     "letterSpacing": 4,
     "lineHeight": 52,
     "font": {
@@ -180,37 +60,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-6/light/left",
-    "letterSpacing": 4,
-    "lineHeight": 52,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 48,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-6/light/center",
-    "letterSpacing": 4,
-    "lineHeight": 52,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 48,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-5/light/right",
+    "name": "bbca/display-primary-5/light",
     "letterSpacing": 4,
     "lineHeight": 44,
     "font": {
@@ -225,37 +75,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-5/light/left",
-    "letterSpacing": 4,
-    "lineHeight": 44,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 40,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-5/light/center",
-    "letterSpacing": 4,
-    "lineHeight": 44,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 40,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-2xl/light_60%/left",
+    "name": "bbca/button-2xl/light_60%",
     "letterSpacing": 1,
     "lineHeight": 32,
     "font": {
@@ -270,52 +90,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-2xl/light/right",
-    "letterSpacing": 1,
-    "lineHeight": 32,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-2xl/light/left",
-    "letterSpacing": 1,
-    "lineHeight": 32,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-2xl/light/center",
-    "letterSpacing": 1,
-    "lineHeight": 32,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-link-4/accent/right",
+    "name": "bbca/body-link-4/accent",
     "letterSpacing": 0,
     "lineHeight": 40,
     "font": {
@@ -330,52 +105,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-4/accent/right",
-    "letterSpacing": 0,
-    "lineHeight": 40,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-link-4/accent/left",
-    "letterSpacing": 0,
-    "lineHeight": 40,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-link-4/accent/center",
-    "letterSpacing": 0,
-    "lineHeight": 40,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-4/light_60%/right",
+    "name": "bbca/body-4/light_60%",
     "letterSpacing": 0,
     "lineHeight": 40,
     "font": {
@@ -390,97 +120,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-4/light_60%/left",
-    "letterSpacing": 0,
-    "lineHeight": 40,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-4/light/right",
-    "letterSpacing": 0,
-    "lineHeight": 40,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-4/light/right",
-    "letterSpacing": 0,
-    "lineHeight": 40,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-4/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 40,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-4/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 40,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-4/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 40,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-4/light/right",
+    "name": "bbca/display-primary-4/light",
     "letterSpacing": 4,
     "lineHeight": 36,
     "font": {
@@ -495,37 +135,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-4/light/left",
-    "letterSpacing": 4,
-    "lineHeight": 36,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-4/light/center",
-    "letterSpacing": 4,
-    "lineHeight": 36,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 32,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-xl/light_60%/left",
+    "name": "bbca/button-xl/light_60%",
     "letterSpacing": 1,
     "lineHeight": 24,
     "font": {
@@ -540,67 +150,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-xl/light_60%/center",
-    "letterSpacing": 1,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-xl/light/right",
-    "letterSpacing": 1,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-xl/light/left",
-    "letterSpacing": 1,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-xl/light/center",
-    "letterSpacing": 1,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-xl/dark/left",
+    "name": "bbca/button-xl/dark",
     "letterSpacing": 1,
     "lineHeight": 24,
     "font": {
@@ -615,22 +165,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-xl/dark/center",
-    "letterSpacing": 1,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#000000",
-    }
-  },
-  {
-    "name": "bbca/label-primary-xl/light/right",
+    "name": "bbca/label-primary-xl/light",
     "letterSpacing": 2,
     "lineHeight": 28,
     "font": {
@@ -645,52 +180,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-xl/light/left",
-    "letterSpacing": 2,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Bold",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "bold",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-xl/light/center_middle",
-    "letterSpacing": 2,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Bold",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "bold",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-xl/light/center",
-    "letterSpacing": 2,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Bold",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "bold",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-xl/accent/left",
+    "name": "bbca/label-primary-xl/accent",
     "letterSpacing": 2,
     "lineHeight": 28,
     "font": {
@@ -705,7 +195,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-xl/light/right",
+    "name": "bbca/label-secondary-xl/light",
     "letterSpacing": 2,
     "lineHeight": 24,
     "font": {
@@ -720,7 +210,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-3/light/right",
+    "name": "bbca/display-secondary-3/light",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -735,52 +225,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-3/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-3/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-3/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-link-3/accent/right",
+    "name": "bbca/body-link-3/accent",
     "letterSpacing": 0,
     "lineHeight": 32,
     "font": {
@@ -795,37 +240,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-3/accent/left",
-    "letterSpacing": 0,
-    "lineHeight": 32,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-link-3/accent/center",
-    "letterSpacing": 0,
-    "lineHeight": 32,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-3/light/right",
+    "name": "bbca/body-3/light",
     "letterSpacing": 0,
     "lineHeight": 32,
     "font": {
@@ -840,52 +255,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-3/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 32,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-3/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 32,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-3/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 32,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-3/light/right",
+    "name": "bbca/display-primary-3/light",
     "letterSpacing": 4,
     "lineHeight": 28,
     "font": {
@@ -900,37 +270,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-3/light/left",
-    "letterSpacing": 4,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-3/light/center",
-    "letterSpacing": 4,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 24,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-3/accent/left",
+    "name": "bbca/display-primary-3/accent",
     "letterSpacing": 4,
     "lineHeight": 28,
     "font": {
@@ -945,7 +285,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-lg/light/right",
+    "name": "bbca/button-lg/light",
     "letterSpacing": 1,
     "lineHeight": 20,
     "font": {
@@ -960,37 +300,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-lg/light/left",
-    "letterSpacing": 1,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-lg/light/center",
-    "letterSpacing": 1,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-lg/light/right",
+    "name": "bbca/label-primary-lg/light",
     "letterSpacing": 2,
     "lineHeight": 24,
     "font": {
@@ -1005,37 +315,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-lg/light/left",
-    "letterSpacing": 2,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Bold",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "bold",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-lg/light/center",
-    "letterSpacing": 2,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Bold",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "bold",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-lg/accent/left",
+    "name": "bbca/label-primary-lg/accent",
     "letterSpacing": 2,
     "lineHeight": 24,
     "font": {
@@ -1050,7 +330,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-lg/light/right",
+    "name": "bbca/label-secondary-lg/light",
     "letterSpacing": 2,
     "lineHeight": 20,
     "font": {
@@ -1065,37 +345,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-lg/light/left",
-    "letterSpacing": 2,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-secondary-lg/light/center",
-    "letterSpacing": 2,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-2/light/right",
+    "name": "bbca/display-secondary-2/light",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -1110,52 +360,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-2/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-2/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-2/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-link-2/accent/right",
+    "name": "bbca/body-link-2/accent",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -1170,37 +375,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-2/accent/left",
-    "letterSpacing": 0,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-link-2/accent/center",
-    "letterSpacing": 0,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-2/light_60%/left",
+    "name": "bbca/body-2/light_60%",
     "letterSpacing": 0,
     "lineHeight": 28,
     "font": {
@@ -1215,82 +390,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-2/light_60%/left",
-    "letterSpacing": 0,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-2/light/right",
-    "letterSpacing": 0,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-2/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-2/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-2/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 28,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-2/light/right",
+    "name": "bbca/display-primary-2/light",
     "letterSpacing": 4,
     "lineHeight": 24,
     "font": {
@@ -1305,37 +405,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-2/light/left",
-    "letterSpacing": 4,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-2/light/center",
-    "letterSpacing": 4,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 20,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-2/accent/left",
+    "name": "bbca/display-primary-2/accent",
     "letterSpacing": 4,
     "lineHeight": 24,
     "font": {
@@ -1350,7 +420,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-md/light/right",
+    "name": "bbca/button-md/light",
     "letterSpacing": 1,
     "lineHeight": 20,
     "font": {
@@ -1365,7 +435,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-md/light/left",
+    "name": "bbca/button-md/light",
     "letterSpacing": 1,
     "lineHeight": 16,
     "font": {
@@ -1380,22 +450,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-md/light/center",
-    "letterSpacing": 1,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-md/dark/left",
+    "name": "bbca/button-md/dark",
     "letterSpacing": 1,
     "lineHeight": 16,
     "font": {
@@ -1410,7 +465,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-md/light/right",
+    "name": "bbca/label-primary-md/light",
     "letterSpacing": 2,
     "lineHeight": 20,
     "font": {
@@ -1425,37 +480,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-md/light/left",
-    "letterSpacing": 2,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Bold",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "bold",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-md/light/center",
-    "letterSpacing": 2,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Bold",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "bold",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-md/dark/left",
+    "name": "bbca/label-primary-md/dark",
     "letterSpacing": 2,
     "lineHeight": 20,
     "font": {
@@ -1470,7 +495,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-md/light/right",
+    "name": "bbca/label-secondary-md/light",
     "letterSpacing": 2,
     "lineHeight": 20,
     "font": {
@@ -1485,37 +510,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-md/light/left",
-    "letterSpacing": 2,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-secondary-md/light/center",
-    "letterSpacing": 2,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-1/light/right",
+    "name": "bbca/display-secondary-1/light",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -1530,52 +525,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-1/light/left-middle",
-    "letterSpacing": 0,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-1/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-1/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-link-1/accent/right",
+    "name": "bbca/body-link-1/accent",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -1590,37 +540,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-1/accent/left",
-    "letterSpacing": 0,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-link-1/accent/center",
-    "letterSpacing": 0,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-1/light/right",
+    "name": "bbca/body-1/light",
     "letterSpacing": 0,
     "lineHeight": 24,
     "font": {
@@ -1635,37 +555,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-1/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-1/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 24,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-1/light/right",
+    "name": "bbca/display-primary-1/light",
     "letterSpacing": 4,
     "lineHeight": 20,
     "font": {
@@ -1680,37 +570,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-1/light/left",
-    "letterSpacing": 4,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-1/light/center",
-    "letterSpacing": 4,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 16,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-0/accent/left",
+    "name": "bbca/display-primary-0/accent",
     "letterSpacing": 4,
     "lineHeight": 20,
     "font": {
@@ -1725,7 +585,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-sm/light/right",
+    "name": "bbca/button-sm/light",
     "letterSpacing": 1,
     "lineHeight": 16,
     "font": {
@@ -1740,37 +600,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-sm/light/left",
-    "letterSpacing": 1,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-sm/light/center",
-    "letterSpacing": 1,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-sm/light/right",
+    "name": "bbca/label-primary-sm/light",
     "letterSpacing": 2,
     "lineHeight": 16,
     "font": {
@@ -1785,37 +615,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-sm/light/left",
-    "letterSpacing": 2,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Bold",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "bold",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-sm/light/center",
-    "letterSpacing": 2,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Bold",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "bold",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-secondary-sm/light/right",
+    "name": "bbca/label-secondary-sm/light",
     "letterSpacing": 2,
     "lineHeight": 16,
     "font": {
@@ -1830,37 +630,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-sm/light/left",
-    "letterSpacing": 2,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-secondary-sm/light/center",
-    "letterSpacing": 2,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-0/light/right",
+    "name": "bbca/display-secondary-0/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -1875,37 +645,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-secondary-0/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-secondary-0/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-link-0/accent/right",
+    "name": "bbca/body-link-0/accent",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -1920,37 +660,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-0/accent/left",
-    "letterSpacing": 0,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-link-0/accent/center",
-    "letterSpacing": 0,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-0/light_60%/left",
+    "name": "bbca/body-0/light_60%",
     "letterSpacing": 0,
     "lineHeight": 20,
     "font": {
@@ -1965,52 +675,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-0/light/right",
-    "letterSpacing": 0,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-0/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-0/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 20,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-0/light/right",
+    "name": "bbca/display-primary-0/light",
     "letterSpacing": 4,
     "lineHeight": 16,
     "font": {
@@ -2025,37 +690,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/display-primary-0/light/left",
-    "letterSpacing": 4,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/display-primary-0/light/center",
-    "letterSpacing": 4,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Light",
-      "family": "Verlag",
-      "size": 14,
-      "weight": "light",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-xs/light/right",
+    "name": "bbca/button-xs/light",
     "letterSpacing": 1,
     "lineHeight": 12,
     "font": {
@@ -2070,37 +705,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/button-xs/light/left",
-    "letterSpacing": 1,
-    "lineHeight": 12,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 12,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/button-xs/light/center",
-    "letterSpacing": 1,
-    "lineHeight": 12,
-    "font": {
-      "postscriptName": "Verlag-Black",
-      "family": "Verlag",
-      "size": 12,
-      "weight": "black",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-xs/light/right",
+    "name": "bbca/label-primary-xs/light",
     "letterSpacing": 2,
     "lineHeight": 16,
     "font": {
@@ -2115,37 +720,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-primary-xs/light/left",
-    "letterSpacing": 2,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Bold",
-      "family": "Verlag",
-      "size": 12,
-      "weight": "bold",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-primary-xs/light/center",
-    "letterSpacing": 2,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Bold",
-      "family": "Verlag",
-      "size": 12,
-      "weight": "bold",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-secondary-xs/light/right",
+    "name": "bbca/label-secondary-xs/light",
     "letterSpacing": 2,
     "lineHeight": 16,
     "font": {
@@ -2160,37 +735,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/label-secondary-xs/light/left",
-    "letterSpacing": 2,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 12,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/label-secondary-xs/light/center",
-    "letterSpacing": 2,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 12,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-link-00/accent/right",
+    "name": "bbca/body-link-00/accent",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -2205,37 +750,7 @@ const BBCATypeStyles = [
     }
   },
   {
-    "name": "bbca/body-link-00/accent/left",
-    "letterSpacing": 0,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 12,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-link-00/accent/center",
-    "letterSpacing": 0,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 12,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-       "hex": "#abcad1",
-    }
-  },
-  {
-    "name": "bbca/body-00/light/right",
+    "name": "bbca/body-00/light",
     "letterSpacing": 0,
     "lineHeight": 16,
     "font": {
@@ -2248,37 +763,7 @@ const BBCATypeStyles = [
     "color": {
       "hex": "#ffffff",
     }
-  },
-  {
-    "name": "bbca/body-00/light/left",
-    "letterSpacing": 0,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 12,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
-  {
-    "name": "bbca/body-00/light/center",
-    "letterSpacing": 0,
-    "lineHeight": 16,
-    "font": {
-      "postscriptName": "Verlag-Book",
-      "family": "Verlag",
-      "size": 12,
-      "weight": "book",
-      "stretch": "normal"
-    },
-    "color": {
-      "hex": "#ffffff",
-    }
-  },
+  }
 ]
 
 export default BBCATypeStyles;
